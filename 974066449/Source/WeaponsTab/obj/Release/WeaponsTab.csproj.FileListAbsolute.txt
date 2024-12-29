@@ -1,8 +1,0 @@
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\1.1\Assemblies\WeaponsTab.dll
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\Source\WeaponsTab\obj\Release\WeaponsTab.csproj.CoreCompileInputs.cache
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\Source\WeaponsTab\obj\Release\WeaponsTab.dll
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\1.2\Assemblies\WeaponsTab.dll
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\1.3\Assemblies\WeaponsTab.dll
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\Source\WeaponsTab\obj\Release\WeaponsTab.csproj.AssemblyReference.cache
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\1.4\Assemblies\WeaponsTab.dll
-D:\Games\Rimworld\rimworld-mods\WeaponsTab\1.5\Assemblies\WeaponsTab.dll
