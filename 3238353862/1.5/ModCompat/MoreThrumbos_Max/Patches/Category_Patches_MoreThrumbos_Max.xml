@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[
+            @Name="ADS_Cat3" or
+            @Name="ADS_Cat2" or
+            @Name="ADS_Cat1"
+        ]/recipeUsers</xpath>
+        <value>
+                <li>FluffyThrumbo</li>
+                <li>MiniThrumbo</li>
+        </value>
+    </Operation>
+</Patch> 

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN:
+    <li>questDescription->A nearby settlement, [settlement_label], sended a special diplomatic marriage proposal.</li>
+  -->
+    <RotR_Quest_DiplomaticMarriageAway.questDescriptionRules.rulesStrings>
+        <li>questDescription->附近的一个定居点[settlement_label]发出了一份特殊的外交联姻提议。</li>
+    </RotR_Quest_DiplomaticMarriageAway.questDescriptionRules.rulesStrings>
+    <!-- EN:
+    <li>questName->Diplomatic Marriage</li>
+  -->
+    <RotR_Quest_DiplomaticMarriageAway.questNameRules.rulesStrings>
+        <li>questName->外交联姻</li>
+    </RotR_Quest_DiplomaticMarriageAway.questNameRules.rulesStrings>
+    
+</LanguageData>

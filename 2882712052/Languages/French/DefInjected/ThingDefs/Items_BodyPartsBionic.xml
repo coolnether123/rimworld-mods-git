@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PowerArm.label>Bras puissant</PowerArm.label>
+  <PowerArm.description>Un bras d'une force et d'une dexterité sans précédent, avec une griffe rétractable. C'est l'évolution ultime !</PowerArm.description>
+
+  <PowerClaw.label>Griffe puissante</PowerClaw.label>
+  <PowerClaw.description>Peut remplacer une main par trois griffes mortelles.</PowerClaw.description>
+
+  <BionicHand.label>Main bionique</BionicHand.label>
+  <BionicHand.description>Permet à l'utilisateur d'effectuer des tâches encore plus rapidement qu'avec des mains ordinaires.</BionicHand.description>
+
+  <BionicFoot.label>Pied bionique</BionicFoot.label>
+  <BionicFoot.description>Cette prothèse permet de marcher rapidement sans trébucher tout le temps.</BionicFoot.description>
+
+  <BionicEar.label>Oreille bionique</BionicEar.label>
+  <BionicEar.description>Un dispositif avancé qui élargit la fonction de base du tympan.</BionicEar.description>
+
+  <BionicJaw.label>Mâchoire bionique</BionicJaw.label>
+  <BionicJaw.description>En plus d'une dentition robuste, elle est équipée d'un modulateur de voix.</BionicJaw.description>
+
+  <SilentJaw.label>Mâchoire silencieuse</SilentJaw.label>
+  <SilentJaw.description>Cette version de mâchoire bionique ne possède pas de modulateur de voix. Utile pour les patients plaintifs.</SilentJaw.description>
+
+  <BionicSpine.label>Colonne vertébrale bionique</BionicSpine.label>
+  <BionicSpine.description>Ce dispositif léger mais impressionant peut remplacer une colonne vertébrale endommagée. .</BionicSpine.description>
+
+  <BionicEye.label>Oeil bionique</BionicEye.label>
+  <BionicEye.description>Pièce de technologie avancée conçue non seulement pour remplacer complètement l'oeil naturel, mais aussi pour donner des capacités de vision surnaturelles.</BionicEye.description>
+
+  <MedicalRib.label>Côte (médicale)</MedicalRib.label>
+  <MedicalRib.description>Une côte artificielle équipée de petits filtres sanguins et de distributeurs d'antibiotiques pour maintenir l'utilisateur en bonne santé.</MedicalRib.description>
+
+  <DruggedRib.label>Côte (drogue)</DruggedRib.label>
+  <DruggedRib.description>Une côte artificielle équipée de petits distributeurs d'alcool pour maintenir l'utilisateur de bonne humeur.</DruggedRib.description>
+
+  <AdrenalineRib.label>Côte (adrénaline)</AdrenalineRib.label>
+  <AdrenalineRib.description>Une côte artificielle équipée de petits distributeurs d'adrénaline pour maintenir l'utilisateur éveillé.</AdrenalineRib.description>
+  
+  <PainkillerRib.label>Côte (anti-douleur)</PainkillerRib.label>
+  <PainkillerRib.description>Une côte artificielle, équipée de petits distributeurs de morphine pour engourdir la douleur de l'utilisateur. Les effets secondaires sont des affections respiratoires.</PainkillerRib.description>
+
+
+</LanguageData>

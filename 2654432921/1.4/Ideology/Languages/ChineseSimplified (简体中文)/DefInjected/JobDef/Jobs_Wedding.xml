@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: attending wedding ceremony. -->
+    <RotR_Job_CeremonyEntrance.reportString>正在参加婚礼</RotR_Job_CeremonyEntrance.reportString>
+    
+    <!-- EN: hosting. -->
+    <RotR_Job_HostCeremony.reportString>正在主持婚礼</RotR_Job_HostCeremony.reportString>
+    
+    <!-- EN: marrying. -->
+    <RotR_Job_Marry.reportString>婚礼中</RotR_Job_Marry.reportString>
+    
+    <!-- EN: processioning. -->
+    <RotR_Job_Procession.reportString>入场中</RotR_Job_Procession.reportString>
+    
+    <!-- EN: attending wedding ceremony. -->
+    <RotR_Job_SpectateCeremony.reportString>正在参加婚礼</RotR_Job_SpectateCeremony.reportString>
+    
+    <!-- EN: preparing. -->
+    <RotR_Job_WaitForProcession.reportString>准备中</RotR_Job_WaitForProcession.reportString>
+    
+</LanguageData>

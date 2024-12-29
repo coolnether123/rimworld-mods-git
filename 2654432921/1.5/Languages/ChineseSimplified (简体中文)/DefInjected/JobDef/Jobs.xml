@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: enjoying musical performance. -->
+    <RomanceOnTheRim_EnjoyPerformance.reportString>正在聆听恋人演奏.</RomanceOnTheRim_EnjoyPerformance.reportString>
+    
+    <!-- EN: walking towards TargetA. -->
+    <RomanceOnTheRim_GoToLoversPos.reportString>正在走向TargetA.</RomanceOnTheRim_GoToLoversPos.reportString>
+    
+    <!-- EN: kissing TargetA. -->
+    <RomanceOnTheRim_InitiateKiss.reportString>正在亲吻TargetA.</RomanceOnTheRim_InitiateKiss.reportString>
+    
+    <!-- EN: pillow talking with TargetB. -->
+    <RomanceOnTheRim_PillowTalk.reportString>正在与TargetB枕边对话.</RomanceOnTheRim_PillowTalk.reportString>
+    
+    <!-- EN: playing instrument. -->
+    <RomanceOnTheRim_PlayInstrument.reportString>正在演奏.</RomanceOnTheRim_PlayInstrument.reportString>
+    
+    <!-- EN: kissed by TargetA. -->
+    <RomanceOnTheRim_ReceiveKiss.reportString>正在与TargetA接吻.</RomanceOnTheRim_ReceiveKiss.reportString>
+    
+    <!-- EN: skygazing with TargetB. -->
+    <RomanceOnTheRim_SkygazeTogether.reportString>正在与TargetB一起仰望天空.</RomanceOnTheRim_SkygazeTogether.reportString>
+    
+    <!-- EN: reading with lover. -->
+    <RotR_Job_ReadTogether.reportString>正在与恋人一起阅读</RotR_Job_ReadTogether.reportString>
+    
+    <!-- EN: sharing reading with TargetB. -->
+    <RotR_Job_ShareReading.reportString>正在与TargetB一起阅读</RotR_Job_ShareReading.reportString>
+    
+    <!-- EN: throwing snowballs at lover. -->
+    <RotR_Job_SnowballFight.reportString>正在与恋人打雪仗</RotR_Job_SnowballFight.reportString>
+    
+</LanguageData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>XML Extensions</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <!--<success>Always</success>-->
+            <operations>
+
+                <!--Medieval-->
+				<li Class="PatchOperationAddOrMergeCopy">
+					<xpath>/Defs/RecipeDef[
+						@Name="SurgeryInstallMedievalBodyPartAnimalBase" or
+						defName="InstallDentureAnimal"
+					]</xpath>
+					<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat1"]/recipeUsers</fromxpath>
+				</li>
+				<!--Prosthetic-->
+				<li Class="PatchOperationAddOrMergeCopy">
+					<xpath>/Defs/RecipeDef[
+						@Name="SurgeryInstallSimpleProstheticBodyPartAnimalBase"
+					]</xpath>
+					<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat2"]/recipeUsers</fromxpath>
+				</li>
+				<!--Bionic-->
+				<li Class="PatchOperationAddOrMergeCopy">
+					<xpath>/Defs/RecipeDef[
+						@Name="SurgeryInstallBionicBodyPartAnimalBase" or
+						@Name="SurgeryInstallMiscBodyPartAnimalBase"
+					]</xpath>
+					<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat3"]/recipeUsers</fromxpath>
+				</li>
+
+            </operations>
+        </nomatch>
+    </Operation>
+	
+</Patch>

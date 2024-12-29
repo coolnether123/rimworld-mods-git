@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- EN: Quest failed: critical pawn {pawn_nameDef} lost. -->
+    <RotR_QuestFailed_CriticalPawnLost>任务失败：关键人物{pawn_nameDef}丢失.</RotR_QuestFailed_CriticalPawnLost>
+	
+	<!-- Bond of Freedom -->
+	<!-- EN: Outcome -->
+    <Outcome>结果</Outcome>
+	<!-- EN: Talk with {0} -->
+    <RotR_Quest_TalkWith>和{0}交谈</RotR_Quest_TalkWith>
+	<!-- EN: Embrace -->
+    <RotR_Quest_BoFAcceptButtonLabel>欢迎</RotR_Quest_BoFAcceptButtonLabel>
+	<!-- EN: Dismiss -->
+    <RotR_Quest_BoFDismissButtonLabel>拒绝</RotR_Quest_BoFDismissButtonLabel>
+	<!-- EN: "From the chains we break a new salvation"\n\n{slave_nameDef} has joined the colony. -->
+    <RotR_Quest_BoFAcceptedOutcome>"挣脱枷锁，我们将获得救赎"\n\n{slave_nameDef}加入了你的殖民地。</RotR_Quest_BoFAcceptedOutcome>
+	<!-- EN: "In a cage of sorrow love fighting to break free"\n\nThe joining proposal is rejected. -->
+    <RotR_Quest_BoFRejectedOutcome>"在悲伤的牢笼中，爱在奋力挣脱"\n\n加入提议被拒绝了。</RotR_Quest_BoFRejectedOutcome>
+	<!-- EN: {lover_nameDef} and {slave_nameDef} are no longer in a relationship. -->
+    <RotR_Quest_NoLongerLovers>{lover_nameDef}和{slave_nameDef}分手了。</RotR_Quest_NoLongerLovers>
+	<!-- EN: The following colonists are pleased -->
+    <RotR_Quest_Pleased>下列殖民者因此高兴</RotR_Quest_Pleased>
+	<!-- EN: The following colonists are disappointed -->
+    <RotR_Quest_Disappointed>下列殖民者对此失望</RotR_Quest_Disappointed>
+	
+	<!-- Orphan Lover -->
+	<!-- EN: Welcome -->
+    <RotR_Quest_OLWelcomeButtonLabel>欢迎加入</RotR_Quest_OLWelcomeButtonLabel>
+	<!-- EN: Host for a while -->
+    <RotR_Quest_OLHostButtonLabel>招待</RotR_Quest_OLHostButtonLabel>
+	<!-- EN: Refuse entry -->
+    <RotR_Quest_OLRefuseButtonLabel>赶走</RotR_Quest_OLRefuseButtonLabel>
+	<!-- EN: "Met in the shadow of an old oak tree\nTwo lonely hearts bound in mystery\nNo parents to guide no home to seek\nFound love in silence where words are weak"\n\nYou've welcomed {boy_nameDef} and {girl_nameDef} into your colony.\n\nThe orphans are filled with joy and gratitude, seeing this as a new beginning, eagerly begin to contribute to the community. -->
+    <RotR_Quest_OLAcceptedOutcome>"在老橡树的阴影下相遇\n两颗孤独的心被神秘束缚\n没有父母指引，没有家可寻\n在无言的沉默中找到了爱"\n\n你欢迎{boy_nameDef}和{girl_nameDef}加入你们的聚居地。\n\n这对孤儿充满了喜悦和感激，将这视为一个新的开始，并迫不及待地开始为社区做贡献。</RotR_Quest_OLAcceptedOutcome>
+	<!-- EN: You decide to provide a temporary shelter for {boy_nameDef} and {girl_nameDef}.\n\nThey will stay in the colony for a while. -->
+    <RotR_Quest_OLHostedOutcome>你决定为{boy_nameDef}和{girl_nameDef}提供一个临时住所。\n\n他们会在殖民地呆一段时间。</RotR_Quest_OLHostedOutcome>
+	<!-- EN: "Broken dreams but together whole\nWith every kiss mending souls\nSilent tears on rainy days\nIn your eyes I find my way"\n\nYou offered {boy_nameDef} and {girl_nameDef} a much-needed pause on their journey. They express deep appreciation for the brief stay.\n\nNow they are prepared to leave and find a place they can finally call home. -->
+    <RotR_Quest_OLHostedLeavingOutcome>"破碎的梦拼在一起\n每一个修复灵魂的吻\n雨天无声的泪\n我找到了方向，在你的眼中"\n\n你为{boy_nameDef}和{girl_nameDef}提供了他们旅途中急需的短暂休息。他们对短暂的停留深表感谢。\n\n现在他们准备离开，去寻找一个终于可以称之为家的地方。</RotR_Quest_OLHostedLeavingOutcome>
+	<!-- EN: "You and I the world forgot\nBut in each other's arms we fought\nAgainst the darkness holding tight\nFearless lovers through the night"\n\nUpon being turned away, {boy_nameDef} and {girl_nameDef} respectfully accept your decision, expressing understanding for the colony's priorities as they continue their search for sanctuary elsewhere. -->
+    <RotR_Quest_OLRejectedOutcome>"你和我被世界遗忘\n在彼此的怀抱中相依为命\n黑暗中我们紧紧相拥\n无畏的恋人穿越黑夜"\n\n在被拒之门外后，{boy_nameDef}和{girl_nameDef}礼貌地接受了你们的决定，并对殖民地的优先事项表示理解，他们将继续在其他地方寻找避难所。</RotR_Quest_OLRejectedOutcome>
+	
+	<!-- Crush, Secret Admirer -->
+	<!-- EN: Be brave -->
+    <RotR_Quest_CrushTryRomanceButtonLabel>勇敢点</RotR_Quest_CrushTryRomanceButtonLabel>
+	<!-- EN: Just an illusion -->
+    <RotR_Quest_CrushIgnoreButtonLabel>也许只是错觉</RotR_Quest_CrushIgnoreButtonLabel>
+	<!-- EN: Encouraged to pursue {initiator_possessive} feelings, the smitten colonist, {initiator_nameDef}, is making a heartfelt attempt at romance towards {other_nameDef}. -->
+    <RotR_Quest_CrushInitiatedOutcome>被鼓励追求{initiator_possessive}感情后，{initiator_nameDef}决定对{other_nameDef}告白。</RotR_Quest_CrushInitiatedOutcome>
+	<!-- EN: Driven by curiosity and the allure of a hidden connection, {initiator_nameDef} takes a proactive step to uncover the feelings of {initiator_possessive} secret admirer. -->
+    <RotR_Quest_SAInitiatedOutcome>在好奇心的驱使和感情的诱惑下，{initiator_nameDef}决定主动揭开{initiator_possessive}暗恋者的心扉。</RotR_Quest_SAInitiatedOutcome>
+	<!-- EN: To maintain their current relationship without complicating it with romantic undertones, {initiator_nameDef} steps back.\n\n{initiator_pronoun} needs more time to figure out whether it is a illusion forged by survival and shared experiences. -->
+    <RotR_Quest_CrushIgnoredOutcome>为了维持他们目前的关系，不使其掺杂浪漫的色彩，{initiator_nameDef}决定后退。\n\n{initiator_pronoun}需要更多的时间来弄清楚这是否是一种由生存和共同的经历塑造的幻觉。</RotR_Quest_CrushIgnoredOutcome>
+	<!-- EN: To preserve the status quo, keeping {initiator_possessive} interactions with {other_nameDef} within the comfortable boundaries of familiarity.\n\n{initiator_nameDef} choose not to act on {initiator_possessive} suspicions. -->
+    <RotR_Quest_SAIgnoredOutcome>为了维持现状，让{initiator_pronoun}与{other_nameDef}的互动保持在熟悉的舒适范围内。\n\n{initiator_nameDef}决定搁置{initiator_possessive}怀疑。</RotR_Quest_SAIgnoredOutcome>
+
+	<!-- Kidney Trade -->
+	<!-- EN: Kidney Trade -->
+    <RotR_Quest_KidneyTrade_Title>肾脏商人</RotR_Quest_KidneyTrade_Title>
+	<!-- EN: (A weary but determined trader. {trader_possessive} eyes, shadowed beneath a weathered brow, flicker with a mix of hope and desperation.)\n\nPlease, I need your help. I've come to offer something valuable in exchange for your assistance.\n\nMy family and our settlement are in dire straits, and we desperately need the funds.\n\nHow would you like to buy a perfectly good kidney for a cheaper price? Only slightly used, I assure you.\n\n({trader_pronoun} presents it with an air of nonchalance.) -->
+    <RotR_Quest_KTIntro>(一个疲惫但坚定的商人，在饱经风霜的眉毛下，{trader_possessive}眼睛闪烁着希望和绝望。）\n\n我需要帮助，我有可供交易的物品。我的家庭和我们的聚落都处于水深火热之中，我们急需资金。\n\n您会考虑购买一个...完好的肾脏吗？只被轻微使用，我向您保证。</RotR_Quest_KTIntro>
+	<!-- EN: We could use the extra organ. Let's make a deal. -->
+    <RotR_Quest_KTIntro_Trade>我们需要额外的器官，来交易吧</RotR_Quest_KTIntro_Trade>
+	<!-- EN: How do you happen to have an... extra kidney? -->
+    <RotR_Quest_KTIntro_Question>您为什么有..额外的肾脏</RotR_Quest_KTIntro_Question>
+	<!-- EN: We're not in the market for organs right now, but thanks for the offer. -->
+    <RotR_Quest_KTIntro_Refuse>感谢提议，但我们不做器官交易</RotR_Quest_KTIntro_Refuse>
+	<!-- EN: Don't worry, the kidney I'm selling isn't mine. It's a... friend's. Yes, a very generous friend. -->
+    <RotR_Quest_KTExplain>别担心，这不是我自己的肾脏，是我的一个...朋友，一个非常慷慨的朋友。</RotR_Quest_KTExplain>
+	<!-- EN: A kidney is a kidney, I suppose. Let's do the trade. -->
+    <RotR_Quest_KTExplain_Trade>肾脏就是肾脏，来交易吧</RotR_Quest_KTExplain_Trade>
+	<!-- EN: Tell me more about your situation. Why do you need the funds? -->
+    <RotR_Quest_KTExplain_QuestionSituation>请向我详细介绍您的情况。您为什么需要资金？</RotR_Quest_KTExplain_QuestionSituation>
+	<!-- EN: That sounds... highly unethical. I think we'll pass. -->
+    <RotR_Quest_KTExplain_Refuse>这听起来...非常不道德。我们还是算了吧</RotR_Quest_KTExplain_Refuse>
+	<!-- EN: It's the raiders. They've been relentless, and we've exhausted all our resources just trying to keep them at bay.\n\nWe need to buy protection, repair our defenses... anything to keep my family safe. I'm out of options. -->
+    <RotR_Quest_KTExplainSituation>是袭击者，他们一直穷追不舍，我们已经耗尽了所有资源，只为阻止他们。我们需要购买后勤，修复防护...任何能保证家人安全的东西。我没有选择了。</RotR_Quest_KTExplainSituation>
+	<!-- EN: Alright, we'll do this. But only because it seems you're out of options. -->
+    <RotR_Quest_KTExplainSituation_Trade>好吧，我们交易吧，但这只是因为你似乎没有选择了</RotR_Quest_KTExplainSituation_Trade>
+	<!-- EN: It's better if you keep your kidney. Relying on such extreme measures\nwon't solve your problems in the long run. -->
+    <RotR_Quest_KTExplainSituation_Refuse>你最好保住你的肾。从长远来看，依靠这种极端措施并不能解决你的问题。</RotR_Quest_KTExplainSituation_Refuse>
+	<!-- EN: Please, I understand your reservations, but this isn't just about a trade for me—it's about survival.\n\nMy settlement... we're on the brink. Without this trade, I don't know if we'll make it. -->
+    <RotR_Quest_KTRefused_LastTry>求你了，我理解您的谨慎，但这对我来说不仅仅是个交易，而是生存的问题。我的定居点...我们岌岌可危，没有这次交易，我不知道我们能不能活下来。</RotR_Quest_KTRefused_LastTry>
+	<!-- EN: Your situation has touched us, and we've reconsidered. We'll accept the trade -->
+    <RotR_Quest_KTRefused_LastTry_Trade>您的处境感动了我们，我们重新考虑后决定接受交易</RotR_Quest_KTRefused_LastTry_Trade>
+	<!-- EN: I'm sorry, but our decision is final. -->
+    <RotR_Quest_KTRefused_LastTry_Refuse>很抱歉，但这是我们的最终决定</RotR_Quest_KTRefused_LastTry_Refuse>
+	<!-- EN: "Gave a piece so they could stand"\n\nThe trader's tension eased as you finalize the trade, {trader_possessive} shoulders dropping in a sigh of relief. {trader_nameDef} managed a brief, grateful smile towards your colonists before turning to leave, {trader_possessive} steps lighter than when {trader_pronoun} arrived. -->
+    <RotR_Quest_KTTradeOutcome>"给他们一片站立的地方"\n\n当您敲定交易时，{trader_nameDef}松了一口气，{trader_possessive}紧张情绪也缓和下来。在转身离开之前，{trader_nameDef}向殖民者们露出了一个简短而感激的微笑，{trader_possessive}脚步比{trader_pronoun}来的时候轻快多了。</RotR_Quest_KTTradeOutcome>
+	<!-- EN: A flash of disappointment crosses {trader_nameDef}'s face, quickly masked as {trader_pronoun} nodded in acknowledgment of your decision.\n\nWithout a backward glance, {trader_pronoun} gathered {trader_possessive} belongings and stepped away, {trader_possessive} movements deliberate and slow. -->
+    <RotR_Quest_KTRefuseOutcome>{trader_nameDef}的脸上闪过一丝失望，但很快就被掩盖了，{trader_pronoun}点头接受了你的决定。{trader_pronoun}头也不回地收拾好{trader_possessive}物品，迈步离开，{trader_possessive}动作沉重而缓慢。</RotR_Quest_KTRefuseOutcome>
+
+	<!-- Adoption Chance -->
+	<!-- EN: Welcome to the new family -->
+    <RotR_Quest_ACAcceptButtonLabel>欢迎加入新家庭</RotR_Quest_ACAcceptButtonLabel>
+	<!-- EN: Maybe not a good idea -->
+    <RotR_Quest_ACRejectButtonLabel>也许不是个好主意</RotR_Quest_ACRejectButtonLabel>
+	<!-- EN: {father_nameDef} and {mother_nameDef} now becomes {child_nameDef}'s official parents. -->
+    <RotR_Quest_ACAcceptOutcome>{father_nameDef}和{mother_nameDef}成为了{child_nameDef}的正式父母。</RotR_Quest_ACAcceptOutcome>
+	<!-- EN: {father_nameDef} and {mother_nameDef} declines to be {child_nameDef}'s official parents. -->
+    <RotR_Quest_ACRejectOutcome>{father_nameDef}和{mother_nameDef}决定不成为{child_nameDef}的正式父母。</RotR_Quest_ACRejectOutcome>
+
+	<!-- Diplomatic Marriage -->
+	<!-- Dialog -->
+	<!-- EN: Diplomatic Marriage -->
+    <RotR_DiplomaticMarriage>外交联姻</RotR_DiplomaticMarriage>
+	<!-- EN: Accept -->
+    <RotR_DiplomaticMarriage_AcceptButton>接受</RotR_DiplomaticMarriage_AcceptButton>
+	<!-- EN: Reject -->
+    <RotR_DiplomaticMarriage_RejectButton>拒绝</RotR_DiplomaticMarriage_RejectButton>
+	<!-- EN: Left click to select, right click to inspect. -->
+    <RotR_DiplomaticMarriageHoveringToolTips>左键点击选择，右键查看属性</RotR_DiplomaticMarriageHoveringToolTips>
+	<!-- EN: A message from the neighboring faction, the {faction_name}, has arrived. They propose a diplomatic marriage, offering to send one of their residents, {suitor_nameDef}, to join our colony as a sign of goodwill and to strengthen our bonds. -->
+    <RotR_DiplomaticMarriage_IntroInfo>附近的派系{faction_name}发来消息。他们提出了外交联姻的建议，愿意将{suitor_nameDef}送往我们的殖民地进行联姻，以示友好，并加强我们之间的联系。</RotR_DiplomaticMarriage_IntroInfo>
+	<!-- EN: A message from the neighboring faction, the {faction_name}, has arrived. They propose a diplomatic marriage, asking whether you would like to send a colonist to their settlement as a sign of goodwill and to strengthen the bonds.\n\nIf you accept, the chosen colonist will leave your faction and marry with {suitor_nameDef}. -->
+    <RotR_DiplomaticMarriageAway_IntroInfo>附近的派系{faction_name}发来消息。他们请求了一桩外交联姻，询问你们是否愿意派遣一名殖民者前往他们的定居点联姻，以示友好并加强双方的联系。如果你接受，被选中的殖民者将离开你的派系并与{suitor_nameDef}订婚。</RotR_DiplomaticMarriageAway_IntroInfo>
+	<!-- EN: You requested a diplomatic marriage from a neighboring faction, the {faction_name}. They agree to send one of their residents, {suitor_nameDef}, to join your colony as a sign of goodwill and to strengthen the bonds. -->
+    <RotR_DiplomaticMarriage_IntroInfo_PlayerForced>您向附近的派系{faction_name}提出了外交联姻请求。他们同意派遣一名居民{suitor_nameDef}加入您的殖民地进行联姻，以示友好并加强双方的联系。</RotR_DiplomaticMarriage_IntroInfo_PlayerForced>
+	<!-- EN: You offered a diplomatic marriage to a neighboring faction, the {faction_name}. They ask whether you would like to send a colonist to their settlement as a sign of goodwill and to strengthen the bonds.\n\nIf you accept, the chosen colonist will leave your faction and marry with {suitor_nameDef}. -->
+    <RotR_DiplomaticMarriageAway_IntroInfo_PlayerForced>您向附近的派系{faction_name}提议了外交联姻。他们询问您是否愿意派遣一名殖民者前往他们的定居点，以示友好并加强双方的联系。如果您接受，被选中的殖民者将离开您的派系并与{suitor_nameDef}订婚。</RotR_DiplomaticMarriageAway_IntroInfo_PlayerForced>
+	<!-- EN: Such a romantic connection might not be in the cards. -->
+    <RotR_DiplomaticMarriage_NotEligible>两人似乎不太可能在一起</RotR_DiplomaticMarriage_NotEligible>
+	<!-- EN: Expected goodwill: {0} -->
+    <RotR_DiplomaticMarriageAway_ExpectedGoodWill>预期好感：{0}</RotR_DiplomaticMarriageAway_ExpectedGoodWill>
+	<!-- EN: {suitor_nameDef} will arrive in 1 day. -->
+    <RotR_DiplomaticMarriage_WaitForArrival>{suitor_nameDef}会在一天后到达.</RotR_DiplomaticMarriage_WaitForArrival>
+	
+	<!-- Quest tab -->
+	<!-- EN: You've agreed to send {0} to {1} to marry {2}. The estimated travel time is {3} days. -->
+    <RotR_Quest_DiplomaticMarriageAway_QuestInfo>您已同意将{0}送往{1}与{2}联姻。预计旅行时间为 {3} 天。</RotR_Quest_DiplomaticMarriageAway_QuestInfo>
+	
+	<!-- Settlement gizmo -->
+	<!-- EN: Diplomatic marriage -->
+    <RotR_DiplomaticMarriageCaravan_ActionLabel>外交联姻</RotR_DiplomaticMarriageCaravan_ActionLabel>
+	<!-- EN: Send away the promised one for the diplomatic marriage. -->
+    <RotR_DiplomaticMarriageCaravan_ActionDesc>送走约定的人，进行外交联姻。</RotR_DiplomaticMarriageCaravan_ActionDesc>
+	<!-- EN: Send {betrothed_nameDef} for diplomatic marriage? {betrothed_pronoun} will join other faction. -->
+    <RotR_DiplomaticMarriageCaravan_Confirm>送走{betrothed_nameDef}进行外交联姻？{betrothed_pronoun}将加入其他派别。</RotR_DiplomaticMarriageCaravan_Confirm>
+	<!-- EN: {betrothed_nameDef} not in caravan. -->
+    <RotR_DiplomaticMarriageCaravan_NoBetrothedInCaravan>{betrothed_nameDef}不在远行队中。</RotR_DiplomaticMarriageCaravan_NoBetrothedInCaravan>
+	<!-- EN: {betrothed_nameDef} has joined {faction_name}. -->
+    <RotR_DiplomaticMarriageCaravan_Join>{betrothed_nameDef}加入了{faction_name}。</RotR_DiplomaticMarriageCaravan_Join>
+	
+	<!-- followup notifications -->
+	<!-- EN: {faction_name} is furious that {suitor_nameDef} perished under your colony's watch, blaming you for not ensuring {suitor_possessive} safety. -->
+    <RotR_Quest_DiplomaticMarriage_Followup_SuitorKilled>{faction_name}对{suitor_nameDef}在你们的殖民地眼皮底下丧生感到非常愤怒，指责你们没有确保{suitor_possessive}安全。</RotR_Quest_DiplomaticMarriage_Followup_SuitorKilled>
+	<!-- EN: {faction_name}, overjoyed at the sight of the newborn children {baby_nameDef}, promises to send gifts in honor of the occasion. -->
+    <RotR_Quest_DiplomaticMarriage_Followup_NewBorn>{faction_name}对新生儿{baby_nameDef}喜出望外，承诺送出礼物庆祝这次降生。</RotR_Quest_DiplomaticMarriage_Followup_NewBorn>
+
+	<!-- A Heart's Return -->
+	<!-- EN: Love will find a way -->
+    <RotR_Quest_AHRAcceptButtonLabel>愿有情人终成眷属</RotR_Quest_AHRAcceptButtonLabel>
+	<!-- EN: Sorry, {colonist_nameDef} -->
+    <RotR_Quest_AHRRejectButtonLabel>对不起，{colonist_nameDef}</RotR_Quest_AHRRejectButtonLabel>
+	<!-- EN: {partner_nameDef} will work for you during {partner_possessive} temporary stay.\n\nHowever, {partner_pronoun} may choose to leave eventually.\n\nManage {partner_possessive} integration. -->
+    <RotR_Quest_AHRAcceptedOutcome>{partner_nameDef}会在这呆上几天，期间{partner_pronoun}会为你工作。\n\n但最终{partner_pronoun}可能选择离开。\n\n你可以尽量让{partner_pronoun}更好地融入。</RotR_Quest_AHRAcceptedOutcome>
+	<!-- EN: You turned away {partner_nameDef}.\n\nWith a calm acceptance, {partner_pronoun} turn around and begin {partner_possessive} journey back, disappearing into the landscape as silently as {partner_pronoun} arrived. -->
+    <RotR_Quest_AHRRejectedOutcome>你拒绝了{partner_nameDef}。\n\n带着平静的接受，{partner_pronoun}转身开始回程，就像{partner_pronoun}到来时一样，悄无声息地消失在远方。</RotR_Quest_AHRRejectedOutcome>
+	<!-- EN: {colonist_nameDef} seems surprisingly unaffected.\n\nIt appears that time and distance have cooled the once fiery emotions, leaving {colonist_objective} indifferent to the departure. -->
+    <RotR_Quest_AHRRejectedOutcome_IndifferentColonist>{colonist_nameDef}让人讶异地并没有受到什么影响。时间和距离似乎冷却了曾经炽热的情感，让{colonist_pronoun}对离别无动于衷。</RotR_Quest_AHRRejectedOutcome_IndifferentColonist>
+	<!-- EN: As {colonist_possessive} lover leaves, {colonist_nameDef}'s face falls, shadowed by a deep sadness.\n\nThe rejection reopens old wounds, leaving {colonist_objective} to grapple with a mix of sorrow and regret. -->
+    <RotR_Quest_AHRRejectedOutcome_SadColonist>随着恋人的离开，{colonist_nameDef}的脸沉了下来，笼罩在深深的悲伤之中。\n\n这次拒绝揭开了{colonist_possessive}旧伤疤，让{colonist_pronoun}在悲伤和遗憾中挣扎。</RotR_Quest_AHRRejectedOutcome_SadColonist>
+	
+	<!-- EN: After a period of temporary stay, {partner_nameDef} decides to make their reunion permanent.\n\nEmbraced by the community and rekindling their past romance, they commit to a new life in the colony. -->
+    <RotR_Quest_AHRHostedJoined>在暂住一段时间后，{partner_nameDef}决定在这里安顿下来。\n\n在大家的欢迎下，他们重温了过去的恋情，并期待在殖民地开始新的篇章。</RotR_Quest_AHRHostedJoined>
+	<!-- EN: After a heartfelt but brief reunion, {partner_nameDef} decides to leave the colony.\n\nWith mixed emotions and a final farewell, {partner_pronoun} set out once more. -->
+    <RotR_Quest_AHRHostedLeaving>短暂而温馨的团聚过后，{partner_nameDef}决定离开。\n\n带着复杂的心情和也许是最后的告别，{partner_pronoun}再次启程。</RotR_Quest_AHRHostedLeaving>
+	<!-- EN: Despite the initial joy of reunion, {partner_nameDef} and {colonist_nameDef} realize that too much has changed between them.\n\nIt's time to move forward. -->
+    <RotR_Quest_AHRHostedBrokeUp>在最初重聚的温情后，{partner_nameDef}和{colonist_nameDef}意识到彼此之间太多东西发生了变化。\n\n是时候向前看了。</RotR_Quest_AHRHostedBrokeUp>
+
+	<!-- From the Ashes -->
+	<!-- EN: From the Ashes -->
+    <RotR_Quest_FromTheAshes>从灰烬中</RotR_Quest_FromTheAshes>
+	<!-- EN: After enduring life-threatening challenges side by side, the divorced couple, {initiator_nameFull} and {recipient_nameFull}, discovered a renewed strength and understanding in each other.\n\nWith the past grievances fading into the shadows of their trials, they have decided to remarry, vowing to support and cherish each other anew amidst the uncertainty of their world. -->
+    <RotR_Quest_FTAReMarryMessage>在一起经历了危及生命的挑战之后，离异夫妇{initiator_nameFull}，{recipient_nameFull}发现了彼此间重新焕发的感情和理解。\n\n随着过去的怨恨逐渐消失在考验的阴影中，他们决定复婚，宣誓要在不确定的世界中重新支持和珍惜彼此。</RotR_Quest_FTAReMarryMessage>
+</LanguageData>

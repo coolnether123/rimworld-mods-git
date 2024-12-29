@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<!-- RG_Neutrolope -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Neutro-nope!</li>
+		</mods>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+					]/recipeUsers
+			</xpath>
+			<value>
+				<li>RG_Neutrolope</li>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	
+	<!-- RG_Rabbit -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>RG_Rabbit</li>
+				</value>
+	</Operation>
+	
+	
+	<!-- RG_KiwiBird -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>RG_KiwiBird</li>
+				</value>
+	</Operation>
+	
+</Patch>

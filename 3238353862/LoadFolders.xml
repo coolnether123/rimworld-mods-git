@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+        <li IfModActive="automatic.bionicicons">1.4/ModCompat/BionicIcons</li>
+		<li IfModActive="imranfish.xmlextensions">1.4/ModCompat/XMLExtentions</li>
+		<li IfModActive="vat.epoeforked">1.4/ModCompat/EPOE-Forked</li>
+		<li IfModActive="vat.epoeforked,mse2.core">1.4/ModCompat/CommonSubparts</li>
+		<li IfModNotActive="mse2.core">1.4/MSE2_Custom_Operations</li>
+		<li IfModActive="mse2.core">1.4/ModCompat/MSE2</li>
+		<li IfModActive="regrowth.botr.core">1.4/ModCompat/ReGrowth/Core</li>
+		<li IfModActive="regrowth.botr.boilingforest">1.4/ModCompat/ReGrowth/Boiling</li>
+		<li IfModActive="regrowth.botr.extinctanimalspack">1.4/ModCompat/ReGrowth/Extinct</li>
+		<li IfModActive="regrowth.botr.wastelands">1.4/ModCompat/ReGrowth/Wasteland</li>
+		<li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.4/ModCompat/VAE/Core</li>
+		<li IfModActive="vanillaexpanded.vaeendandext">1.4/ModCompat/VAE/Endangered</li>
+		<li IfModActive="vanillaexpanded.vaeroy">1.4/ModCompat/VAE/Royal</li>
+		<li IfModActive="vanillaexpanded.vaewaste">1.4/ModCompat/VAE/Waste</li>
+		<li IfModActive="ACPteam.ACPVanillaStyle">1.4/ModCompat/AnimalCollabProject</li>
+        <li IfModActive="Scurvyez.StevesLoons">1.4/ModCompat/StevesLoons</li>
+		<li IfModActive="Erin.FFAnimals">1.4/ModCompat/Erin/FinalFantasyAnimals</li>
+		<li IfModActive="Erin.AzaphraeBiotech">1.4/ModCompat/Erin/AzaphraeBiotech</li>
+		<li IfModActive="Erin.LizzardDoggo">1.4/ModCompat/Erin/LizardDoggo</li>
+		<li IfModActive="Erin.Ferret">1.4/ModCompat/Erin/FriendlyFerrets</li>
+		<li IfModActive="Erin.Mountain">1.4/ModCompat/Erin/MountainAnimals</li>
+		<li IfModActive="Erin.Palamutes">1.4/ModCompat/Erin/Palamutes</li>
+		<li IfModActive="Erin.Valheim.Creatures">1.4/ModCompat/Erin/ValheimCreatures</li>
+		<li IfModActive="Erin.Wildlife">1.4/ModCompat/Erin/Wildlife</li>
+		<li IfModActive="oblitus.housekeeperassistancecat">1.4/ModCompat/HousekeeperAssistanceCat</li>
+		<li IfModActive="onyxae.dragonsdescent">1.4/ModCompat/OttersHoldHands/DragonsDescent</li>
+	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+        <li IfModActive="automatic.bionicicons">1.5/ModCompat/BionicIcons</li>
+		<li IfModActive="imranfish.xmlextensions">1.5/ModCompat/XMLExtentions</li>
+		<li IfModActive="vat.epoeforked">1.5/ModCompat/EPOE-Forked</li>
+		<li IfModActive="vat.epoeforked,mse2.core">1.5/ModCompat/CommonSubparts</li>
+		<li IfModNotActive="mse2.core">1.5/MSE2_Custom_Operations</li>
+		<li IfModActive="mse2.core">1.5/ModCompat/MSE2</li>
+		<li IfModActive="regrowth.botr.core">1.5/ModCompat/ReGrowth/Core</li>
+		<li IfModActive="regrowth.botr.boilingforest">1.5/ModCompat/ReGrowth/Boiling</li>
+		<li IfModActive="regrowth.botr.extinctanimalspack">1.5/ModCompat/ReGrowth/Extinct</li>
+		<li IfModActive="regrowth.botr.wastelands">1.5/ModCompat/ReGrowth/Wasteland</li>
+		<li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.5/ModCompat/VAE/Core</li>
+		<li IfModActive="vanillaexpanded.vaeendandext">1.5/ModCompat/VAE/Endangered</li>
+		<li IfModActive="vanillaexpanded.vaeroy">1.5/ModCompat/VAE/Royal</li>
+		<li IfModActive="vanillaexpanded.vaewaste">1.5/ModCompat/VAE/Waste</li>
+		<li IfModActive="ACPteam.ACPVanillaStyle">1.5/ModCompat/AnimalCollabProject</li>
+        <li IfModActive="Scurvyez.StevesLoons">1.5/ModCompat/StevesLoons</li>
+		<li IfModActive="Erin.FFAnimals">1.5/ModCompat/Erin/FinalFantasyAnimals</li>
+		<li IfModActive="Erin.AzaphraeBiotech">1.5/ModCompat/Erin/AzaphraeBiotech</li>
+		<li IfModActive="Erin.LizzardDoggo">1.5/ModCompat/Erin/LizardDoggo</li>
+		<li IfModActive="Erin.Ferret">1.5/ModCompat/Erin/FriendlyFerrets</li>
+		<li IfModActive="Erin.Mountain">1.5/ModCompat/Erin/MountainAnimals</li>
+		<li IfModActive="Erin.Palamutes">1.5/ModCompat/Erin/Palamutes</li>
+		<li IfModActive="Erin.Valheim.Creatures">1.5/ModCompat/Erin/ValheimCreatures</li>
+		<li IfModActive="Erin.Wildlife">1.5/ModCompat/Erin/Wildlife</li>
+		<li IfModActive="oblitus.housekeeperassistancecat">1.5/ModCompat/HousekeeperAssistanceCat</li>
+		<li IfModActive="Maximilian.MoreThrumbos">1.5/ModCompat/MoreThrumbos_Max</li>
+		<li IfModActive="Mlie.MoreThrumbos">1.5/ModCompat/MoreThrumbos_Mlie</li>
+		<li IfModActive="spincrus.dinosauria">1.5/ModCompat/Dinosauria</li>
+	  </v1.5>
+</loadFolders>

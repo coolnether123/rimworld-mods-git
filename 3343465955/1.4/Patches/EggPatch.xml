@@ -1,0 +1,9 @@
+<Patch>
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_EggLayer"]</xpath>
+    <attribute>Class</attribute>
+    <value>RedOpt.CompProperties_SaneEggLayer</value>
+  </Operation>
+
+  
+</Patch>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/ThinkTreeDef[defName = "MainColonistBehaviorCore"]/thinkRoot[@Class="ThinkNode_Tagger"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes/li[@Class="JobGiver_GetRest"]</xpath>
+				<value>
+					<li Class="RomanceOnTheRim.JobGiver_GetRestTogether"/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

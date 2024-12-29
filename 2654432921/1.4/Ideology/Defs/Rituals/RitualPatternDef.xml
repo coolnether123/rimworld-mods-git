@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RitualPatternDef>
+		<defName>RotR_WeddingCeremony</defName>
+		<nameMaker>RotR_WeddingCeremonyNames</nameMaker>
+		<shortDescOverride>wedding ceremony</shortDescOverride>
+		<descOverride>A wedding ceremony where colonists gather near the marriage spot to celebrate a magical union under the canopy of love.</descOverride>
+		<iconPathOverride>UI/Icons/Rituals/RitualFestival</iconPathOverride><!-- todo -->
+		<!-- no obligation trigger since anytime -->
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<playsIdeoMusic>false</playsIdeoMusic>
+		<ritualObligationTargetFilter>WeddingCeremony_Target</ritualObligationTargetFilter>
+		<ritualBehavior>WeddingCeremony_Behavior</ritualBehavior>
+		<ritualOutcomeEffect>WeddingCeremony_Outcome</ritualOutcomeEffect>
+		<tags>
+			<li>CelebratedDate</li>
+		</tags>
+		<patternGroupTag>CelebratedDate</patternGroupTag>
+	</RitualPatternDef>
+</Defs>

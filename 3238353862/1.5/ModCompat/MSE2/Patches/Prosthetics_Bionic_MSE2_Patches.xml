@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Bionic leg -->
+	<!-- total:
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+	 -->
+	 
+	<!-- leg -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicLegAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>12</Steel>
+				<Plasteel>30</Plasteel>
+				<ComponentIndustrial>4</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicLegAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>16000</WorkToMake>
+				<Mass>3</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="BionicLegAnimal"]</xpath>
+		<value>
+			<comps>
+				<li Class="MSE2.CompProperties_IncludedChildParts">
+					<standardChildren>
+						<li>BionicPawAnimal</li>
+						<li>BionicHoofAnimal</li>
+						<li>BionicFootAnimal</li>
+						<li>BionicInternalSupportAnimal</li>
+						<li MayRequire="regrowth.botr.extinctanimalspack">Bionic_RG_FootClaw</li>
+					</standardChildren>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="BionicLegAnimal"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BionicLegAnimal"]/comps</xpath>
+		<value>
+			<li Class="MSE2.HediffCompProperties_ModuleHolder">
+				<maxModules>1</maxModules>
+			</li>
+		</value>
+	</Operation>
+	 
+	<!-- paw -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicPawAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>8</Steel>
+				<Plasteel>20</Plasteel>
+				<ComponentIndustrial>3</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicPawAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>8000</WorkToMake>
+				<Mass>2</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BionicPawAnimal"]/comps</xpath>
+		<value>
+			<li Class="MSE2.HediffCompProperties_ModuleHolder">
+				<maxModules>1</maxModules>
+			</li>
+		</value>
+	</Operation>
+	 
+	<!-- hoof -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicHoofAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>8</Steel>
+				<Plasteel>20</Plasteel>
+				<ComponentIndustrial>3</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicHoofAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>8000</WorkToMake>
+				<Mass>2</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	 
+	<!-- foot -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicFootAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>8</Steel>
+				<Plasteel>6</Plasteel>
+				<ComponentIndustrial>2</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicFootAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>5000</WorkToMake>
+				<Mass>1</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="BionicFootAnimal"]</xpath>
+		<value>
+			<comps>
+				<li Class="MSE2.CompProperties_IncludedChildParts">
+					<standardChildren>
+						<li>BionicToeAnimal</li>
+					</standardChildren>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	 
+	<!-- toe -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicToeAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Plasteel>1</Plasteel>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicToeAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>600</WorkToMake>
+				<Mass>0.2</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	 
+	<!-- claw -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicClawAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Plasteel>2</Plasteel>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicClawAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>800</WorkToMake>
+				<Mass>0.3</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	
+
+	<!-- Bionic arm -->
+	<!-- total:
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+	 -->
+	 
+	<!-- arm -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicArmAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>8</Steel>
+				<Plasteel>14</Plasteel>
+				<ComponentIndustrial>2</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicArmAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>10000</WorkToMake>
+				<Mass>2</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="BionicArmAnimal"]</xpath>
+		<value>
+			<comps>
+				<li Class="MSE2.CompProperties_IncludedChildParts">
+					<standardChildren>
+						<li>BionicForearmAnimal</li>
+					</standardChildren>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/HediffDef[defName="BionicArmAnimal"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</xpath>
+	</Operation>
+	 
+	<!-- hand -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicHandAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>8</Steel>
+				<Plasteel>8</Plasteel>
+				<ComponentIndustrial>2</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicHandAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>5000</WorkToMake>
+				<Mass>1</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="BionicHandAnimal"]</xpath>
+		<value>
+			<comps>
+				<li Class="MSE2.CompProperties_IncludedChildParts">
+					<standardChildren>
+						<li>BionicFingerAnimal</li>
+					</standardChildren>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BionicHandAnimal"]/comps</xpath>
+		<value>
+			<li Class="MSE2.HediffCompProperties_ModuleHolder">
+				<maxModules>1</maxModules>
+			</li>
+		</value>
+	</Operation>
+	 
+	<!-- finger -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicFingerAnimal"]/costList</xpath>
+		<value>
+			<costList>
+				<Plasteel>2</Plasteel>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicFingerAnimal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>600</WorkToMake>
+				<Mass>0.2</Mass>
+			</statBases>
+		</value>
+	</Operation>
+	
+	
+	<!-- Power claw-->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/RecipeDef[defName="InstallPowerClawAnimal"]</xpath>
+	</Operation>
+	
+	
+	<!-- Bionic tail -->
+	
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/HediffDef[defName="BionicTailAnimal"]</xpath>
+		<value>
+			<li Class="MSE2.IgnoreSubParts">
+				<ignoreAll>true</ignoreAll>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

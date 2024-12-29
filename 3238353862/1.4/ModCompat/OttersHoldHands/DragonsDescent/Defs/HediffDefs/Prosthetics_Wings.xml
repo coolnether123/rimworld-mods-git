@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>	
+	<!-- Wooden wing -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>WoodenWingAnimal</defName>
+		<label>wooden animal wing</label>
+		<labelNoun>a wooden animal wing</labelNoun>
+		<description>An installed wooden animal wing. Allows the user to fly again, albeit not very well.</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.60</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallWoodenWingAnimal</defName>
+		<label>install animal wooden wing</label>
+		<description>Installs animal wooden wing.</description>
+		<jobString>Installing wooden wing.</jobString>
+		<addsHediff>WoodenWingAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Wing</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Prosthetic wing -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticWingAnimal</defName>
+		<label>prosthetic animal wing</label>
+		<labelNoun>a prosthetic animal wing</labelNoun>
+		<description>An installed prosthetic animal wing. While it lacks a neural interface, its complex arrangement of internal joints and artifical membrane allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's wing.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticWingAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticWingAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticWingAnimal</defName>
+		<label>prosthetic animal wing</label>
+		<description>A prosthetic animal wing. While it lacks a neural interface, its complex arrangement of internal joints and artifical membrane allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's wing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticWingAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticWingAnimal</defName>
+		<label>install prosthetic animal wing</label>
+		<description>Installs prosthetic wing. Requires a min skill in medicine of 4.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticWingAnimal</ThingDef>
+			<HediffDef>SimpleProstheticWingAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal wing.</jobString>
+		<addsHediff>SimpleProstheticWingAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Wing</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticWingAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticWingAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticWingAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Bionic wing -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicWingAnimal</defName>
+		<label>bionic animal wing</label>
+		<labelNoun>a bionic animal wing</labelNoun>
+		<description>An installed bionic animal wing. With its biogel nerve-link, lightweight synthetic membrane, and lattice-dust healing system, it is better than a biological wing in almost every way. Fits all animals.</description>
+		<descriptionHyperlinks><ThingDef>BionicWingAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicWingAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicWingAnimal</defName>
+		<label>bionic animal wing</label>
+		<description>An advanced artificial animal wing. With its biogel nerve-link, lightweight synthetic membrane, and lattice-dust healing system, it is better than a biological wing in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicWingAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>12</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicWingAnimal</defName>
+		<label>install bionic animal wing</label>
+		<description>Installs bionic wing. Requires a min skill in medicine of 4.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicWingAnimal</ThingDef>
+			<HediffDef>BionicWingAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal wing.</jobString>
+		<addsHediff>BionicWingAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Wing</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicWingAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicWingAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicWingAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+</Defs>

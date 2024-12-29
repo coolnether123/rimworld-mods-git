@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[@Name="AddedMedievalBodyPartAnimalBase"]</xpath>
+		<value>
+			<defaultLabelColor>(148,117,14)</defaultLabelColor>
+		</value>
+	</Operation>
+
+
+	<!-- Wooden paw -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="WoodenPawAnimal"]/addedPartProps/partEfficiency</xpath>
+		<value>
+			<partEfficiency>0.6</partEfficiency>
+		</value>
+	</Operation>
+
+
+	<!-- Wooden hoof -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="WoodenHoofAnimal"]/addedPartProps/partEfficiency</xpath>
+		<value>
+			<partEfficiency>0.6</partEfficiency>
+		</value>
+	</Operation>
+	
+</Patch>

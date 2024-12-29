@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: nostalgia -->
+    <RomanceOnTheRim_MissingLover.stages.nostalgia.label>想念</RomanceOnTheRim_MissingLover.stages.nostalgia.label>
+    <!-- EN: It's been a while since I last saw {LOVER_objective}. -->
+    <RomanceOnTheRim_MissingLover.stages.nostalgia.description>{LOVER_objective}还好吗？</RomanceOnTheRim_MissingLover.stages.nostalgia.description>
+    <!-- EN: longing -->
+    <RomanceOnTheRim_MissingLover.stages.longing.label>挂念</RomanceOnTheRim_MissingLover.stages.longing.label>
+    <!-- EN: I miss {LOVER_objective} so badly. -->
+    <RomanceOnTheRim_MissingLover.stages.longing.description>我好想{LOVER_objective}。</RomanceOnTheRim_MissingLover.stages.longing.description>
+    <!-- EN: yearning -->
+    <RomanceOnTheRim_MissingLover.stages.yearning.label>思念</RomanceOnTheRim_MissingLover.stages.yearning.label>
+    <!-- EN: I will wait for {LOVER_objective} to come home. -->
+    <RomanceOnTheRim_MissingLover.stages.yearning.description>我会一直等{LOVER_objective}，等{LOVER_objective}回家。</RomanceOnTheRim_MissingLover.stages.yearning.description>
+    
+    <!-- EN: romance need dissatisfied -->
+    <RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_dissatisfied.label>浪漫需求未满足</RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_dissatisfied.label>
+    <!-- EN: I'm yearning for some interactions with my lover. -->
+    <RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_dissatisfied.description>我需要更多恋人之间的互动。</RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_dissatisfied.description>
+    <!-- EN: romance need satisfied -->
+    <RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_satisfied.label>浪漫需求满足</RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_satisfied.label>
+    <!-- EN: Love is my fortune. -->
+    <RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_satisfied.description>相爱是一种幸运。</RomanceOnTheRim_Thought_RomanceNeedLevel.stages.romance_need_satisfied.description>
+    
+    <!-- EN: minor concern about my lover -->
+    <RomanceOnTheRim_WorryAboutLoversHealth.stages.minor_concern_about_my_lover.label>忧虑恋人健康</RomanceOnTheRim_WorryAboutLoversHealth.stages.minor_concern_about_my_lover.label>
+    <!-- EN: My lover is sick. I hope {LOVER_pronoun} can recover soon. -->
+    <RomanceOnTheRim_WorryAboutLoversHealth.stages.minor_concern_about_my_lover.description>我的恋人生病了，希望{LOVER_pronoun}能赶快好起来。</RomanceOnTheRim_WorryAboutLoversHealth.stages.minor_concern_about_my_lover.description>
+    <!-- EN: serious concern about my lover -->
+    <RomanceOnTheRim_WorryAboutLoversHealth.stages.serious_concern_about_my_lover.label>担忧恋人健康</RomanceOnTheRim_WorryAboutLoversHealth.stages.serious_concern_about_my_lover.label>
+    <!-- EN: My lover is sick. It would be fine, right? -->
+    <RomanceOnTheRim_WorryAboutLoversHealth.stages.serious_concern_about_my_lover.description>我的爱人生病了。一切都会没事的，对吗？</RomanceOnTheRim_WorryAboutLoversHealth.stages.serious_concern_about_my_lover.description>
+    
+</LanguageData>

@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: RomanceOnTheRim-Get joy together -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.label>边缘爱情-一起娱乐</RomanceOnTheRim_Interaction_GetJoyTogether.label>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] found joy in each other's company during their free time. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.0>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]享受空闲时相伴的乐趣。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.0>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] took a break from their duties to indulge in a shared hobby. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.1>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]从他们的职责中抽出身来，沉浸在共同的爱好中。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.1>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] spent quality time together, away from the hustle of the colony. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.2>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]远离了殖民地的喧嚣，度过了一段充实的时光。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.2>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] sought comfort in each other's presence, engaging in their favorite pastime. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.3>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]在彼此的相伴中寻求慰藉，畅玩了最爱的娱乐项目。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.3>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] cherished their mutual leisure time, bringing them closer. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.4>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]珍惜彼此的闲暇时光，这让他们更加亲密。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.4>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] found solace in their shared relaxation, strengthening their bond. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.5>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]共同的放松中找到了慰藉，这让他们的联系更加紧密。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.5>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] reveled in their shared downtime, disconnecting from the harsh realities of their surroundings. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.6>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]陶醉于共同的休息时间，暂时逃离了周围残酷的现实。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.6>
+    <!-- EN: r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] escaped from their routines, finding solace and laughter in their shared pastime. -->
+    <RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.7>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]逃离了千篇一律的日常生活，在他们共同的消遣中寻找欢愉和慰藉。</RomanceOnTheRim_Interaction_GetJoyTogether.logRulesInitiator.rulesStrings.7>
+    
+    <!-- EN: RomanceOnTheRim-Kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.label>边缘爱情-接吻</RomanceOnTheRim_Interaction_Kiss.label>
+    <!-- EN: r_interaction(Kiss_type==Common)->[gentle_action], [gentle_kiss]. -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.0>r_interaction(Kiss_type==Common)->[gentle_action]，[gentle_kiss]。</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.0>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] wrapped [INITIATOR_possessive] arms around [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.1>gentle_action->[INITIATOR_nameDef]用[INITIATOR_possessive]手臂环住[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.1>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] softly caressed [RECIPIENT_nameDef]'s cheek -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.2>gentle_action->[INITIATOR_nameDef]轻轻地捧住[RECIPIENT_nameDef]的脸</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.2>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] tucked a loose strand of hair behind [RECIPIENT_nameDef]'s ear -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.3>gentle_action->[INITIATOR_nameDef]把一缕松散的头发拨到[RECIPIENT_nameDef]的耳朵后面</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.3>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] lightly traced the contours of [RECIPIENT_nameDef]'s face -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.4>gentle_action->[INITIATOR_nameDef]轻轻地描摹着[RECIPIENT_nameDef]的脸部轮廓</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.4>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] took [RECIPIENT_nameDef]'s hand into [INITIATOR_possessive] own -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.5>gentle_action->[INITIATOR_nameDef]将[RECIPIENT_nameDef]的手拉到自己手中</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.5>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] held [RECIPIENT_nameDef] close -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.6>gentle_action->[INITIATOR_nameDef]把[RECIPIENT_nameDef]拉近</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.6>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] gently lifted [RECIPIENT_nameDef]'s chin -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.7>gentle_action->[INITIATOR_nameDef]轻轻扬起[RECIPIENT_nameDef]的下巴</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.7>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] ran [INITIATOR_possessive] fingers through [RECIPIENT_nameDef]'s hair -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.8>gentle_action->[INITIATOR_nameDef]的手指穿过[RECIPIENT_nameDef]的头发</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.8>
+    <!-- EN: gentle_kiss->planting a warm kiss on [RECIPIENT_possessive] cheek -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.9>gentle_kiss->在[RECIPIENT_possessive]脸颊上留下一个温暖的吻</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.9>
+    <!-- EN: gentle_kiss->sealed a promise with a gentle kiss on [RECIPIENT_possessive] lips -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.10>gentle_kiss->在[RECIPIENT_possessive]唇上轻轻一吻，似乎留下了一个承诺</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.10>
+    <!-- EN: gentle_kiss->brushed [RECIPIENT_possessive] lips lightly with [INITIATOR_possessive] own -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.11>gentle_kiss->[RECIPIENT_possessive]嘴唇轻轻拂过[INITIATOR_possessive]唇间</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.11>
+    <!-- EN: gentle_kiss->leaning in to peck [RECIPIENT_objective] on the cheek -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.12>gentle_kiss->俯身在[RECIPIENT_possessive]脸颊上啄了一下</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.12>
+    <!-- EN: gentle_kiss->delivered a sweet peck on [RECIPIENT_possessive] forehead -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.13>gentle_kiss->在[RECIPIENT_possessive]额头上甜甜地啄了一下</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.13>
+    <!-- EN: gentle_kiss->planted a series of quick kisses on [RECIPIENT_possessive] face -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.14>gentle_kiss->快速地在[RECIPIENT_possessive]脸上亲了几下</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.14>
+    <!-- EN: gentle_kiss->stole a playful kiss from [RECIPIENT_objective] -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.15>gentle_kiss->偷偷地吻了一下[RECIPIENT_objective]</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.15>
+    <!-- EN: gentle_kiss->drawing [RECIPIENT_objective] into a slow, intense kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.16>gentle_kiss->把[RECIPIENT_objective]引入了一个缓慢而激烈的吻</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.16>
+    <!-- EN: r_interaction(Kiss_type==Romantic)->[passionate_action], [passionate_kissing]. -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.17>r_interaction(Kiss_type==Romantic)->[passionate_action]，[passionate_kissing]。</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.17>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] gripped [RECIPIENT_nameDef]'s waist firmly, pressing their bodies together -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.18>passionate_action->[INITIATOR_nameDef]紧紧搂住[RECIPIENT_nameDef]的腰部，将他们的身体压在一起</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.18>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] tugged [RECIPIENT_nameDef] closer by the belt loops -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.19>passionate_action->[INITIATOR_nameDef]拉住[RECIPIENT_nameDef]的皮扣让其靠近</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.19>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] backed [RECIPIENT_nameDef] against a wall -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.20>passionate_action->[INITIATOR_nameDef]将[RECIPIENT_nameDef]推靠在墙上</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.20>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] trapped [RECIPIENT_nameDef] in a heated gaze before pulling [RECIPIENT_objective] in -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.21>passionate_action->[INITIATOR_nameDef]将[RECIPIENT_nameDef]困在一个深情的目光中，缓缓拉近[RECIPIENT_objective]</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.21>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] slid [INITIATOR_possessive] hand around the nape of [RECIPIENT_nameDef]'s neck -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.22>passionate_action->[INITIATOR_nameDef]的手在[RECIPIENT_nameDef]的后颈上滑动</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.22>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] leaned into [RECIPIENT_nameDef], [INITIATOR_possessive] hand trailing up [RECIPIENT_possessive] back -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.23>passionate_action->[INITIATOR_nameDef]靠在[RECIPIENT_nameDef]身上，[INITIATOR_possessive]手在[RECIPIENT_possessive]后背游走</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.23>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] latched onto [RECIPIENT_nameDef]'s hand, spinning [RECIPIENT_objective] around -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.24>passionate_action->[INITIATOR_nameDef]攥住[RECIPIENT_nameDef]的手，让[RECIPIENT_objective]转了个身</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.24>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] jumped into [RECIPIENT_nameDef]'s embrace, catching [RECIPIENT_objective] off guard -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.25>passionate_action->[INITIATOR_nameDef]跳入[RECIPIENT_nameDef]的怀抱，让[RECIPIENT_objective]有些猝不及防</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.25>
+    <!-- EN: passionate_kissing->devoured [RECIPIENT_possessive] lips in a heated kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.26>passionate_kissing->在热吻中融化[RECIPIENT_possessive]嘴唇</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.26>
+    <!-- EN: passionate_kissing->pulled [RECIPIENT_objective] into a fervent kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.27>passionate_kissing->把[RECIPIENT_objective]拉进一个狂热的拥吻</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.27>
+    <!-- EN: passionate_kissing->explored [RECIPIENT_possessive] mouth with a passionate kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.28>passionate_kissing->热情地探索[RECIPIENT_possessive]嘴里的味道</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.28>
+    <!-- EN: passionate_kissing->their lips crashing together in a searing kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.29>passionate_kissing->他们的嘴唇在一个灼热的吻中碰撞在一起</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.29>
+    <!-- EN: passionate_kissing->sniffed the scent of [RECIPIENT_objective] greedily -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.30>passionate_kissing->贪婪地索取着[RECIPIENT_objective]的气息</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.30>
+    <!-- EN: passionate_kissing->grabbed [RECIPIENT_possessive] lower lip and bited it lightly -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.31>passionate_kissing->在[RECIPIENT_possessive]下唇瓣轻轻地咬了一下</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.31>
+    <!-- EN: passionate_kissing->puckered up and gave [RECIPIENT_objective] a big smooch -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.32>passionate_kissing->撅起嘴，给了[RECIPIENT_objective]一个大大的吻</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.32>
+    <!-- EN: passionate_kissing->shared an all-consuming, breath-stealing kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.33>passionate_kissing->和[RECIPIENT_objective]分享了一个全情投入的、令人窒息的吻</RomanceOnTheRim_Interaction_Kiss.logRulesInitiator.rulesStrings.33>
+    <!-- EN: r_interaction(Kiss_type==Common)->[gentle_action], [gentle_kiss][gentle_reaction]. -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.0>r_interaction(Kiss_type==Common)->[gentle_action]，[gentle_kiss][gentle_reaction]。</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.0>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] wrapped [INITIATOR_possessive] arms around [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.1>gentle_action->[INITIATOR_nameDef]用[INITIATOR_possessive]手臂环住[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.1>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] softly caressed [RECIPIENT_nameDef]'s cheek -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.2>gentle_action->[INITIATOR_nameDef]轻轻地捧住[RECIPIENT_nameDef]的脸</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.2>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] tucked a loose strand of hair behind [RECIPIENT_nameDef]'s ear -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.3>gentle_action->[INITIATOR_nameDef]把一缕松散的头发拨到[RECIPIENT_nameDef]的耳朵后面</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.3>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] lightly traced the contours of [RECIPIENT_nameDef]'s face -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.4>gentle_action->[INITIATOR_nameDef]轻轻地描摹着[RECIPIENT_nameDef]的脸部轮廓</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.4>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] took [RECIPIENT_nameDef]'s hand into [INITIATOR_possessive] own -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.5>gentle_action->[INITIATOR_nameDef]将[RECIPIENT_nameDef]的手拉到自己手中</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.5>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] held [RECIPIENT_nameDef] close -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.6>gentle_action->[INITIATOR_nameDef]把[RECIPIENT_nameDef]拉近</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.6>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] gently lifted [RECIPIENT_nameDef]'s chin -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.7>gentle_action->[INITIATOR_nameDef]轻轻扬起[RECIPIENT_nameDef]的下巴</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.7>
+    <!-- EN: gentle_action->[INITIATOR_nameDef] ran [INITIATOR_possessive] fingers through [RECIPIENT_nameDef]'s hair -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.8>gentle_action->[INITIATOR_nameDef]的手指穿过[RECIPIENT_nameDef]的头发</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.8>
+    <!-- EN: gentle_kiss->planting a warm kiss on [RECIPIENT_possessive] cheek -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.9>gentle_kiss->在[RECIPIENT_possessive]脸颊上留下一个温暖的吻</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.9>
+    <!-- EN: gentle_kiss->sealed a promise with a gentle kiss on [RECIPIENT_possessive] lips -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.10>gentle_kiss->在[RECIPIENT_possessive]唇上轻轻一吻，似乎留下了一个承诺</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.10>
+    <!-- EN: gentle_kiss->brushed [RECIPIENT_possessive] lips lightly with [INITIATOR_possessive] own -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.11>gentle_kiss->[RECIPIENT_possessive]嘴唇轻轻拂过[INITIATOR_possessive]唇间</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.11>
+    <!-- EN: gentle_kiss->leaning in to peck [RECIPIENT_objective] on the cheek -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.12>gentle_kiss->俯身在[RECIPIENT_possessive]脸颊上啄了一下</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.12>
+    <!-- EN: gentle_kiss->delivered a sweet peck on [RECIPIENT_possessive] forehead -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.13>gentle_kiss->在[RECIPIENT_possessive]额头上甜甜地啄了一下</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.13>
+    <!-- EN: gentle_kiss->planted a series of quick kisses on [RECIPIENT_possessive] face -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.14>gentle_kiss->快速地在[RECIPIENT_possessive]脸上亲了几下</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.14>
+    <!-- EN: gentle_kiss->stole a playful kiss from [RECIPIENT_objective] -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.15>gentle_kiss->偷偷地吻了一下[RECIPIENT_objective]</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.15>
+    <!-- EN: gentle_kiss->drawing [RECIPIENT_objective] into a slow, intense kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.16>gentle_kiss->把[RECIPIENT_objective]引入了一个缓慢而激烈的吻</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.16>
+    <!-- EN: gentle_reaction->. [RECIPIENT_nameDef]'s heart skipped a beat -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.17>gentle_reaction->。[RECIPIENT_nameDef]的心好像停跳了一拍</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.17>
+    <!-- EN: gentle_reaction->, a moment of pure tenderness that made [RECIPIENT_nameDef]'s heart swell -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.18>gentle_reaction->，这种纯粹的温柔的时刻，让[RECIPIENT_nameDef]的心有些融化</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.18>
+    <!-- EN: gentle_reaction->. [RECIPIENT_nameDef] shivered with pleasure and anticipation -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.19>gentle_reaction->。[RECIPIENT_nameDef]因高兴和期待而颤抖</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.19>
+    <!-- EN: gentle_reaction->. [RECIPIENT_nameDef] heard [INITIATOR_possessive] heart beating faster -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.20>gentle_reaction->。[RECIPIENT_nameDef]听到[INITIATOR_possessive]心跳明显地加快</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.20>
+    <!-- EN: gentle_reaction->. [RECIPIENT_nameDef] felt a rush of warmth spreading through [RECIPIENT_objective] -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.21>gentle_reaction->。[RECIPIENT_nameDef]感觉一股热流在[RECIPIENT_objective]身上蔓延开来</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.21>
+    <!-- EN: gentle_reaction->, leaving [RECIPIENT_nameDef] laughing and breathless -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.22>gentle_reaction->，让[RECIPIENT_nameDef]高兴又有些呼吸困难</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.22>
+    <!-- EN: gentle_reaction-> that made [RECIPIENT_nameDef] feel cherished and loved -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.23>gentle_reaction->，让[RECIPIENT_nameDef]感受到被珍视和爱</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.23>
+    <!-- EN: gentle_reaction->, a blush creep onto [RECIPIENT_nameDef]'s cheeks -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.24>gentle_reaction->，一抹红晕爬上[RECIPIENT_nameDef]的脸颊</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.24>
+    <!-- EN: r_interaction(Kiss_type==Romantic)->[passionate_action], [passionate_kissing][passionate_reaction]. -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.25>r_interaction(Kiss_type==Romantic)->[passionate_action]，[passionate_kissing][passionate_reaction]。</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.25>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] gripped [RECIPIENT_nameDef]'s waist firmly, pressing their bodies together -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.26>passionate_action->[INITIATOR_nameDef]紧紧搂住[RECIPIENT_nameDef]的腰部，将他们的身体压在一起</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.26>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] tugged [RECIPIENT_nameDef] closer by the belt loops -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.27>passionate_action->[INITIATOR_nameDef]拉住[RECIPIENT_nameDef]的皮扣让其靠近</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.27>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] backed [RECIPIENT_nameDef] against a wall -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.28>passionate_action->[INITIATOR_nameDef]将[RECIPIENT_nameDef]推靠在墙上</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.28>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] trapped [RECIPIENT_nameDef] in a heated gaze before pulling [RECIPIENT_objective] in -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.29>passionate_action->[INITIATOR_nameDef]将[RECIPIENT_nameDef]困在一个深情的目光中，缓缓拉近[RECIPIENT_objective]</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.29>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] slid [INITIATOR_possessive] hand around the nape of [RECIPIENT_nameDef]'s neck -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.30>passionate_action->[INITIATOR_nameDef]的手在[RECIPIENT_nameDef]的后颈上滑动</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.30>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] leaned into [RECIPIENT_nameDef], [INITIATOR_possessive] hand trailing up [RECIPIENT_possessive] back -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.31>passionate_action->[INITIATOR_nameDef]靠在[RECIPIENT_nameDef]身上，[INITIATOR_possessive]手在[RECIPIENT_possessive]后背游走</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.31>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] latched onto [RECIPIENT_nameDef]'s hand, spinning [RECIPIENT_objective] around -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.32>passionate_action->[INITIATOR_nameDef]攥住[RECIPIENT_nameDef]的手，让[RECIPIENT_objective]转了个身</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.32>
+    <!-- EN: passionate_action->[INITIATOR_nameDef] jumped into [RECIPIENT_nameDef]'s embrace, catching [RECIPIENT_objective] off guard -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.33>passionate_action->[INITIATOR_nameDef]跳入[RECIPIENT_nameDef]的怀抱，让[RECIPIENT_objective]有些猝不及防</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.33>
+    <!-- EN: passionate_kissing->devoured [RECIPIENT_possessive] lips in a heated kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.34>passionate_kissing->在热吻中融化[RECIPIENT_possessive]嘴唇</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.34>
+    <!-- EN: passionate_kissing->pulled [RECIPIENT_objective] into a fervent kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.35>passionate_kissing->把[RECIPIENT_objective]拉进一个狂热的拥吻</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.35>
+    <!-- EN: passionate_kissing->explored [RECIPIENT_possessive] mouth with a passionate kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.36>passionate_kissing->热情地探索[RECIPIENT_pronoun]嘴里的味道</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.36>
+    <!-- EN: passionate_kissing->their lips crashing together in a searing kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.37>passionate_kissing->他们的嘴唇在一个灼热的吻中碰撞在一起</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.37>
+    <!-- EN: passionate_kissing->sniffed the scent of [RECIPIENT_objective] greedily -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.38>passionate_kissing->贪婪地索取着[RECIPIENT_objective]的气息</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.38>
+    <!-- EN: passionate_kissing->grabbed [RECIPIENT_possessive] lower lip and bited it lightly -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.39>passionate_kissing->在[RECIPIENT_possessive]下唇瓣轻轻地咬了一下</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.39>
+    <!-- EN: passionate_kissing->puckered up and gave [RECIPIENT_objective] a big smooch -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.40>passionate_kissing->撅起嘴，给了[RECIPIENT_objective]一个大大的吻</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.40>
+    <!-- EN: passionate_kissing->shared an all-consuming, breath-stealing kiss -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.41>passionate_kissing->和[RECIPIENT_objective]分享了一个全情投入的、令人窒息的吻</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.41>
+    <!-- EN: passionate_reaction->, until [RECIPIENT_nameDef] can't breathe and pushed [INITIATOR_objective] away gently -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.42>passionate_reaction->，直到[RECIPIENT_nameDef]感到呼吸困难，轻轻地推开了[INITIATOR_objective]</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.42>
+    <!-- EN: passionate_reaction->, which [RECIPIENT_nameDef] returned fervently -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.43>passionate_reaction->，[RECIPIENT_nameDef]狂热地回应</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.43>
+    <!-- EN: passionate_reaction->, sparking a wlid desire in their hearts -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.44>passionate_reaction->，他们的心中燃起了狂野的火</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.44>
+    <!-- EN: passionate_reaction->, which elicited a content sigh from [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.45>passionate_reaction->，[RECIPIENT_nameDef]满足地叹息起来</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.45>
+    <!-- EN: passionate_reaction->. [RECIPIENT_nameDef]'s heart thundered in response to the passion -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.46>passionate_reaction->。[RECIPIENT_nameDef]的心脏因激情而擂响</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.46>
+    <!-- EN: passionate_reaction-> that left [RECIPIENT_nameDef] weak in the knees -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.47>passionate_reaction->，让[RECIPIENT_nameDef]的膝盖有些发软</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.47>
+    <!-- EN: passionate_reaction->, after which [RECIPIENT_pronoun] licked [INITIATOR_possessive] lips contentedly -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.48>passionate_reaction->，之后[RECIPIENT_pronoun]满足地舔了舔[INITIATOR_possessive]嘴唇</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.48>
+    <!-- EN: passionate_reaction->, sending a rush of adrenaline coursing through them -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.49>passionate_reaction->，使他们的肾上腺素激增</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.49>
+    <!-- EN: passionate_reaction->, making [RECIPIENT_nameDef] feel as though they were floating on air -->
+    <RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.50>passionate_reaction->，让[RECIPIENT_nameDef]感觉自己在云端漂浮</RomanceOnTheRim_Interaction_Kiss.logRulesRecipient.rulesStrings.50>
+    
+    <!-- EN: RomanceOnTheRim-Musical performance -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.label>边缘爱情-音乐演奏</RomanceOnTheRim_Interaction_MusicPerformance.label>
+    <!-- EN: r_interaction->[performance_desc]. -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.0>r_interaction->[performance_desc]。</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.0>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] recreated some golden oldies for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.1>performance_desc->[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏了一些经典老歌</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.1>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] played a hometown tune for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.2>performance_desc->[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏了一段家乡的小调</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.2>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] shared [INITIATOR_possessive] favorite songs with [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.3>performance_desc->[INITIATOR_nameDef]和[RECIPIENT_nameDef]分享了[INITIATOR_pronoun]最喜欢的歌曲</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.3>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] played a melody in [INITIATOR_possessive] dream for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.4>performance_desc->[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏了一段梦到的旋律</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.4>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] performed an improvised solo for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.5>performance_desc->[INITIATOR_nameDef]给[RECIPIENT_nameDef]来了次即兴表演</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.5>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] strummed a romantic ballad for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.6>performance_desc->[INITIATOR_nameDef]给[RECIPIENT_nameDef]弹奏了一曲浪漫的民谣</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.6>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] composed a heartfelt song dedicated to [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.7>performance_desc->[INITIATOR_nameDef]创作了一首感情真挚的歌曲，献给[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.7>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] filled the room with soothing melodies for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.8>performance_desc->房间里回荡着[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏的舒缓旋律</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.8>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] showcased [INITIATOR_possessive] talent by playing a complex piece for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.9>performance_desc->[INITIATOR_nameDef]向[RECIPIENT_nameDef]展示[INITIATOR_possessive]才华，演奏了一段复合乐章</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.9>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] played a nostalgic song that reminded [RECIPIENT_nameDef] of their past -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.10>performance_desc->[INITIATOR_nameDef]演奏了一首怀旧歌曲，让[RECIPIENT_nameDef]想起了过去的日子</RomanceOnTheRim_Interaction_MusicPerformance.logRulesInitiator.rulesStrings.10>
+    <!-- EN: r_interaction->[performance_desc]. [reaction_desc]. -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.0>r_interaction->[performance_desc]，[reaction_desc]。</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.0>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] recreated some golden oldies for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.1>performance_desc->[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏了一些经典老歌</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.1>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] played a hometown tune for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.2>performance_desc->[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏了一段家乡的小调</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.2>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] shared [INITIATOR_possessive] favorite songs with [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.3>performance_desc->[INITIATOR_nameDef]和[RECIPIENT_nameDef]分享了[INITIATOR_pronoun]最喜欢的歌曲</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.3>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] played a melody in [INITIATOR_possessive] dream for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.4>performance_desc->[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏了一段梦到的旋律</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.4>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] performed an improvised solo for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.5>performance_desc->[INITIATOR_nameDef]给[RECIPIENT_nameDef]来了次即兴表演</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.5>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] strummed a romantic ballad for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.6>performance_desc->[INITIATOR_nameDef]给[RECIPIENT_nameDef]弹奏了一曲浪漫的民谣</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.6>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] composed a heartfelt song dedicated to [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.7>performance_desc->[INITIATOR_nameDef]创作了一首感情真挚的歌曲，献给[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.7>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] filled the room with soothing melodies for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.8>performance_desc->房间里回荡着[INITIATOR_nameDef]为[RECIPIENT_nameDef]演奏的舒缓旋律</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.8>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] showcased [INITIATOR_possessive] talent by playing a complex piece for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.9>performance_desc->[INITIATOR_nameDef]向[RECIPIENT_nameDef]展示[INITIATOR_possessive]才华，演奏了一段复合乐章</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.9>
+    <!-- EN: performance_desc->[INITIATOR_nameDef] played a nostalgic song that reminded [RECIPIENT_nameDef] of their past -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.10>performance_desc->[INITIATOR_nameDef]演奏了一首怀旧歌曲，让[RECIPIENT_nameDef]想起了过去的日子</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.10>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] shut [RECIPIENT_possessive] eyes and listened quietly -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.11>reaction_desc->[RECIPIENT_nameDef]闭上了[RECIPIENT_possessive]眼睛，静静地听着</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.11>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] stared at [INITIATOR_nameDef]'s face -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.12>reaction_desc->[RECIPIENT_nameDef]盯着[INITIATOR_nameDef]认真的脸庞</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.12>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] swayed gently to the rhythm -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.13>reaction_desc->[RECIPIENT_nameDef]随着节奏缓缓摇摆</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.13>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] clapped enthusiastically after each song -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.14>reaction_desc->[RECIPIENT_nameDef]在每首歌结束后热情地鼓掌</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.14>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] sang along with a smile on [RECIPIENT_possessive] face -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.15>reaction_desc->[RECIPIENT_nameDef]在一旁跟着哼唱，[RECIPIENT_possessive]脸上洋溢着笑容</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.15>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] tapped [RECIPIENT_possessive] foot in sync with the beat -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.16>reaction_desc->[RECIPIENT_nameDef]用脚同步地打着节拍</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.16>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] got lost in the music, forgetting everything else -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.17>reaction_desc->[RECIPIENT_nameDef]迷失在音乐中，忘记了其他</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.17>
+    <!-- EN: reaction_desc->[RECIPIENT_nameDef] wiped away a tear, touched by the performance -->
+    <RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.18>reaction_desc->[RECIPIENT_nameDef]拭去感动而落下的泪水</RomanceOnTheRim_Interaction_MusicPerformance.logRulesRecipient.rulesStrings.18>
+    
+    <!-- EN: RomanceOnTheRim-Pillow talk -->
+    <RomanceOnTheRim_Interaction_PillowTalk.label>边缘爱情-枕边对话</RomanceOnTheRim_Interaction_PillowTalk.label>
+    <!-- EN: r_interaction(p=0.5)->[INITIATOR_nameDef] and [RECIPIENT_nameDef] had a pillow talk about [TalkTopicAny]. -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.0>r_interaction(p=0.5)->[INITIATOR_nameDef]和[RECIPIENT_nameDef]睡前聊了聊[TalkTopicAny]。</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.0>
+    <!-- EN: r_interaction(p=1.5)->[gesture_desc]. [topic_and_reaction]. -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.1>r_interaction(p=1.5)->[gesture_desc]。 [topic_and_reaction]。</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.1>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] wrapped [INITIATOR_possessive] arm around [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.2>gesture_desc->[INITIATOR_nameDef]的手臂环着[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.2>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] leaned [INITIATOR_possessive] head against [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.3>gesture_desc->[INITIATOR_nameDef]把[INITIATOR_possessive]头靠向[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.3>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] draped [INITIATOR_possessive] thigh over [RECIPIENT_nameDef]'s -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.4>gesture_desc->[INITIATOR_nameDef]把[INITIATOR_possessive]腿搭向[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.4>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] rested [INITIATOR_possessive] hand on [RECIPIENT_nameDef]'s chest -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.5>gesture_desc->[INITIATOR_nameDef]把[INITIATOR_possessive]手枕在[RECIPIENT_nameDef]胸前</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.5>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] played footsie under the covers with [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.6>gesture_desc->[INITIATOR_nameDef]在被子下碰了碰[RECIPIENT_nameDef]的脚</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.6>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] brushed [INITIATOR_possessive] lips against [RECIPIENT_nameDef]'s shoulder -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.7>gesture_desc->[INITIATOR_nameDef]的嘴唇拂过[RECIPIENT_nameDef]的肩膀</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.7>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] ran [INITIATOR_possessive] fingers up and down [RECIPIENT_nameDef]'s arm -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.8>gesture_desc->[INITIATOR_nameDef]的手指在[RECIPIENT_nameDef]的手臂上来回</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.8>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] nestled [INITIATOR_objective]self into the crook of [RECIPIENT_nameDef]'s arm -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.9>gesture_desc->[INITIATOR_nameDef]依偎在[RECIPIENT_nameDef]的臂弯里</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.9>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] intertwined [INITIATOR_possessive] fingers with [RECIPIENT_nameDef]'s -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.10>gesture_desc->[INITIATOR_nameDef]与[RECIPIENT_nameDef]十指相扣</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.10>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] nuzzled [INITIATOR_possessive] face into [RECIPIENT_nameDef]'s neck -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.11>gesture_desc->[INITIATOR_nameDef]用脸蹭了蹭[RECIPIENT_nameDef]的脖子</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.11>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] pulled up the blanket -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.12>gesture_desc->[INITIATOR_nameDef]拉了拉被子</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.12>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] rolled over in bed -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.13>gesture_desc->[INITIATOR_nameDef]在床上翻了个身</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.13>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] clasped [RECIPIENT_nameDef] to [INITIATOR_objective] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.14>gesture_desc->[INITIATOR_nameDef]把[RECIPIENT_nameDef]搂向[INITIATOR_objective]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.14>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] smoothed [RECIPIENT_nameDef]'s hair away from [RECIPIENT_possessive] face -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.15>gesture_desc->[INITIATOR_nameDef]将[RECIPIENT_nameDef]脸上的发丝拨开</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.15>
+    <!-- EN: gesture_desc->[INITIATOR_nameDef] and [RECIPIENT_nameDef] stretched out and gazed at the ceiling -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.16>gesture_desc->[INITIATOR_nameDef]和[RECIPIENT_nameDef]伸展身体，凝望着天花板</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.16>
+    <!-- EN: topic_and_reaction->[topic_question]. [question_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.17>topic_and_reaction->[topic_question]。[question_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.17>
+    <!-- EN: topic_question->[INITIATOR_pronoun] asked about [RECIPIENT_nameDef]'s childhood -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.18>topic_question->[INITIATOR_pronoun]问了[RECIPIENT_nameDef]一些关于童年的事</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.18>
+    <!-- EN: topic_question->[INITIATOR_pronoun] was curious about [RECIPIENT_possessive] dreams for the future -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.19>topic_question->[INITIATOR_pronoun]对[RECIPIENT_possessive]梦想很好奇</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.19>
+    <!-- EN: topic_question->[INITIATOR_pronoun] asked [RECIPIENT_nameDef] what [RECIPIENT_pronoun] missed most in [RECIPIENT_possessive] past -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.20>topic_question->[INITIATOR_pronoun]询问[RECIPIENT_nameDef][RECIPIENT_pronoun]最怀念的事物</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.20>
+    <!-- EN: topic_question->[INITIATOR_pronoun] was curious about [RECIPIENT_nameDef]'s favorite part of the day -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.21>topic_question->[INITIATOR_pronoun]好奇[RECIPIENT_nameDef]最喜欢一天中的哪个部分</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.21>
+    <!-- EN: topic_question->[INITIATOR_pronoun] asked [RECIPIENT_nameDef] if [RECIPIENT_pronoun] had any regrets since leaving home -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.22>topic_question->[INITIATOR_pronoun]问了[RECIPIENT_nameDef][RECIPIENT_pronoun]离开家乡后有没有什么遗憾</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.22>
+    <!-- EN: topic_question->[INITIATOR_pronoun] wondered what [RECIPIENT_nameDef]'s dream base layout would look like -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.23>topic_question->[INITIATOR_pronoun]想知道[RECIPIENT_nameDef]的梦想基地布局是什么样子的</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.23>
+    <!-- EN: topic_question->[INITIATOR_pronoun] wondered if [RECIPIENT_nameDef] thought their child would be more like [INITIATOR_nameDef] or [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.24>topic_question->[INITIATOR_pronoun]问[RECIPIENT_nameDef]觉得他们的孩子会更像[INITIATOR_nameDef]还是[RECIPIENT_nameDef]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.24>
+    <!-- EN: topic_question->[INITIATOR_pronoun] asked [RECIPIENT_nameDef] how [RECIPIENT_pronoun] coped with the isolation of life on the rimworld -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.25>topic_question->[INITIATOR_pronoun]与[RECIPIENT_nameDef]探讨如何应对边缘世界的孤独生活</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.25>
+    <!-- EN: topic_question->[INITIATOR_pronoun] asked [RECIPIENT_nameDef] how [RECIPIENT_pronoun] handled stress during a raid -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.26>topic_question->[INITIATOR_pronoun]向[RECIPIENT_nameDef]询问[RECIPIENT_pronoun]如何处理突袭中的压力</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.26>
+    <!-- EN: topic_question->[INITIATOR_pronoun] inquired about [RECIPIENT_nameDef]'s hopes for the future of their colony -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.27>topic_question->[INITIATOR_pronoun]询问了[RECIPIENT_nameDef]对殖民地未来的希望</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.27>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] fell silent for a moment, then gave [INITIATOR_objective] a detailed answer -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.28>question_reaction->[RECIPIENT_nameDef]沉默了一会儿，然后给了[INITIATOR_objective]一个详细的答案</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.28>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] grinned and teased [INITIATOR_objective] before giving a serious response -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.29>question_reaction->[RECIPIENT_nameDef]咧嘴一笑，逗弄了[INITIATOR_objective]一番后认真地回答了问题</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.29>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] blushed, but responded honestly to [INITIATOR_possessive] question -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.30>question_reaction->[RECIPIENT_nameDef]有些脸红，但对[INITIATOR_possessive]问题做出了诚实的回应</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.30>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] smiled warmly, eagerly sharing [RECIPIENT_possessive] perspective -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.31>question_reaction->[RECIPIENT_nameDef]温和地笑了笑，热情分享[RECIPIENT_possessive]观点</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.31>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] sighed and shared [RECIPIENT_possessive] feelings openly with [INITIATOR_objective] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.32>question_reaction->[RECIPIENT_nameDef]叹了口气，与[INITIATOR_objective]开诚布公地聊了聊[RECIPIENT_possessive]感受</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.32>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] smirked, teasingly asking why [INITIATOR_pronoun] wanted to know -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.33>question_reaction->[RECIPIENT_nameDef]笑了笑，揶揄地问[INITIATOR_pronoun]为什么想知道</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.33>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] smiled, touched by [INITIATOR_possessive] curiosity -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.34>question_reaction->[RECIPIENT_nameDef]笑了，被[INITIATOR_possessive]好奇心打动</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.34>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] nodded thoughtfully, taking [INITIATOR_possessive] question seriously before responding -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.35>question_reaction->[RECIPIENT_nameDef]若有所思地点头，认真考虑了[INITIATOR_possessive]问题后再做出回应</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.35>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] listened carefully and shared [RECIPIENT_possessive] thoughts -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.36>question_reaction->[RECIPIENT_nameDef]仔细地听着并分享了[RECIPIENT_possessive]想法</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.36>
+    <!-- EN: question_reaction->[RECIPIENT_nameDef] whispered in [INITIATOR_possessive] ear -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.37>question_reaction->[RECIPIENT_nameDef]在[INITIATOR_possessive]耳边低语了几句</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.37>
+    <!-- EN: topic_and_reaction(p=1.5)->[topic_confession] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.38>topic_and_reaction(p=1.5)->[topic_confession]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.38>
+    <!-- EN: topic_confession->[subtopic_confession_admiration] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.39>topic_confession->[subtopic_confession_admiration]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.39>
+    <!-- EN: subtopic_confession_admiration->[confession_admiration]. [confession_admiration_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.40>subtopic_confession_admiration->[confession_admiration]。[confession_admiration_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.40>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] expressed appreciation for [RECIPIENT_nameDef]'s unwavering support and kindness -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.41>confession_admiration->[INITIATOR_pronoun]对[RECIPIENT_nameDef]不断的支持和善意表示感激</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.41>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] thanked [RECIPIENT_nameDef] for [RECIPIENT_possessive] constant companionship in their isolated life -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.42>confession_admiration->[INITIATOR_pronoun]感谢了[RECIPIENT_nameDef]在孤独生活中的坚定陪伴</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.42>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] thanked [RECIPIENT_nameDef] for always making [INITIATOR_objective] smile even on the hardest days -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.43>confession_admiration->[INITIATOR_pronoun]感谢了[RECIPIENT_nameDef]总能在最艰难的日子里让[INITIATOR_objective]保持欢笑</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.43>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] acknowledged [RECIPIENT_nameDef]'s sacrifice and hard work for their survival -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.44>confession_admiration->[INITIATOR_pronoun]承认[RECIPIENT_nameDef]为他们的生存所做的牺牲和努力</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.44>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] told [RECIPIENT_nameDef] how much [INITIATOR_pronoun] valued [RECIPIENT_possessive] courage and commitment in their harsh life -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.45>confession_admiration->[INITIATOR_pronoun]告诉[RECIPIENT_nameDef][INITIATOR_pronoun]珍视[RECIPIENT_pronoun]在艰苦生活中展现的勇气和担当</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.45>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] confessed [INITIATOR_pronoun] couldn't help but admire [RECIPIENT_nameDef]'s bravery and determination -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.46>confession_admiration->[INITIATOR_pronoun]坦白[INITIATOR_pronoun]欣赏[RECIPIENT_nameDef]的勇敢和决心</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.46>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] told [RECIPIENT_nameDef] how much [INITIATOR_pronoun] admired [RECIPIENT_possessive] skills and knowledge -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.47>confession_admiration->[INITIATOR_pronoun]告诉[RECIPIENT_nameDef][INITIATOR_pronoun]有多么欣赏[RECIPIENT_possessive]技能和知识</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.47>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] spoke of [INITIATOR_possessive] deep admiration for [RECIPIENT_nameDef]'s resilience and adaptability -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.48>confession_admiration->[INITIATOR_pronoun]表达了[INITIATOR_pronoun]对[RECIPIENT_nameDef]的坚韧和适应性的深深钦佩</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.48>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] admitted to [RECIPIENT_nameDef] that [INITIATOR_pronoun] looked up to [RECIPIENT_objective] in many ways -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.49>confession_admiration->[INITIATOR_pronoun]向[RECIPIENT_nameDef]承认[INITIATOR_pronoun]在许多方面都仰慕[RECIPIENT_objective]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.49>
+    <!-- EN: confession_admiration->[INITIATOR_pronoun] revealed [INITIATOR_pronoun] was always impressed by [RECIPIENT_nameDef]'s optimism and positivity -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.50>confession_admiration->[INITIATOR_pronoun]透露[INITIATOR_pronoun]始终被[RECIPIENT_nameDef]的乐观和积极所深深打动</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.50>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] blushed, clearly touched by [INITIATOR_possessive] words -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.51>confession_admiration_reaction->[RECIPIENT_nameDef]脸红起来，显然被[INITIATOR_possessive]话语所感动</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.51>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] looked at [INITIATOR_objective] with surprised appreciation, speechless for a moment -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.52>confession_admiration_reaction->[RECIPIENT_nameDef]吃惊地看着[INITIATOR_objective]，一时说不出话来</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.52>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] smiled, obviously moved by [INITIATOR_possessive] expression of admiration -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.53>confession_admiration_reaction->[RECIPIENT_nameDef]微笑，被[INITIATOR_possessive]赞美所感动</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.53>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] chuckled, clearly pleased by [INITIATOR_possessive] confession of appreciation -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.54>confession_admiration_reaction->[RECIPIENT_nameDef]开心地笑了出来，对[INITIATOR_possessive]赞赏感到十分高兴</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.54>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] looked deeply into [INITIATOR_possessive] eyes, gratitude shining in [RECIPIENT_possessive] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.55>confession_admiration_reaction->[RECIPIENT_nameDef]与[INITIATOR_pronoun]深深地对视，感激之情在[RECIPIENT_possessive]眼睛中闪耀</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.55>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] was caught off guard, but a warm smile spread across [RECIPIENT_possessive] face -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.56>confession_admiration_reaction->[RECIPIENT_nameDef]有些措手不及，但[RECIPIENT_possessive]脸上还是展开了温暖的笑容</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.56>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] laughed softly, a sparkle in [RECIPIENT_possessive] eyes that spoke volumes -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.57>confession_admiration_reaction->[RECIPIENT_nameDef]轻轻地笑了，[RECIPIENT_possessive]眼中闪耀的光芒胜过千言万语</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.57>
+    <!-- EN: confession_admiration_reaction->[RECIPIENT_nameDef] squeezed [INITIATOR_possessive] hand in silent appreciation -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.58>confession_admiration_reaction->[RECIPIENT_nameDef]默默地紧握了[INITIATOR_possessive]手</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.58>
+    <!-- EN: topic_confession->[subtopic_confession_fear] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.59>topic_confession->[subtopic_confession_fear]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.59>
+    <!-- EN: subtopic_confession_fear->[confession_fear]. [confession_fear_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.60>subtopic_confession_fear->[confession_fear]。[confession_fear_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.60>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] confessed to [RECIPIENT_nameDef] [INITIATOR_possessive] fear of the unknown future on the rimworld -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.61>confession_fear->[INITIATOR_pronoun]向[RECIPIENT_nameDef]坦白了[INITIATOR_pronoun]对边缘世界未知未来的恐惧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.61>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] shared with [RECIPIENT_nameDef] [INITIATOR_possessive] anxiety about the dangers lurking outside their settlement -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.62>confession_fear->[INITIATOR_pronoun]向[RECIPIENT_nameDef]分享了[INITIATOR_pronoun]对可能潜伏在他们定居点外的危险的焦虑</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.62>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] admitted to [RECIPIENT_nameDef] that [INITIATOR_pronoun] was terrified of losing [RECIPIENT_objective] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.63>confession_fear->[INITIATOR_pronoun]对[RECIPIENT_nameDef]承认惧怕失去[RECIPIENT_objective]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.63>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] revealed to [RECIPIENT_nameDef] [INITIATOR_possessive] deep-seated fear of failing the colony -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.64>confession_fear->[INITIATOR_pronoun]向[RECIPIENT_nameDef]透露了[INITIATOR_pronoun]对搞砸殖民地的深层恐惧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.64>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] confided in [RECIPIENT_nameDef] about [INITIATOR_possessive] dread of dying alone on this strange planet -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.65>confession_fear->[INITIATOR_pronoun]对[RECIPIENT_nameDef]倾诉了[INITIATOR_pronoun]惧怕于在这个陌生的星球上孤独死去</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.65>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] shared [INITIATOR_possessive] self-doubt about [INITIATOR_possessive] skills and abilities with [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.66>confession_fear->[INITIATOR_pronoun]与[RECIPIENT_nameDef]分享了[INITIATOR_pronoun]对自身技能和能力的自我怀疑</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.66>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] voiced [INITIATOR_possessive] worry to [RECIPIENT_nameDef] about being a burden to the others -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.67>confession_fear->[INITIATOR_pronoun]向[RECIPIENT_nameDef]表达了[INITIATOR_pronoun]担忧成为他人的负担</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.67>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] admitted [INITIATOR_possessive] insecurity about [INITIATOR_possessive] past mistakes to [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.68>confession_fear->[INITIATOR_pronoun]向[RECIPIENT_nameDef]承认了[INITIATOR_pronoun]对之前所犯错误的不安</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.68>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] confessed [INITIATOR_possessive] concern to [RECIPIENT_nameDef] about not having enough resources for everyone -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.69>confession_fear->[INITIATOR_pronoun]对[RECIPIENT_nameDef]坦陈对资源不够供所有人使用的担忧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.69>
+    <!-- EN: confession_fear->[INITIATOR_pronoun] revealed to [RECIPIENT_nameDef] [INITIATOR_possessive] insecurities about fitting in with the group -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.70>confession_fear->[INITIATOR_pronoun]向[RECIPIENT_nameDef]透露了对不能融入团体的不安</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.70>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] listened quietly, squeezing [INITIATOR_possessive] hand in silent support -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.71>confession_fear_reaction->[RECIPIENT_nameDef]安静地倾听，默默地握住[INITIATOR_possessive]手，表示支持</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.71>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] hugged [INITIATOR_objective], whispering words of comfort and reassurance -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.72>confession_fear_reaction->[RECIPIENT_nameDef]抱了抱[INITIATOR_objective]，低声说出安慰和安抚的话语</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.72>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] touched [INITIATOR_possessive] face gently, promising to face their fears together -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.73>confession_fear_reaction->[RECIPIENT_nameDef]轻轻碰了碰[INITIATOR_possessive]脸，承诺一起面对他们的恐惧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.73>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] nodded understandingly, assuring [INITIATOR_objective] that [RECIPIENT_pronoun] was there for [INITIATOR_objective] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.74>confession_fear_reaction->[RECIPIENT_nameDef]理解地点了点头，向[INITIATOR_objective]保证[RECIPIENT_pronoun]会一直陪伴在[INITIATOR_objective]身边</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.74>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] listened in silence, a sympathetic look in [RECIPIENT_possessive] eyes -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.75>confession_fear_reaction->[RECIPIENT_nameDef]静静地听着，[RECIPIENT_possessive]眼中充满了同情</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.75>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] wrapped [RECIPIENT_possessive] arms around [INITIATOR_nameDef], providing a sense of safety -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.76>confession_fear_reaction->[RECIPIENT_nameDef]用[RECIPIENT_possessive]手臂环住了[INITIATOR_nameDef]，给了[INITIATOR_objective]一些安全感</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.76>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] cradled [INITIATOR_nameDef] in [RECIPIENT_possessive] arms, offering soothing words -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.77>confession_fear_reaction->[RECIPIENT_nameDef]将[INITIATOR_nameDef]紧紧地抱在的怀里，用言语安抚[INITIATOR_objective]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.77>
+    <!-- EN: confession_fear_reaction->[RECIPIENT_nameDef] reassured [INITIATOR_nameDef] with a tender kiss on the forehead -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.78>confession_fear_reaction->[RECIPIENT_nameDef]吻了吻[INITIATOR_nameDef]的额头，说一切都会没事的</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.78>
+    <!-- EN: topic_confession->[subtopic_confession_mistake] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.79>topic_confession->[subtopic_confession_mistake]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.79>
+    <!-- EN: subtopic_confession_mistake->[confession_mistake_lesson]. [confession_mistake_lesson_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.80>subtopic_confession_mistake->[confession_mistake_lesson]。[confession_mistake_lesson_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.80>
+    <!-- EN: subtopic_confession_mistake->[confession_mistake_reflection]. [confession_mistake_reflection_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.81>subtopic_confession_mistake->[confession_mistake_reflection]。[confession_mistake_reflection_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.81>
+    <!-- EN: confession_mistake_lesson->[INITIATOR_pronoun] admitted to [RECIPIENT_nameDef] [INITIATOR_possessive] mistake of not learning enough survival skills before the crash -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.82>confession_mistake_lesson->[INITIATOR_pronoun]对[RECIPIENT_nameDef]承认了[INITIATOR_pronoun]在迫降前没有学习足够的生存技能的错误</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.82>
+    <!-- EN: confession_mistake_lesson->[INITIATOR_pronoun] shared with [RECIPIENT_nameDef] [INITIATOR_possessive] guilt over a failed mission in the past -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.83>confession_mistake_lesson->[INITIATOR_pronoun]与[RECIPIENT_nameDef]分享了之前一次任务失败的内疚</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.83>
+    <!-- EN: confession_mistake_lesson->[INITIATOR_pronoun] voiced [INITIATOR_possessive] grief to [RECIPIENT_nameDef] about an old decision that led to a friend's death -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.84>confession_mistake_lesson->[INITIATOR_pronoun]对[RECIPIENT_nameDef]表达了一个导致朋友死亡的决定的痛苦</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.84>
+    <!-- EN: confession_mistake_lesson->[INITIATOR_pronoun] confessed to [RECIPIENT_nameDef] [INITIATOR_possessive] contrition of not spending enough time with [INITIATOR_possessive] family before the journey -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.85>confession_mistake_lesson->[INITIATOR_pronoun]向[RECIPIENT_nameDef]忏悔，在旅途前没有花足够的时间陪伴[INITIATOR_possessive]家人</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.85>
+    <!-- EN: confession_mistake_lesson->[INITIATOR_pronoun] revealed to [RECIPIENT_nameDef] [INITIATOR_possessive] remorse over a past relationship that [INITIATOR_pronoun] ruined -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.86>confession_mistake_lesson->[INITIATOR_pronoun]向[RECIPIENT_nameDef]透露了对过去一次关系破裂的悔恨</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.86>
+    <!-- EN: confession_mistake_reflection->[INITIATOR_pronoun] confessed to [RECIPIENT_nameDef] about a lie [INITIATOR_pronoun] had told early in their relationship -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.87>confession_mistake_reflection->[INITIATOR_pronoun]向[RECIPIENT_nameDef]坦白了在他们的关系早期说过的一条谎言</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.87>
+    <!-- EN: confession_mistake_reflection->[INITIATOR_pronoun] admitted to [RECIPIENT_nameDef] about [INITIATOR_possessive] remorse of doubting [RECIPIENT_possessive] intentions in the past -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.88>confession_mistake_reflection->[INITIATOR_pronoun]向[RECIPIENT_nameDef]承认，[INITIATOR_pronoun]对曾经怀疑[RECIPIENT_possessive]意图而感到懊悔</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.88>
+    <!-- EN: confession_mistake_reflection->[INITIATOR_pronoun] shared with [RECIPIENT_nameDef] [INITIATOR_possessive] guilt over an argument they had, where [INITIATOR_pronoun] said things [INITIATOR_pronoun] didn't mean -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.89>confession_mistake_reflection->[INITIATOR_pronoun]内疚于与[RECIPIENT_nameDef]的一次争吵，那次[INITIATOR_pronoun]说了一些不是[INITIATOR_pronoun]真心的话</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.89>
+    <!-- EN: confession_mistake_reflection->[INITIATOR_pronoun] revealed to [RECIPIENT_nameDef] about [INITIATOR_possessive] regret of not standing up for [RECIPIENT_nameDef] when [RECIPIENT_pronoun] was criticized by others -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.90>confession_mistake_reflection->[INITIATOR_pronoun]向[RECIPIENT_nameDef]透露了在[INITIATOR_pronoun]被他人批评时[RECIPIENT_nameDef]没有挺身而出的遗憾</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.90>
+    <!-- EN: confession_mistake_reflection->[INITIATOR_pronoun] confined in [RECIPIENT_nameDef] about [INITIATOR_possessive] penance of taking [RECIPIENT_possessive] hard work for granted -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.91>confession_mistake_reflection->[INITIATOR_pronoun]向[RECIPIENT_nameDef]表达了把[RECIPIENT_possessive]辛苦工作视为理所当然的忏悔</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.91>
+    <!-- EN: confession_mistake_lesson_reaction->[RECIPIENT_nameDef] consoled [INITIATOR_objective] saying that the past cannot be changed but the future can be shaped -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.92>confession_mistake_lesson_reaction->[RECIPIENT_nameDef]安慰[INITIATOR_objective]说过去无法改变，但未来仍能塑造</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.92>
+    <!-- EN: confession_mistake_lesson_reaction->[RECIPIENT_nameDef] listened silently, understanding the weight of [INITIATOR_possessive] regrets -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.93>confession_mistake_lesson_reaction->[RECIPIENT_nameDef]静静地听着，理解[INITIATOR_possessive]遗憾之重</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.93>
+    <!-- EN: confession_mistake_lesson_reaction->[RECIPIENT_nameDef] suggested they start a new chapter here, leaving past mistakes behind -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.94>confession_mistake_lesson_reaction->[RECIPIENT_nameDef]建议他们在这里开始新的篇章，将过去的错误抛在身后</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.94>
+    <!-- EN: confession_mistake_lesson_reaction->[RECIPIENT_nameDef] softly reminded [INITIATOR_objective] that everyone has things in their past they aren't proud of -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.95>confession_mistake_lesson_reaction->[RECIPIENT_nameDef]轻声提醒[INITIATOR_objective]，每个人都有他们过去不为人知的事情</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.95>
+    <!-- EN: confession_mistake_lesson_reaction->[RECIPIENT_nameDef] comforted [INITIATOR_objective] that mistakes are what make us human and give us room to grow -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.96>confession_mistake_lesson_reaction->[RECIPIENT_nameDef]安慰[INITIATOR_objective]，犯错是人之常情，也给了他们成长的空间</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.96>
+    <!-- EN: confession_mistake_lesson_reaction->[RECIPIENT_nameDef] looked at [INITIATOR_objective] with understanding, stating that it's okay to have regrets, but what matters is what [INITIATOR_pronoun] does moving forward -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.97>confession_mistake_lesson_reaction->[RECIPIENT_nameDef]用理解的眼神看着[INITIATOR_objective]，说可以有遗憾，但重要的是[INITIATOR_pronoun]如何向前看</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.97>
+    <!-- EN: confession_mistake_reflection_reaction->[RECIPIENT_nameDef] held [INITIATOR_possessive] hand, acknowledging the courage it took to admit these mistakes -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.98>confession_mistake_reflection_reaction->[RECIPIENT_nameDef]握住[INITIATOR_possessive]手，明白承认这些错误需要勇气</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.98>
+    <!-- EN: confession_mistake_reflection_reaction->[RECIPIENT_nameDef] looked into [INITIATOR_possessive] eyes, assuring [INITIATOR_objective] that honesty is key in their relationship -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.99>confession_mistake_reflection_reaction->[RECIPIENT_nameDef]看着[INITIATOR_possessive]眼睛，向[INITIATOR_objective]保证，诚实是他们关系中最重要的事情</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.99>
+    <!-- EN: confession_mistake_reflection_reaction->[RECIPIENT_nameDef] hugged [INITIATOR_objective] tightly, promising [INITIATOR_objective] that they can work through these issues together -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.100>confession_mistake_reflection_reaction->[RECIPIENT_nameDef]紧紧地抱住[INITIATOR_objective]，承诺他们可以一起解决这些问题</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.100>
+    <!-- EN: confession_mistake_reflection_reaction->[RECIPIENT_nameDef] reassured [INITIATOR_objective] that [RECIPIENT_pronoun] still loves [INITIATOR_objective], regardless of past mistakes -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.101>confession_mistake_reflection_reaction->[RECIPIENT_nameDef]安慰[INITIATOR_objective]，无论过去犯过什么错误，[RECIPIENT_pronoun]仍然爱着[INITIATOR_objective]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.101>
+    <!-- EN: confession_mistake_reflection_reaction->[RECIPIENT_nameDef] took a deep breath, admitting that [RECIPIENT_pronoun] too has things [RECIPIENT_pronoun] needs to confess -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.102>confession_mistake_reflection_reaction->[RECIPIENT_nameDef]深吸一口气，承认[RECIPIENT_pronoun]也有一些需要坦白的事情</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.102>
+    <!-- EN: confession_mistake_reflection_reaction->[RECIPIENT_nameDef] consoled [INITIATOR_objective] that they will always have an open line of communication for such confessions -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.103>confession_mistake_reflection_reaction->[RECIPIENT_nameDef]安慰[INITIATOR_objective]，说他们以后一直要对这些事情坦诚相见，彼此分担</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.103>
+    <!-- EN: topic_and_reaction->[topic_sharing][sharing_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.104>topic_and_reaction->[topic_sharing][sharing_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.104>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] laughed lightly, recalling a shared joke -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.105>topic_sharing->[INITIATOR_pronoun]轻轻一笑，回忆起一个两人都知道的笑话</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.105>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] shared a moment of love with [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.106>topic_sharing->[INITIATOR_pronoun]与[RECIPIENT_nameDef]分享了一个充满爱意的时刻</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.106>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] reminisced about the first time they met -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.107>topic_sharing->[INITIATOR_pronoun]回忆起他们第一次相遇的情景</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.107>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] softly sang a lullaby to [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.108>topic_sharing->[INITIATOR_pronoun]轻声为[RECIPIENT_nameDef]唱起了一首摇篮曲</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.108>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] shared a funny anecdote from [INITIATOR_possessive] day -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.109>topic_sharing->[INITIATOR_pronoun]分享了[INITIATOR_pronoun]一天中的趣闻轶事</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.109>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] whispered sweet nothings into [RECIPIENT_nameDef]'s ear -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.110>topic_sharing->[INITIATOR_pronoun]在[RECIPIENT_nameDef]的耳边说了些甜言蜜语</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.110>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] promised [RECIPIENT_nameDef] a brighter tomorrow -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.111>topic_sharing->[INITIATOR_pronoun]向[RECIPIENT_nameDef]承诺了一个更美好的明天</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.111>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] talked about [INITIATOR_possessive] dreams for the future -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.112>topic_sharing->[INITIATOR_pronoun]谈论了[INITIATOR_pronoun]对未来的梦想</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.112>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] expressed [INITIATOR_possessive] love for [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.113>topic_sharing->[INITIATOR_pronoun]表达了[INITIATOR_pronoun]对[RECIPIENT_nameDef]的爱</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.113>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] gently teased [RECIPIENT_nameDef] about an old memory -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.114>topic_sharing->[INITIATOR_pronoun]轻轻地调侃了一下[RECIPIENT_nameDef]的往事</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.114>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] told [RECIPIENT_nameDef] about a dream [INITIATOR_pronoun] had last night -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.115>topic_sharing->[INITIATOR_pronoun]告诉了[RECIPIENT_nameDef][INITIATOR_pronoun]昨晚做的一个梦</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.115>
+    <!-- EN: topic_sharing->[INITIATOR_pronoun] shared [INITIATOR_possessive] insights about the different cultures and people [INITIATOR_pronoun] has encountered in the colony -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.116>topic_sharing->[INITIATOR_pronoun]分享了[INITIATOR_pronoun]对殖民地中遇到的不同文化和人群的见解</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.116>
+    <!-- EN: sharing_reaction->, which left [RECIPIENT_objective] deep in thought -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.117>sharing_reaction->，这使得[RECIPIENT_objective]陷入深思</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.117>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] drifted off to sleep, a content sigh escaping [RECIPIENT_possessive] lips -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.118>sharing_reaction->。[RECIPIENT_nameDef]渐渐睡去，一声满足的叹息从[RECIPIENT_possessive]嘴里发出</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.118>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] blinked and told [INITIATOR_objective] a story -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.119>sharing_reaction->。[RECIPIENT_nameDef]眨了眨眼并告诉了[INITIATOR_objective]一个故事</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.119>
+    <!-- EN: sharing_reaction->, as [RECIPIENT_nameDef] remained silent, absorbing [INITIATOR_possessive] words -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.120>sharing_reaction->，[RECIPIENT_nameDef]安静地吸收着[INITIATOR_possessive]话</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.120>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] yawned and nuzzled against [INITIATOR_objective], drifting off to sleep -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.121>sharing_reaction->。[RECIPIENT_nameDef]打了个哈欠，靠着[INITIATOR_objective]陷入沉睡</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.121>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] chuckled and pulled [INITIATOR_objective] closer -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.122>sharing_reaction->。[RECIPIENT_nameDef]笑着把[INITIATOR_objective]拉近</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.122>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] gazed at [INITIATOR_objective], [RECIPIENT_possessive] eyes filled with love and warmth -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.123>sharing_reaction->。[RECIPIENT_nameDef]凝视着[INITIATOR_objective]，[RECIPIENT_possessive]眼中充满爱与温暖</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.123>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] softly stroked [INITIATOR_possessive] face as [INITIATOR_pronoun] spoke -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.124>sharing_reaction->。在[INITIATOR_pronoun]说话时，[RECIPIENT_nameDef]轻轻地抚摸着[INITIATOR_possessive]脸</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.124>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] snuggled deeper into the embrace, [RECIPIENT_possessive] eyes drooping with sleep -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.125>sharing_reaction->。[RECIPIENT_nameDef]更深地依偎在拥抱中，[RECIPIENT_possessive]眼皮因睡意而下垂</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.125>
+    <!-- EN: sharing_reaction->. [RECIPIENT_nameDef] laughed along, a sparkle in [RECIPIENT_possessive] eyes -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.126>sharing_reaction->。[RECIPIENT_nameDef]跟着笑了起来，[RECIPIENT_posessive]眼睛里闪烁着光芒</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.126>
+    <!-- EN: topic_and_reaction->[topic_children] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.127>topic_and_reaction->[topic_children]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.127>
+    <!-- EN: topic_children->[subtopic_children_concern] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.128>topic_children->[subtopic_children_concern]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.128>
+    <!-- EN: topic_children->[subtopic_children_dreaming] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.129>topic_children->[subtopic_children_dreaming]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.129>
+    <!-- EN: subtopic_children_concern->[children_concern]. [children_concern_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.130>subtopic_children_concern->[children_concern]。[children_concern_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.130>
+    <!-- EN: children_concern->[INITIATOR_pronoun] hesitantly shared with [RECIPIENT_nameDef] [INITIATOR_possessive] fear of not being a good enough parent -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.131>children_concern->[INITIATOR_pronoun]犹豫地与[RECIPIENT_nameDef]分享，担心自己不是一个足够好的父母</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.131>
+    <!-- EN: children_concern->[INITIATOR_pronoun] expressed to [RECIPIENT_nameDef] [INITIATOR_possessive] worries about providing a good life for a child -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.132>children_concern->[INITIATOR_pronoun]向[RECIPIENT_nameDef]表达了对能否为孩子提供良好生活的担忧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.132>
+    <!-- EN: children_concern->[INITIATOR_pronoun] confided in [RECIPIENT_nameDef] about [INITIATOR_possessive] concerns regarding the dangers of the world and raising a child in it -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.133>children_concern->[INITIATOR_pronoun]向[RECIPIENT_nameDef]倾诉了在这个危险的世界里养育孩子的不安</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.133>
+    <!-- EN: children_concern->[INITIATOR_pronoun] cautiously brought up the possibility of inherited health issues with [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.134>children_concern->[INITIATOR_pronoun]谨慎地向[RECIPIENT_nameDef]提出了可能遗传的健康问题</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.134>
+    <!-- EN: children_concern->[INITIATOR_pronoun] expressed [INITIATOR_possessive] worry about the emotional toll living on the rimworld could take on a child to [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.135>children_concern->[INITIATOR_pronoun]向[RECIPIENT_nameDef]表达了[INITIATOR_possessive]担心，在边缘世界生活可能对孩子产生情绪压力</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.135>
+    <!-- EN: children_concern->[INITIATOR_pronoun] voiced [INITIATOR_possessive] concerns about the lack of formal education available to [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.136>children_concern->[INITIATOR_pronoun]向[RECIPIENT_nameDef]透露了对孩子缺乏正规教育的担心</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.136>
+    <!-- EN: children_concern_reaction->[RECIPIENT_nameDef] listened attentively, offering comforting words and shared [RECIPIENT_possessive] own concerns -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.137>children_concern_reaction->[RECIPIENT_nameDef]认真倾听，安慰了[RECIPIENT_pronoun]，也提出了自己的担忧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.137>
+    <!-- EN: children_concern_reaction->[RECIPIENT_nameDef] reassured [INITIATOR_objective] that they'd face all challenges together -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.138>children_concern_reaction->[RECIPIENT_nameDef]安慰[INITIATOR_objective]说，他们会一起面对所有的挑战</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.138>
+    <!-- EN: children_concern_reaction->[RECIPIENT_nameDef] contemplated the discussion with seriousness, expressing [RECIPIENT_possessive] thoughts and concerns too -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.139>children_concern_reaction->[RECIPIENT_nameDef]认真地沉思讨论，也表达了[RECIPIENT_possessive]想法和担忧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.139>
+    <!-- EN: children_concern_reaction->[RECIPIENT_nameDef] acknowledged [INITIATOR_possessive] concerns and admitted to having similar fears -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.140>children_concern_reaction->[RECIPIENT_nameDef]承认了[INITIATOR_possessive]担忧，表示自己也有类似的恐惧</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.140>
+    <!-- EN: children_concern_reaction->[RECIPIENT_nameDef] held [INITIATOR_pronoun] close, expressing that they'd learn and grow together as parents -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.141>children_concern_reaction->[RECIPIENT_nameDef]紧紧抱住[INITIATOR_pronoun]，表示他们将作为父母一起学习和成长</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.141>
+    <!-- EN: children_concern_reaction->[RECIPIENT_nameDef] gently reminded [INITIATOR_pronoun] that they had time to prepare and learn -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.142>children_concern_reaction->[RECIPIENT_nameDef]温柔地提醒[INITIATOR_pronoun]，他们还有时间去准备和学习</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.142>
+    <!-- EN: subtopic_children_dreaming->[children_dreaming]. [children_dreaming_reaction] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.143>subtopic_children_dreaming->[children_dreaming]。[children_dreaming_reaction]</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.143>
+    <!-- EN: children_dreaming->[INITIATOR_pronoun] laughingly told [RECIPIENT_nameDef] what naughty kids they'd probably have -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.144>children_dreaming->[INITIATOR_pronoun]笑着和[RECIPIENT_nameDef]说他们以后的孩子会有多淘气</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.144>
+    <!-- EN: children_dreaming->[INITIATOR_pronoun] confessed to [RECIPIENT_nameDef] [INITIATOR_possessive] desire for having children -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.145>children_dreaming->[INITIATOR_pronoun]向[RECIPIENT_nameDef]坦白了[INITIATOR_pronoun]想要有孩子的愿望</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.145>
+    <!-- EN: children_dreaming->[INITIATOR_pronoun] shared with [RECIPIENT_nameDef] [INITIATOR_possessive] dream of a big family -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.146>children_dreaming->[INITIATOR_pronoun]和[RECIPIENT_nameDef]说[INITIATOR_pronoun]梦想着有个大家庭</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.146>
+    <!-- EN: children_dreaming->[INITIATOR_pronoun] softly asked [RECIPIENT_nameDef] about [RECIPIENT_possessive] thoughts on having kids -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.147>children_dreaming->[INITIATOR_pronoun]轻声询问[RECIPIENT_nameDef]对于要孩子的想法</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.147>
+    <!-- EN: children_dreaming->[INITIATOR_pronoun] wondered aloud to [RECIPIENT_nameDef] what their future children might look like -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.148>children_dreaming->[INITIATOR_pronoun]和[RECIPIENT_nameDef]畅想了他们未来孩子可能的模样</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.148>
+    <!-- EN: children_dreaming->[INITIATOR_pronoun] voiced [INITIATOR_possessive] deepest wish that their future child would lead the colony to prosperity to [RECIPIENT_nameDef] -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.149>children_dreaming->[INITIATOR_pronoun]对[RECIPIENT_nameDef]说出了[INITIATOR_pronoun]最深的愿望，即希望他们未来的孩子能带领殖民地走向繁荣</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.149>
+    <!-- EN: children_dreaming_reaction->[RECIPIENT_nameDef] blushed and shyly confessed [RECIPIENT_pronoun] too dreamt about having kids -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.150>children_dreaming_reaction->[RECIPIENT_nameDef]满脸羞红，害羞地承认[RECIPIENT_pronoun]也曾梦想着有孩子</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.150>
+    <!-- EN: children_dreaming_reaction->[RECIPIENT_nameDef] grew quiet, considering [RECIPIENT_possessive] own feelings on the topic -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.151>children_dreaming_reaction->[RECIPIENT_nameDef]渐渐安静下来，考虑着自己对这个话题的感想</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.151>
+    <!-- EN: children_dreaming_reaction->[RECIPIENT_nameDef] smiled warmly, agreeing with [INITIATOR_nameDef]'s dream of a big family -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.152>children_dreaming_reaction->[RECIPIENT_nameDef]温暖地笑了，赞同[INITIATOR_nameDef]的大家庭梦想</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.152>
+    <!-- EN: children_dreaming_reaction->[RECIPIENT_nameDef] playfully teased [INITIATOR_nameDef] about the challenges of raising children -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.153>children_dreaming_reaction->[RECIPIENT_nameDef]俏皮地调侃[INITIATOR_nameDef]，谈到养孩子的挑战</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.153>
+    <!-- EN: children_dreaming_reaction->[RECIPIENT_nameDef] chuckled at the idea but didn't dismiss it -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.154>children_dreaming_reaction->[RECIPIENT_nameDef]对这个想法笑了笑，但并没有否定它</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.154>
+    <!-- EN: children_dreaming_reaction->[RECIPIENT_nameDef] shared [RECIPIENT_possessive] own hopes about becoming a parent one day -->
+    <RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.155>children_dreaming_reaction->[RECIPIENT_nameDef]回答说希望自己有一天也能成为父母</RomanceOnTheRim_Interaction_PillowTalk.logRulesInitiator.rulesStrings.155>
+    
+    <!-- EN: RomanceOnTheRim-Skygaze -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.label>边缘爱情-仰望天空</RomanceOnTheRim_Interaction_SkygazeTogether.label>
+    <!-- EN: r_interaction(Happen_time==Day)->[INITIATOR_nameDef] and [RECIPIENT_nameDef] gazed at the [day_object], [day_desc]. -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.0>r_interaction(Happen_time==Day)->[INITIATOR_nameDef]和[RECIPIENT_nameDef]凝视着[day_object]，[day_desc]。</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.0>
+    <!-- EN: r_interaction(Happen_time==Night)->[INITIATOR_nameDef] and [RECIPIENT_nameDef] gazed at the [night_object], [night_desc]. -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.1>r_interaction(Happen_time==Night)->[INITIATOR_nameDef]和[RECIPIENT_nameDef]凝视着[night_object]，[night_desc]。</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.1>
+    <!-- EN: day_object->endless blue -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.2>day_object->无尽的蓝天</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.2>
+    <!-- EN: day_object->soaring birds -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.3>day_object->翱翔的鸟儿</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.3>
+    <!-- EN: day_object->hazy horizon -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.4>day_object->朦胧的地平线</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.4>
+    <!-- EN: day_object->kaleidoscopic rainbow -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.5>day_object->色彩斑斓的彩虹</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.5>
+    <!-- EN: day_object->distant mountains -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.6>day_object->远方的山脉</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.6>
+    <!-- EN: day_object->blossoming tree -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.7>day_object->开花的树木</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.7>
+    <!-- EN: day_object->moving shadows -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.8>day_object->移动的阴影</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.8>
+    <!-- EN: day_object->cotton-candy clouds drifting lazily -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.9>day_object->懒洋洋飘动的白云</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.9>
+    <!-- EN: day_object->ethereal spectacle of a sundog -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.10>day_object->太阳狗的虚幻奇观</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.10>
+    <!-- EN: night_object->night sky -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.11>night_object->夜空</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.11>
+    <!-- EN: night_object->lunar glow -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.12>night_object->月辉</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.12>
+    <!-- EN: night_object->glistening moon -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.13>night_object->光亮的月盘</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.13>
+    <!-- EN: night_object->distant galaxies -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.14>night_object->遥远的宇宙</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.14>
+    <!-- EN: night_object->milky way -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.15>night_object->银河</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.15>
+    <!-- EN: night_object->mysterious nebulae -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.16>night_object->神秘的星云</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.16>
+    <!-- EN: night_object->twinkling constellations -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.17>night_object->闪烁的星座</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.17>
+    <!-- EN: night_object->dark silhouette of the trees -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.18>night_object->树木的深色轮廓</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.18>
+    <!-- EN: night_object->glowing embers of their campfire -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.19>night_object->篝火发光的余烬</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.19>
+    <!-- EN: night_object->mysterious shadows cast by the moonlight -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.20>night_object->月光投下的神秘影子</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.20>
+    <!-- EN: night_object->night owls in flight -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.21>night_object->飞行中的猫头鹰</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.21>
+    <!-- EN: day_desc(p=1.5)->rambling about [TalkTopicAny] -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.22>day_desc(p=1.5)->闲聊[TalkTopicAny]</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.22>
+    <!-- EN: day_desc->when a fresh breeze blew through their hair -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.23>day_desc->清新的微风吹过他们的发梢</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.23>
+    <!-- EN: day_desc->when the sunshine softly warmed them -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.24>day_desc->阳光柔和地温暖着他们</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.24>
+    <!-- EN: day_desc->when clouds were kissed to their heady blush by the sun -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.25>day_desc->太阳将朵朵白云染上粉色</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.25>
+    <!-- EN: day_desc->washing their souls with its clearness -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.26>day_desc->它的清澈洗涤了他们的灵魂</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.26>
+    <!-- EN: day_desc->inhaling the fragrance of the soil -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.27>day_desc->鼻尖传来泥土的芬芳</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.27>
+    <!-- EN: day_desc->as the sun's rays sparkled off the dewdrops around them -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.28>day_desc->太阳的光芒在他们周围的露珠上闪烁</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.28>
+    <!-- EN: day_desc->taking comfort in the steady rhythm of nature -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.29>day_desc->在自然的节奏中享受慰藉</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.29>
+    <!-- EN: day_desc->sharing stories of their past under the wide, welcoming sky -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.30>day_desc->在宽广而温馨的天空下分享他们过去的故事</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.30>
+    <!-- EN: day_desc->marveling at the serenity of the day, and each other's company -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.31>day_desc->陶醉于这一天的宁静，以及彼此的陪伴</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.31>
+    <!-- EN: day_desc->feeling the pulse of the earth beneath them -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.32>day_desc->感受身下土地的脉搏</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.32>
+    <!-- EN: day_desc->whispering their dreams into the gentle wind -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.33>day_desc->在微风中耳语他们的梦想</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.33>
+    <!-- EN: day_desc->as the light refracted through morning dew drops -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.34>day_desc->阳光透过晨露的折射到他们身上</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.34>
+    <!-- EN: day_desc->as their laughter echoing under the wide blue expanse -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.35>day_desc->他们的笑声在广阔的蓝天下回荡着</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.35>
+    <!-- EN: day_desc->seeking shapes in the shifting clouds, as playful as children -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.36>day_desc->像孩子一样在变化的云层中寻找形状</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.36>
+    <!-- EN: night_desc(p=1.5)->rambling about [TalkTopicLight] -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.37>night_desc(p=1.5)->闲聊[TalkTopicLight]</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.37>
+    <!-- EN: night_desc->gossiping about other colonists' affairs -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.38>night_desc->八卦其他殖民者的风流韵事</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.38>
+    <!-- EN: night_desc->sharing mythologies of constellations -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.39>night_desc->分享着关于星座的传说</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.39>
+    <!-- EN: night_desc->discussing the infinite possibilities of their shared future -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.40>night_desc->畅想他们共同未来的无限可能</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.40>
+    <!-- EN: night_desc->dumping daily pressures in the eternal night -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.41>night_desc->将白天的烦恼留在了永恒的黑夜里</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.41>
+    <!-- EN: night_desc->allowing the darkness to swallow their fears and insecurities -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.42>night_desc->黑暗吞噬了他们的所有的恐惧和不安</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.42>
+    <!-- EN: night_desc->dreaming under the shimmering veil of the Milky Way -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.43>night_desc->在银河闪亮的面纱下做梦</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.43>
+    <!-- EN: night_desc->lost in the cosmic ballet of shooting stars -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.44>night_desc->迷失在宇宙流星的芭蕾中</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.44>
+    <!-- EN: night_desc->marveling at the constellations, as if they were echoes of their shared dreams -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.45>night_desc->惊叹于星座的神秘，仿佛是他们共同梦想的回音</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.45>
+    <!-- EN: night_desc->feeling the hum of the night, its stillness promising endless possibilities -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.46>night_desc->感受夜晚的嗡鸣，它的静谧中似乎有着无限可能</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.46>
+    <!-- EN: night_desc->their whispers carried away by the cool breeze -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.47>night_desc->夜风吹走了他们的窃窃私语</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.47>
+    <!-- EN: night_desc->their thoughts as vast as the cosmos above -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.48>night_desc->他们的思想像头上的宇宙一样浩瀚</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.48>
+    <!-- EN: night_desc->their hearts mirroring the celestial infinity above -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.49>night_desc->他们的心灵映照着无限的星空</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.49>
+    <!-- EN: night_desc->their souls resonating with the harmonious silence of the night -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.50>night_desc->他们的灵魂与夜晚的和谐寂静产生共鸣</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.50>
+    <!-- EN: night_desc->the tranquil darkness holding their deepest secrets -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.51>night_desc->宁静的黑暗中藏着他们最深的秘密</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.51>
+    <!-- EN: night_desc->while meteors gliding through their fingertips -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.52>night_desc->流星在他们指尖划过</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.52>
+    <!-- EN: night_desc->when the moon hung over them silently -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.53>night_desc->月亮静静地挂在他们头顶</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.53>
+    <!-- EN: night_desc->under the watchful eyes of a thousand celestial bodies -->
+    <RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.54>night_desc->在无数天体的注视下</RomanceOnTheRim_Interaction_SkygazeTogether.logRulesInitiator.rulesStrings.54>
+    
+    <!-- EN: RomanceOnTheRim-Read together -->
+    <RotR_Interaction_ReadTogether.label>边缘爱情-一起阅读</RotR_Interaction_ReadTogether.label>
+    <!-- EN:
+    <li>r_interaction->[action] [vibe]</li>
+    <li>action->[INITIATOR_nameDef] and [RECIPIENT_nameDef] sit side by side, engrossed in their books.</li>
+    <li>action->[INITIATOR_nameDef] and [RECIPIENT_nameDef] are wrapped up in their reading, their bodies leaning into each other.</li>
+    <li>action->[INITIATOR_nameDef] and [RECIPIENT_nameDef] recline side by side on the couch, each lost in their own story.</li>
+    <li>action->[INITIATOR_nameDef] and [RECIPIENT_nameDef] are nestled under a shared blanket on the couch, each holding their own book.</li>
+    <li>action->[INITIATOR_nameDef] and [RECIPIENT_nameDef] sit cross-legged on opposite ends of the sofa, their books held close.</li>
+    <li>action->[INITIATOR_nameDef] and [RECIPIENT_nameDef] sit shoulder to shoulder on the sofa, each with a book propped on their knees.</li>
+    <li>vibe->A profound sense of companionship while the soft rustle of pages turning fills the air.</li>
+    <li>vibe->The quiet moments between them are filled with unspoken affection.</li>
+    <li>vibe->Their legs are comfortably tangled, and they occasionally pause to read a line aloud or comment on their story.</li>
+    <li>vibe->Their legs casually overlap in the middle, a quiet reminder of their shared space even as they lose themselves in different worlds.</li>
+    <li>vibe->Each is absorbed in their own book, but every so often, they exchange a soft comment or laugh.</li>
+    <li>vibe->They read in silence, occasionally shifting to catch the other’s eye with a knowing glance.</li>
+  -->
+    <RotR_Interaction_ReadTogether.logRulesInitiator.rulesStrings>
+      <li>r_interaction->[action] [vibe]</li>
+      <li>action->[INITIATOR_nameDef]和[RECIPIENT_nameDef]并排而坐，全神贯注地看着书。</li>
+      <li>action->[INITIATOR_nameDef]和[RECIPIENT_nameDef]沉浸在阅读中，身体紧紧靠在一起。</li>
+      <li>action->[INITIATOR_nameDef]和[RECIPIENT_nameDef]并排躺在沙发上，各自沉浸在自己面前的故事中。</li>
+      <li>action->[INITIATOR_nameDef]和[RECIPIENT_nameDef]依偎在沙发上的毯子里，各自捧着自己的书。</li>
+      <li>action->[INITIATOR_nameDef]和[RECIPIENT_nameDef]盘腿坐在沙发的两端，看着自己喜欢的书。</li>
+      <li>action->[INITIATOR_nameDef]和[RECIPIENT_nameDef]肩并肩坐在沙发上，每个人的膝盖上都放着一本书。</li>
+      <li>vibe->当书页翻动的沙沙声在空气中弥漫时，一种深刻的陪伴感油然而生。</li>
+      <li>vibe->这一静谧时光里充满了无言的爱意。</li>
+      <li>vibe->他们的双腿舒适地纠缠在一起，偶尔他们会停下来朗读一句台词，分享自己的看法。</li>
+      <li>vibe->他们的双腿在中间随意交叠，悄然连接起了沉浸在不同世界中的两人。</li>
+      <li>vibe->每个人都沉浸在自己的书中，但时不时地，他们也会轻声地交换一下意见，分享有趣的情节。</li>
+      <li>vibe->他们默默地阅读着，偶尔也会移开视线，用有意或无意的眼神捕捉对方的目光。</li>
+    </RotR_Interaction_ReadTogether.logRulesInitiator.rulesStrings>
+    
+    <!-- EN: RomanceOnTheRim-Shared Reading -->
+    <RotR_Interaction_SharedReading.label>边缘爱情-分享阅读</RotR_Interaction_SharedReading.label>
+    <!-- EN:
+    <li>r_interaction->[action] [vibe]</li>
+    <li>action->[INITIATOR_nameDef] joins [RECIPIENT_nameDef] on the couch, nestling into the crook of [RECIPIENT_possessive] arm.</li>
+    <li>action->[INITIATOR_nameDef] sits down beside [RECIPIENT_nameDef] on the couch, wrapping an arm around [RECIPIENT_objective] as [RECIPIENT_pronoun] reads.</li>
+    <li>action->[INITIATOR_nameDef] joins [RECIPIENT_nameDef] on the couch, sliding in close as [RECIPIENT_nameDef] continues reading.</li>
+    <li>action->[INITIATOR_nameDef] slips onto the couch next to [RECIPIENT_nameDef], who is engrossed in a book.</li>
+    <li>action->[INITIATOR_nameDef] joins [RECIPIENT_nameDef] on the couch, settling in comfortably. [RECIPIENT_nameDef] pauses to make room.</li>
+    <li>action->[INITIATOR_nameDef] sits down next to [RECIPIENT_nameDef] on the couch, resting [INITIATOR_possessive] head on [RECIPIENT_possessive] shoulder.</li>
+    <li>vibe->They laugh softly at the funny parts and pause to share a glance, eyes reflecting the joy of shared moments.</li>
+    <li>vibe->They lean in, enjoying the closeness and the shared book.</li>
+    <li>vibe->They nestle together, sharing the warmth and the story.</li>
+    <li>vibe->They cuddle up, and [RECIPIENT_nameDef] shares the story, their voices low and intimate.</li>
+    <li>vibe->Their fingers occasionally brush as they turn pages, sharing silent glances of warmth.</li>
+    <li>vibe->[RECIPIENT_nameDef] continues reading, their voices mingling in the quiet comfort of the room.</li>
+  -->
+    <RotR_Interaction_SharedReading.logRulesInitiator.rulesStrings>
+      <li>r_interaction->[action] [vibe]</li>
+      <li>action->[INITIATOR_nameDef]坐到[RECIPIENT_nameDef]的沙发上, 依偎在[RECIPIENT_possessive]的怀抱里，看着同一本书。</li>
+      <li>action->[INITIATOR_nameDef]坐到[RECIPIENT_nameDef]旁边, 在[RECIPIENT_pronoun]看书时伸出一只手臂环抱着[RECIPIENT_objective]。</li>
+      <li>action->[INITIATOR_nameDef]和[RECIPIENT_nameDef]一起坐着, 在[RECIPIENT_nameDef]阅读时越靠越近。</li>
+      <li>action->[INITIATOR_nameDef]走近[RECIPIENT_nameDef]所在的位置,[RECIPIENT_pronoun]正全神贯注地看着书。</li>
+      <li>action->[INITIATOR_nameDef]跳到[RECIPIENT_nameDef]旁边的另一个位置，[RECIPIENT_nameDef]给[INITIATOR_pronoun]挪了挪位置。</li>
+      <li>action->[INITIATOR_nameDef]坐到[RECIPIENT_nameDef]旁边的空位, 把头靠在[RECIPIENT_possessive]肩膀上。</li>
+      <li>vibe->看到有趣的地方，他们会轻轻地笑起来，对视的眼神中折射出对二人世界的喜悦。</li>
+      <li>vibe->他们靠在一起，享受着亲近的感觉和同一个故事。</li>
+      <li>vibe->他们依偎在一起，分享着温馨氛围和有趣的情节。</li>
+      <li>vibe->他们依偎在一起，[RECIPIENT_nameDef]介绍着故事情节，声音低沉而亲切。</li>
+      <li>vibe->翻页时，他们的手指偶尔会擦过，无声地分享着温暖的目光。</li>
+      <li>vibe->[RECIPIENT_nameDef]继续看着书，他们偶尔的窃窃私语在安静舒适的房间里交织在一起。</li>
+    </RotR_Interaction_SharedReading.logRulesInitiator.rulesStrings>
+    
+    <!-- EN: RomanceOnTheRim-Snowball Fight -->
+    <RotR_Interaction_SnowballFight.label>边缘爱情-打雪仗</RotR_Interaction_SnowballFight.label>
+    <!-- EN:
+    <li>r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] forgot their worries, engaging in a joyful snowball fight and sharing a moment of pure bliss.</li>
+    <li>r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] found joy in a snowy skirmish, their laughter ringing through the cold air.</li>
+    <li>r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] launched snowballs with abandon, their cheeks flushed with cold and laughter.</li>
+    <li>r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] lobbed snowballs back and forth, their laughter punctuating the serene hush of the snowy landscape.</li>
+    <li>r_interaction->[INITIATOR_nameDef] and [RECIPIENT_nameDef] dodged and weaved through a flurry of snowballs, their merry cries brightening the wintry scene.</li>
+  -->
+    <RotR_Interaction_SnowballFight.logRulesInitiator.rulesStrings>
+      <li>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]忘却了烦恼，打起了欢乐的雪仗，共享这一纯粹幸福的时刻。</li>
+      <li>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]在雪地中嬉闹,他们的笑声在寒冷的空气回荡。</li>
+      <li>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]肆无忌惮地发射雪球，脸颊因寒冷和欢笑而变得通红。</li>
+      <li>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]来回地扔着雪球，他们的笑声点缀着宁静的雪景。</li>
+      <li>r_interaction->[INITIATOR_nameDef]和[RECIPIENT_nameDef]在纷飞的雪球中穿梭闪躲，欢快的叫声照亮了寒冷的大地。</li>
+    </RotR_Interaction_SnowballFight.logRulesInitiator.rulesStrings>
+    
+</LanguageData>

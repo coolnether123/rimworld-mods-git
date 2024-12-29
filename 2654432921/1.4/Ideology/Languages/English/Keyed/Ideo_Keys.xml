@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<CannotAttemptRomanceManually>Cannot court {0}</CannotAttemptRomanceManually>
+	<TryAttemptRomanceManually>Try court {0}</TryAttemptRomanceManually>
+	<RotR_Setting_EnableSuccessChanceTips>Should right-click interactions(romance attempt and propose) show success chance? (May make right click menu less performant)</RotR_Setting_EnableSuccessChanceTips>
+	<RotR_Setting_EnableManualInteractionWithPawnsFromOtherFaction>Should players allow to interact with other factions' pawns with right-click when having according precepts?</RotR_Setting_EnableManualInteractionWithPawnsFromOtherFaction>
+	<TryBreakupButtonLabel>Breakup</TryBreakupButtonLabel>
+	<TryBreakupNoOptsMessage>Nobody for {0_labelShort} to breakup.</TryBreakupNoOptsMessage>
+	<TryProposalButtonLabel>Propose</TryProposalButtonLabel>
+	<TryProposalNoOptsMessage>Nobody for {0_labelShort} to propose.</TryProposalNoOptsMessage>
+	<RitualCalledOffAfterRoleLeave>Ritual was called off after {0} leaves.</RitualCalledOffAfterRoleLeave>
+	<MessageRitualRoleMustHaveFiance>Bride must have fiance.</MessageRitualRoleMustHaveFiance>
+	<MessageRitualRoleMustBeFianceOfGroom>Bride must be fiancee of groom.</MessageRitualRoleMustBeFianceOfGroom>
+	<MessageRitualRoleMustBeFriendOfBride>Bridesmaid must be friend of bride (opinion>30.)</MessageRitualRoleMustBeFriendOfBride>
+	<MessageRitualRoleMustAssignGroomAndBrideFirst>Brides and grooms must be assigned first.</MessageRitualRoleMustAssignGroomAndBrideFirst>
+	<MessageRitualRoleMustBeChild>Only child (4-13) is allowed.</MessageRitualRoleMustBeChild>
+	<MessageRitualRoleMustBeGirl>Only girl is allowed.</MessageRitualRoleMustBeGirl>
+	<MessageRitualRoleMustBeBoy>Only boy is allowed.</MessageRitualRoleMustBeBoy>
+	<MessageRitualRoleMustAdult>Only adult is allowed.</MessageRitualRoleMustAdult>
+	<MessageRitualRoleMustBeFianceOfBride>Groom must be fiance of bride.</MessageRitualRoleMustBeFianceOfBride>
+	<MessageRitualRoleMustBeFriendOfGroom>Groomsman must be friend of groom (opinion>30.)</MessageRitualRoleMustBeFriendOfGroom>
+	<MessageRitualRoleMustBeLeaderOrMoralGuide>Only leader, moral guide, or royalty is allowed.</MessageRitualRoleMustBeLeaderOrMoralGuide>
+	<MessageRitualRoleMustBeParentOfBride>Must be parent of any brides.</MessageRitualRoleMustBeParentOfBride>
+	<MessageRitualRoleMustBeParentOfGroom>Must be parent of any grooms.</MessageRitualRoleMustBeParentOfGroom>
+	<RotR_CantStartRitualPatherError>Error in positions searching when starting wedding ceremony.</RotR_CantStartRitualPatherError>
+	<RotR_MarryNotification>{0} and {1} have married.</RotR_MarryNotification>
+	<MessageWeddingRoomTooSmall>Wedding room of size {0} can't accomodate {1} people.</MessageWeddingRoomTooSmall>
+	<MessagePawnLeaveWeddingCeremonyCantReach>{0} have left from wedding ceremony. (No available space)</MessagePawnLeaveWeddingCeremonyCantReach>
+	<MessageCantFindPreparingSpotForBride>Wedding ceremony called off. Can't find preparing spot for bride {0}.</MessageCantFindPreparingSpotForBride>
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<!-- Glitterworld healing -->
+	<Operation Class="PatchOperationAddOrMergeCopy">
+		<xpath>/Defs/RecipeDef[
+			@Name="EPIA_SurgerySyntheticRepair" or
+			defName="EPIA_RestoreBones"
+		]</xpath>
+		<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat1"]/recipeUsers</fromxpath>
+	</Operation>
+
+	<!-- Replacement radius -->
+	<!--<Operation Class="PatchOperationAddOrMergeCopy">
+		<xpath>/Defs/RecipeDef[
+			defName="InstallReplacementRadius"
+		]</xpath>
+		<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat2"]/recipeUsers</fromxpath>
+	</Operation>-->
+
+	<!-- Scyther blade -->
+	<Operation Class="PatchOperationAddOrMergeCopy">
+		<xpath>/Defs/RecipeDef[
+			defName="InstallScytherBlade"
+		]</xpath>
+		<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat3"]/recipeUsers</fromxpath>
+	</Operation>
+	
+</Patch>

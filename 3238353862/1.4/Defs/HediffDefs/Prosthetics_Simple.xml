@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>	
+	
+	<HediffDef Name="AddedSimpleBodyPartAnimalBase" ParentName="AddedBodyPartAnimalBase" Abstract="True">
+	</HediffDef>
+	
+
+	<ThingDef Name="BodyPartProstheticAnimalBase" ParentName="BodyPartAnimalBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItemAnimalProsthetic</texPath>
+			<color>(154,124,104)</color>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+		<tradeTags>
+			<li>AnimalProsthetics</li>
+		</tradeTags>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedHealthItemProstheticAnimal</unfinishedThingDef>
+			<researchPrerequisite>SimpleAnimalProsthetics</researchPrerequisite>
+			<displayPriority>650</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+
+
+	<RecipeDef Name="SurgeryInstallSimpleProstheticBodyPartAnimalBase" ParentName="SurgeryInstallArtificialBodyPartAnimalBase" Abstract="True">
+		<skillRequirements>
+			<Medicine>4</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	<!-- Unfinished prosthetic -->
+  
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedHealthItemProstheticAnimal</defName>
+		<label>unfinished prosthetic animal</label>
+		<description>An unfinished prosthetic animal.</description>
+		<statBases>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Unfinished/UnfinishedHealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(154,124,104)</color>
+		</graphicData>
+		<stuffCategories Inherit="false"/>
+	</ThingDef>
+	
+	
+	<!-- Prosthetic tail -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticTailAnimal</defName>
+		<label>prosthetic animal tail</label>
+		<labelNoun>a prosthetic animal tail</labelNoun>
+		<description>An installed prosthetic animal tail. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's tail.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticTailAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticTailAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticTailAnimal</defName>
+		<label>prosthetic animal tail</label>
+		<description>An animal tail prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's tail. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticTailAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticTailAnimal</defName>
+		<label>install prosthetic animal tail</label>
+		<description>Install a prosthetic animal tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticTailAnimal</ThingDef>
+			<HediffDef>SimpleProstheticTailAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal tail.</jobString>
+		<addsHediff>SimpleProstheticTailAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Tail</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticTailAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticTailAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticTailAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	<!-- Prosthetic leg -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticLegAnimal</defName>
+		<label>prosthetic animal leg</label>
+		<labelNoun>a prosthetic animal leg</labelNoun>
+		<description>An installed prosthetic animal leg. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's leg.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticLegAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticLegAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>prothetic animal leg</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.8</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticLegAnimal</defName>
+		<label>prosthetic animal leg</label>
+		<description>An animal leg prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's leg. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticLegAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticLegAnimal</defName>
+		<label>install prosthetic animal leg</label>
+		<description>Installs prosthetic leg. Requires a min skill in medicine of 4.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticLegAnimal</ThingDef>
+			<HediffDef>SimpleProstheticLegAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal leg.</jobString>
+		<addsHediff>SimpleProstheticLegAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li>
+			<li>InsectLeg</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticLegAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticLegAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticLegAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	<!-- Prosthetic arm -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticArmAnimal</defName>
+		<label>prosthetic animal arm</label>
+		<labelNoun>a prosthetic animal arm</labelNoun>
+		<description>An installed prosthetic animal arm. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's arm.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticArmAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticArmAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.5</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>3.6</power>
+						<cooldownTime>1.5</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticArmAnimal</defName>
+		<label>prosthetic animal arm</label>
+		<description>An animal arm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's arm. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticArmAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticArmAnimal</defName>
+		<label>install prosthetic animal arm</label>
+		<description>Installs a prosthetic animal arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticArmAnimal</ThingDef>
+			<HediffDef>SimpleProstheticArmAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal arm.</jobString>
+		<addsHediff>SimpleProstheticArmAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticArmAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticArmAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticArmAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	<!-- Prosthetic heart -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticHeartAnimal</defName>
+		<label>prosthetic animal heart</label>
+		<labelNoun>a prosthetic animal heart</labelNoun>
+		<description>An installed prosthetic animal heart.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHeartAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHeartAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticHeartAnimal</defName>
+		<label>prosthetic animal heart</label>
+		<description>An animal heart prosthesis. It contains an electric motor that pumps blood smoothly around the body. The user's owners often report them looking tired, but it's better than the alternative. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHeartAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticHeartAnimal</defName>
+		<label>install prosthetic animal heart</label>
+		<description>Install a prosthetic animal heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHeartAnimal</ThingDef>
+			<HediffDef>SimpleProstheticHeartAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal heart.</jobString>
+		<addsHediff>SimpleProstheticHeartAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+			<li>InsectHeart</li>
+		</appliedOnFixedBodyParts>
+		<deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHeartAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHeartAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticHeartAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Cochlear implant -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>CochlearImplantAnimal</defName>
+		<label>animal cochlear implant</label>
+		<labelNoun>an animal cochlear implant</labelNoun>
+		<description>An installed animal cochlear implant. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf. Fits all animals.</description>
+		<descriptionHyperlinks><ThingDef>CochlearImplantAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CochlearImplantAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>CochlearImplantAnimal</defName>
+		<label>animal cochlear implant</label>
+		<description>An implant which replaces normal hearing, made with animals in mind. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallCochlearImplantAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallCochlearImplantAnimal</defName>
+		<label>install animal cochlear implant</label>
+		<description>Install an animal cochlear implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>CochlearImplantAnimal</ThingDef>
+			<HediffDef>CochlearImplantAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing animal cochlear implant.</jobString>
+		<addsHediff>CochlearImplantAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CochlearImplantAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CochlearImplantAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>CochlearImplantAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs>

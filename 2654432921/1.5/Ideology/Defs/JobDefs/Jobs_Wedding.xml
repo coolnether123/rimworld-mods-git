@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<JobDef>
+		<defName>RotR_Job_CeremonyEntrance</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_CeremonyEntrance</driverClass>
+		<reportString>attending wedding ceremony.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+	<JobDef>
+		<defName>RotR_Job_SpectateCeremony</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_SpectateCeremony</driverClass>
+		<reportString>attending wedding ceremony.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+	<JobDef>
+		<defName>RotR_Job_Procession</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_Procession</driverClass>
+		<reportString>processioning.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+	<JobDef>
+		<defName>RotR_Job_WaitForProcession</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_WaitForProcession</driverClass>
+		<reportString>preparing.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+	<JobDef>
+		<defName>RotR_Job_Marry</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_Marry</driverClass>
+		<reportString>marrying.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+	<JobDef>
+		<defName>RotR_Job_HostCeremony</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_HostCeremony</driverClass>
+		<reportString>hosting.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+</Defs>

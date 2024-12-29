@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- villager -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="Villager"]/techHediffsMoney</xpath>
+		<value>
+			<techHediffsMoney>500~1500</techHediffsMoney>
+		</value>
+	</Operation>
+
+	<!-- town guard -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="Town_Guard"]/techHediffsMoney</xpath>
+		<value>
+			<techHediffsMoney>500~1500</techHediffsMoney>
+		</value>
+	</Operation>
+
+</Patch>

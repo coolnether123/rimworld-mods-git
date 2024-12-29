@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- When two lovers separate for a long time, the impact scales with time.-->
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_Estrange</defName>
+		<thoughtClass>RomanceOnTheRim.Thought_SituationalSocial_Estrange</thoughtClass>
+		<workerClass>RomanceOnTheRim.ThoughtWorker_Estrange</workerClass>
+		<stages>
+		  <li>
+			<label>estranged</label>
+		  </li>
+		</stages>
+	  </ThoughtDef>
+</Defs>
+  

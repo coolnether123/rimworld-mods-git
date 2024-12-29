@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN:
+    <li>questDescription->Placeholder.</li>
+  -->
+    <RotR_Quest_AdoptChance.questDescriptionRules.rulesStrings>TODO</RotR_Quest_AdoptChance.questDescriptionRules.rulesStrings>
+    <!-- EN:
+    <li>questName->Adopt Chance</li>
+  -->
+    <RotR_Quest_AdoptChance.questNameRules.rulesStrings>
+        <li>questName->收养机会</li>
+    </RotR_Quest_AdoptChance.questNameRules.rulesStrings>
+    
+</LanguageData>

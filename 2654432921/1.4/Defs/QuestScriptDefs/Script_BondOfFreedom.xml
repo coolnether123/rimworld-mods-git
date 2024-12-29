@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<QuestScriptDef>
+		<defName>RotR_Quest_BondOfFreedom</defName>
+		<autoAccept>true</autoAccept>
+		<defaultHidden>true</defaultHidden>
+		<rootSelectionWeight>0.5</rootSelectionWeight>
+		<minRefireDays>10</minRefireDays>
+		<sendAvailableLetter>false</sendAvailableLetter>
+		<questNameRules>
+			<rulesStrings>
+			<!-- quest name -->
+				<li>questName->Bond of Freedom</li>
+			</rulesStrings>
+		</questNameRules>
+		<questDescriptionRules>
+			<rulesStrings>
+				<li>questDescription->[slave_nameFull] and [lover_nameFull] are in love. [lover_nameDef] wishes to free [lover_possessive] lover from slavery out of sympathy.\nIf accept, [slave_nameDef] will join the colony. However, other colonists may be unhappy about that.</li>
+			</rulesStrings>
+		</questDescriptionRules>
+		<root Class="RomanceOnTheRim.QuestNode_Root_BondOfFreedom" />
+	</QuestScriptDef>
+	
+	<ThoughtDef>
+		<defName>RotR_BoFSpecMood</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>tensions over newcomer</label>
+				<description>I just hope that former slave won't disrupt the harmony of our colony.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+				<label>new bonds of unity</label>
+				<description>Seeing newcomer find freedom and love among us really warms my heart.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>vindicated skepticism</label>
+				<description>It might be harsh, but our colony's stability and security come first. Their situation, while unfortunate, is a necessary stance to maintain order and prioritize our collective well-being.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>compassionate regret</label>
+				<description>It's a real shame they couldn't officially join together here. Their love deserved a chance, and it's a pity we couldn't give it to them.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			 
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_BoFSpecOpinion</defName>
+		<showBubble>false</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>10</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>ask slave lover to join</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+			<li>
+				<label>ask slave lover to join</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_BoFSlaveMood</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>shadows of doubt</label>
+				<description>Even here, amidst my newfound freedom, I sense some eyes hold reservations, whispers of my past following me.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>unwavering love</label>
+				<description>Even here, amidst my newfound freedom, I sense some eyes hold reservations, whispers of my past following me. But our love will stand strong, even if it means facing the world alone together.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+			<li>
+				<label>embraced by love</label>
+				<description>To be accepted and loved in this new home, despite where I come from, fills me with hope.</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+			<li>
+				<label>burden of refusal</label>
+				<description>The weight of what could have been—a life of love and acceptance—now haunts me, leaving a void filled with regret and what-ifs.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_BoFSlaveOpinion</defName>
+		<showBubble>false</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>15</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>reject my joining</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+			<li>
+				<label>accept my joining</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_BoFLoverMood</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>challenging acceptance</label>
+				<description>I knew it wouldn't be easy for my lover to be accepted by everyone. Their wary glances cut deeper than I expected.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>unwavering love</label>
+				<description>I knew it wouldn't be easy for my lover to be accepted by everyone. Their wary glances cut deeper than I expected. But our love will stand strong, even if it means facing the world alone together.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+			<li>
+				<label>love triumphs</label>
+				<description>It's a gamble. But our love proves that even in the harshest corners of the galaxy, compassion can flourish.</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+			<li>
+				<label>heartbreak's weight</label>
+				<description>The rejection stings more than I thought possible. I hoped for a shared future, a dream of unity and love, but now I'm left grappling with the pieces of a hope that feels shattered.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>reluctant farewell</label>
+				<description>After much soul-searching, I've realized that our paths must part. It's a decision that burdens my heart with sorrow, like abandoning a part of myself.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>hopeful release</label>
+				<description>Though parting ways was painful, it's given us both the chance to find our own paths. It's the time for new beginnings.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_BoFLoverOpinion</defName>
+		<showBubble>false</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>15</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>reject my lover's joining</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+			<li>
+				<label>accept my lover's joining</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			
+		</stages>
+	</ThoughtDef>
+</Defs>

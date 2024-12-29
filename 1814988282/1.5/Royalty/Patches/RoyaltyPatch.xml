@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/specificApparelRequirements/li[bodyPartGroup="UpperHead"]/alternateTagChoices</xpath>
+		<value>
+			<li>
+				<tag>TrooperArmorSet</tag>
+				<chance>0.4</chance>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/specificApparelRequirements</xpath>
+		<value>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<alternateTagChoices>
+					<li>
+						<tag>TrooperArmorSet</tag>
+						<chance>0.4</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/specificApparelRequirements</xpath>
+		<value>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<alternateTagChoices>
+					<li>
+						<tag>SiegebreakerArmorSet</tag>
+						<chance>0.3</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<alternateTagChoices>
+					<li>
+						<tag>SiegebreakerArmorSet</tag>
+						<chance>0.3</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[@Name="StellicGuardBase"]/specificApparelRequirements/li[bodyPartGroup="FullHead"]</xpath>
+		<value>
+			<alternateTagChoices>
+				<li>
+					<tag>PresSiegebreakerArmorSet</tag>
+					<chance>0.3</chance>
+				</li>
+			</alternateTagChoices>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[@Name="StellicGuardBase"]/specificApparelRequirements</xpath>
+		<value>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<alternateTagChoices>
+					<li>
+						<tag>PresSiegebreakerArmorSet</tag>
+						<chance>0.3</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Full Armor - Hands and Feet</li>
+			<li>Combat Extended</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[@Name="CataphractBase"]</xpath>
+					<value>
+						<apparelRequired Inherit="False">
+							<li>VAE_Handwear_MarineGloves</li>
+							<li>VAE_Footwear_MarineBoots</li>
+						</apparelRequired>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[@Name="ImperialFighterBase"]</xpath>
+					<value>
+						<apparelRequired>
+							<li>VAE_Footwear_PlateBoots</li>
+						</apparelRequired>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+</Patch>

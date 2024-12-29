@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Medieval 2</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- Adding Fruits to Juice Recipe -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[@Name = "VBE_MixJuiceBase"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VFEM2_RawGrapes</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[@Name = "VBE_MixJuiceBase"]/defaultIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VFEM2_RawGrapes</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "VBE_MixJuice"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>VFEM2_RawGrapes</li>
+					</value>
+				</li>
+				<!-- Adding Wine and Mead to Cocktail Recipes -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VFEM2_Wine"]/ingestible</xpath>
+					<value>
+						<specialThoughtAsIngredient>VBE_WineAsIngredient</specialThoughtAsIngredient>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="VFEM2_Make_Must"]/recipeUsers</xpath>
+					<value>
+						<li>VBE_Bar</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VFEM2_Wine"]/thingCategories</xpath>
+					<value>
+						<li>VBE_DrinksLuxurySpirits</li>
+					</value>
+				</li>
+				
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "VFEM2_Mead"]/ingestible</xpath>
+					<value>
+						<specialThoughtAsIngredient>VBE_RBMeadAsIngredient</specialThoughtAsIngredient>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VFEM2_Mead"]/thingCategories</xpath>
+					<value>
+						<li>VBE_DrinksLuxurySpirits</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

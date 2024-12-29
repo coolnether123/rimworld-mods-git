@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="SurgeryInstallMiscBodyPartAnimalBase" ParentName="SurgeryInstallArtificialBodyPartAnimalBase" Abstract="True">
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Power Claw -->
+	
+	<RecipeDef ParentName="SurgeryInstallMiscBodyPartAnimalBase">
+		<defName>InstallPowerClawAnimal</defName>
+		<label>install power claw</label>
+		<description>Install a power claw.</description>
+		<jobString>Installing power claw.</jobString>
+		<addsHediff>PowerClaw</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+			<li>Paw</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PowerClaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+
+	<!-- Venom Fangs -->
+	
+	<RecipeDef ParentName="SurgeryInstallMiscBodyPartAnimalBase" MayRequire="ludeon.rimworld.royalty">
+		<defName>InstallVenomFangsAnimal</defName>
+		<label>install venom fangs</label>
+		<description>Install venom fangs.</description>
+		<jobString>Installing venom fangs.</jobString>
+		<addsHediff>VenomFangs</addsHediff>
+		<appliedOnFixedBodyPartGroups>
+			<li>Teeth</li>
+		</appliedOnFixedBodyPartGroups>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VenomFangs</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VenomFangs</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

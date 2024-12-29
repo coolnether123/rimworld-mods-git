@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: remarried to {0} -->
+    <RotR_ReMarried.stages.remarried_to.label>与{0}复婚</RotR_ReMarried.stages.remarried_to.label>
+    <!-- EN: All the past pain seems small compared to what we've overcome together. -->
+    <RotR_ReMarried.stages.remarried_to.description>心若在灿烂中死去，爱会在灰烬里重生。</RotR_ReMarried.stages.remarried_to.description>
+    
+    <!-- EN: remarriage -->
+    <RotR_ReMarryWith.stages.remarriage.label>复婚</RotR_ReMarryWith.stages.remarriage.label>
+    <!-- EN: I respect and love {0} more than ever. -->
+    <RotR_ReMarryWith.stages.remarriage.description>我比以前任何时候都更爱{0}</RotR_ReMarryWith.stages.remarriage.description>
+    
+</LanguageData>

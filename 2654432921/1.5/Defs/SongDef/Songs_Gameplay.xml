@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SongDef>
+	<defName>RotR_Broken</defName>
+    <clipPath>RotR_Broken</clipPath>
+    <volume>1.1</volume>
+    <commonality>0</commonality>
+  </SongDef>
+</Defs>

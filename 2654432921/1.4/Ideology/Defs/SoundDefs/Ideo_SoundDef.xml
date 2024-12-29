@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<SoundDef>
+		<defName>RotR_Sound_WeddingMarch</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wedding/WeddingMarch</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>100</min>
+					<max>100</max>
+				</volumeRange>
+				<distRange>
+					<min>15</min>        
+					<max>40</max>
+				</distRange>
+				<sustainLoop>True</sustainLoop>
+				<muteWhenPaused>False</muteWhenPaused>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>RotR_Sound_WeddingCeremony</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wedding/WeddingCeremony</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>100</min>
+					<max>100</max>
+				</volumeRange>
+				<distRange>
+					<min>15</min>        
+					<max>40</max>
+				</distRange>
+				<sustainLoop>True</sustainLoop>
+				<muteWhenPaused>True</muteWhenPaused>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>RotR_Sound_WeddingCheer</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wedding/WeddingCheer</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>100</min>
+					<max>100</max>
+				</volumeRange>
+				<distRange>
+					<min>15</min>        
+					<max>40</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+				<muteWhenPaused>True</muteWhenPaused>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+</Defs>

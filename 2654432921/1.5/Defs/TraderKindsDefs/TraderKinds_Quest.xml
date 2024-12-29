@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TraderKindDef>
+		<defName>RotR_Trader_Kidney</defName>
+		<label>trader</label>
+		<commonality>0</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Kidney</thingDef>
+				<countRange>1~1</countRange>
+				<price>Cheap</price>
+			</li>
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+</Defs>

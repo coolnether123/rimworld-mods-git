@@ -1,0 +1,4 @@
+/home/bodlosh/Repositories/rimworld-mods/WeaponsTab/Assemblies/WeaponsTab.dll
+/home/bodlosh/Repositories/rimworld-mods/WeaponsTab/Source/WeaponsTab/obj/Release/WeaponsTab.dll
+/home/bodlosh/Repositories/rimworld-mods/WeaponsTab/Source/WeaponsTab/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttribute.cs
+/home/bodlosh/Repositories/rimworld-mods/WeaponsTab/1.2/Assemblies/WeaponsTab.dll

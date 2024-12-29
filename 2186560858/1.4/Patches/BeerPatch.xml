@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="Beer"]/thingCategories</xpath>
+		<value>
+			<li>VBE_DrinksSimpleSpirits</li>
+		</value>
+	</Operation>
+</Patch>
+

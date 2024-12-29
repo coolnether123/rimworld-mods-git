@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <NeedDef>
+        <defName>RomanceOnTheRim_Need_Romance</defName>
+        <needClass>RomanceOnTheRim.Need_Romance</needClass>
+        <label>romance</label>
+        <description>Even in the rimworld, people need periodic romantic interactions to keep their relationship fresh. A low romance level affects person's mood. They can raise it by sleeping together or doing automatically triggered interactions.</description>
+        <minIntelligence>Humanlike</minIntelligence>
+		<colonistsOnly>true</colonistsOnly>
+		<neverOnPrisoner>true</neverOnPrisoner>
+		<neverOnSlave>true</neverOnSlave>
+		<listPriority>50</listPriority>
+		<freezeInMentalState>true</freezeInMentalState>
+    </NeedDef>
+</Defs>

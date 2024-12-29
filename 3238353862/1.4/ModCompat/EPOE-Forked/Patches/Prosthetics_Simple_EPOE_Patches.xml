@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[@Name="AddedSimpleBodyPartAnimalBase"]</xpath>
+		<value>
+			<defaultLabelColor>(102,178,255)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	
+	<!--             Prosthetics             -->
+
+	<!-- Prosthetic leg -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="SimpleProstheticLegAnimal"]/addedPartProps/partEfficiency</xpath>
+		<value>
+			<partEfficiency>0.8</partEfficiency>
+		</value>
+	</Operation>
+
+
+	<!-- Prosthetic arm -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="SimpleProstheticArmAnimal"]/addedPartProps/partEfficiency</xpath>
+		<value>
+			<partEfficiency>0.8</partEfficiency>
+		</value>
+	</Operation>
+
+
+	<!-- Cochlear implant -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="CochlearImplantAnimal"]/addedPartProps/partEfficiency</xpath>
+		<value>
+			<partEfficiency>0.8</partEfficiency>
+		</value>
+	</Operation>
+	
+		
+	<!--             Surrogates             -->
+
+	<!-- Surrogate heart -->
+
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>AddedSurrogateBodyPartAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]/label</xpath>
+		<value>
+			<label>surrogate animal heart</label>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]/labelNoun</xpath>
+		<value>
+			<labelNoun>a surrogate animal heart</labelNoun>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]/description</xpath>
+		<value>
+			<description>An installed surrogate animal heart.</description>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]/addedPartProps/partEfficiency</xpath>
+		<value>
+			<partEfficiency>0.75</partEfficiency>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef[defName="SimpleProstheticHeartAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>BodyPartSurrogateAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="SimpleProstheticHeartAnimal"]/label</xpath>
+		<value>
+			<label>surrogate animal heart</label>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>SurgeryInstallSurrogateBodyPartAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]/label</xpath>
+		<value>
+			<label>install surrogate animal heart</label>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]/description</xpath>
+		<value>
+			<description>Install a surrogate animal heart.</description>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]/jobString</xpath>
+		<value>
+			<jobString>Installing surrogate animal heart.</jobString>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]/deathOnFailedSurgeryChance</xpath>
+	</Operation>
+	
+</Patch>

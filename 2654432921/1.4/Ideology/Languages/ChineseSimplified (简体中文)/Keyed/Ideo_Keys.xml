@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- EN: Cannot court {0} -->
+    <CannotAttemptRomanceManually>无法对{0}告白</CannotAttemptRomanceManually>
+	<!-- EN: Try court {0} -->
+    <TryAttemptRomanceManually>对{0}告白</TryAttemptRomanceManually>
+	<!-- EN: Should right-click interactions(romance attempt and propose) show success chance? (May make right click menu less performant) -->
+    <RotR_Setting_EnableSuccessChanceTips>当拥有相应的戒律时，右键菜单是否显示告白/求婚概率？（可能影响右键菜单性能）</RotR_Setting_EnableSuccessChanceTips>
+	<!-- EN: Should players allow to interact with other factions' pawns with right-click when having according precepts? -->
+    <RotR_Setting_EnableManualInteractionWithPawnsFromOtherFaction>当拥有手动戒律时，是否允许管制对象为其他派系的成员（例如与其分手等）？</RotR_Setting_EnableManualInteractionWithPawnsFromOtherFaction>
+	<!-- EN: Breakup -->
+    <TryBreakupButtonLabel>分手</TryBreakupButtonLabel>
+	<!-- EN: Nobody for {0_labelShort} to breakup. -->
+    <TryBreakupNoOptsMessage>{0_labelShort}没有分手对象</TryBreakupNoOptsMessage>
+	<!-- EN: Propose -->
+    <TryProposalButtonLabel>求婚</TryProposalButtonLabel>
+	<!-- EN: Nobody for {0_labelShort} to propose. -->
+    <TryProposalNoOptsMessage>{0_labelShort}没有求婚对象</TryProposalNoOptsMessage>
+	<!-- EN: Ritual was called off after {0} leaves. -->
+    <RitualCalledOffAfterRoleLeave>婚礼因{0}离开而取消了。</RitualCalledOffAfterRoleLeave>
+	<!-- EN: Bride must have fiance. -->
+    <MessageRitualRoleMustHaveFiance>新娘必须有未婚夫</MessageRitualRoleMustHaveFiance>
+	<!-- EN: Bride must be fiancee of groom. -->
+    <MessageRitualRoleMustBeFianceOfGroom>新娘必须是新郎的未婚妻</MessageRitualRoleMustBeFianceOfGroom>
+	<!-- EN: Bridesmaid must be friend of bride (opinion>30.) -->
+    <MessageRitualRoleMustBeFriendOfBride>伴娘必须是新娘的朋友（关系>30）</MessageRitualRoleMustBeFriendOfBride>
+	<!-- EN: Brides and grooms must be assigned first. -->
+    <MessageRitualRoleMustAssignGroomAndBrideFirst>必须先分配新娘和新郎</MessageRitualRoleMustAssignGroomAndBrideFirst>
+	<!-- EN: Only child (4-13) is allowed. -->
+    <MessageRitualRoleMustBeChild>只允许儿童（4-13 岁）</MessageRitualRoleMustBeChild>
+	<!-- EN: Only girl is allowed. -->
+    <MessageRitualRoleMustBeGirl>只允许女孩</MessageRitualRoleMustBeGirl>
+	<!-- EN: Only boy is allowed. -->
+    <MessageRitualRoleMustBeBoy>只允许男孩</MessageRitualRoleMustBeBoy>
+	<!-- EN: Only adult is allowed. -->
+    <MessageRitualRoleMustAdult>只允许成人</MessageRitualRoleMustAdult>
+	<!-- EN: Groom must be fiance of bride. -->
+    <MessageRitualRoleMustBeFianceOfBride>新郎必须是新娘的未婚夫</MessageRitualRoleMustBeFianceOfBride>
+	<!-- EN: Groomsman must be friend of groom (opinion>30.) -->
+    <MessageRitualRoleMustBeFriendOfGroom>伴郎必须是新郎的朋友（关系>30）</MessageRitualRoleMustBeFriendOfGroom>
+	<!-- EN: Only leader, moral guide, or royalty is allowed. -->
+    <MessageRitualRoleMustBeLeaderOrMoralGuide>只允许领袖、传道者或贵族担任</MessageRitualRoleMustBeLeaderOrMoralGuide>
+	<!-- EN: Must be parent of any brides. -->
+    <MessageRitualRoleMustBeParentOfBride>必须是新娘的父母</MessageRitualRoleMustBeParentOfBride>
+	<!-- EN: Must be parent of any grooms. -->
+    <MessageRitualRoleMustBeParentOfGroom>必须是新郎的父母</MessageRitualRoleMustBeParentOfGroom>
+	<!-- EN: Error in positions searching when starting wedding ceremony. -->
+    <RotR_CantStartRitualPatherError>开始婚礼仪式时位置搜索出错</RotR_CantStartRitualPatherError>
+	<!-- EN: {0} and {1} have married. -->
+    <RotR_MarryNotification>{0}和{1}结婚了</RotR_MarryNotification>
+	<!-- EN: Wedding room of size {0} can't accomodate {1} people. -->
+    <MessageWeddingRoomTooSmall>面积为{0}的房间无法容纳{1}人</MessageWeddingRoomTooSmall>
+	<!-- EN: {0} have left from wedding ceremony. (No available space) -->
+    <MessagePawnLeaveWeddingCeremonyCantReach>{0}已离开婚礼仪式。(无可用位置）</MessagePawnLeaveWeddingCeremonyCantReach>
+	<!-- EN: Wedding ceremony called off. Can't find preparing spot for bride {0}. -->
+    <MessageCantFindPreparingSpotForBride>婚礼已取消。找不到为新娘{0}的准备位置</MessageCantFindPreparingSpotForBride>
+
+</LanguageData>
