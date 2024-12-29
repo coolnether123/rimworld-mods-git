@@ -1,0 +1,5 @@
+C:\Users\Luca\Desktop\Assemblies\ConsolidatedTraits.dll
+C:\Users\Luca\Desktop\rimworld-consolidatedtraits-master\Source\obj\Debug\ConsolidatedTraits.csproj.AssemblyReference.cache
+C:\Users\Luca\Desktop\rimworld-consolidatedtraits-master\Source\obj\Debug\ConsolidatedTraits.csproj.CoreCompileInputs.cache
+C:\Users\Luca\Desktop\rimworld-consolidatedtraits-master\Source\obj\Debug\Consolid.B72F4695.Up2Date
+C:\Users\Luca\Desktop\rimworld-consolidatedtraits-master\Source\obj\Debug\ConsolidatedTraits.dll
