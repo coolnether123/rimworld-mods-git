@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LetterDef ParentName="CustomChoiceLetterBase">
+		<defName>RotR_Letter_Options</defName>
+		<letterClass>RomanceOnTheRim.ChoiceLetter_Options</letterClass>
+	</LetterDef>
+	
+	<LetterDef ParentName="CustomChoiceLetterBase">
+		<defName>RotR_DialogLetter_DiplomaticMarriage</defName>
+		<letterClass>RomanceOnTheRim.DialogLetter_DiplomaticMarriage</letterClass>
+	</LetterDef>
+
+</Defs>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<XmlExtensions.SettingsMenuDef>
+		<defName>CategoryToggle</defName>
+		<modId>SamBucher.ADogSaidAnimalProsthetics2</modId>
+		<label>A Dog Said... Animal Prosthetics 2</label>
+		<settings>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>animalCategoryToggle</key>
+				<label>Animal surgery categories</label>
+				<tooltip>Normally, animals are broken into "categories" based on gameplay usefulness and common sense, which determine which kinds of prosthetics can and can't be installed into them. Specifically:
+				
+Category 1 - medieval prostheses
+Rodents and other tiny animals for which I think installing even simple prosthetics would be silly.
+
+Category 2 - simple prostheses
+Livestock and other animals which can't be trained or can't carry extra mass in caravans (except for the house cat).
+
+Category 3 - bionic prostheses
+Pack animals and trainable pets (and the house cat).
+
+Disabling this will allow all animal surgeries to be performed on all animals.
+REQUIRES RESTART
+				</tooltip>
+				<defaultValue>true</defaultValue>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+	
+</Defs>

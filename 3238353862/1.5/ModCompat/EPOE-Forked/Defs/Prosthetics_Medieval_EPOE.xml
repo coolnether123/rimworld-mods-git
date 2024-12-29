@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Hook hand -->
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallHookHandAnimal</defName>
+		<label>install hook animal hand</label>
+		<description>Installs a hook animal hand.</description>
+		<jobString>Installing a hook animal hand.</jobString>
+		<addsHediff>HookHand</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HookHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs Inherit="False">
+				<li>HookHand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>HookHand</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Golden Eye -->
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallGoldenEyeAnimal</defName>
+		<label>install golden eye</label>
+		<description>Installs a golden eye.</description>
+		<jobString>Installing a golden eye.</jobString>
+		<addsHediff>GoldenEye</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GoldenEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs Inherit="False">
+				<li>GoldenEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>GoldenEye</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SpecialThingFilterDef>
+    <defName>AllowPerishableThings</defName>
+    <label>Allow perishables</label>
+    <description>Allow things that need refrigeration.</description>
+    <parentCategory>Root</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowPerishableThings</saveKey>
+    <workerClass>Perishable.SpecialThingFilterWorker_AllowPerishableThings</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowNotPerishableThings</defName>
+    <label>Allow non-perishables</label>
+    <description>Allow things that don't need refrigeration.</description>
+    <parentCategory>Root</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowNotPerishableThings</saveKey>
+    <workerClass>Perishable.SpecialThingFilterWorker_AllowNotPerishableThings</workerClass>
+  </SpecialThingFilterDef>
+
+</Defs>

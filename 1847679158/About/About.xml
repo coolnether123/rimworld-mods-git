@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimPy Mod Manager Database</name>
+	<author>ruPal</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+		<li>1.7</li>
+		<li>1.8</li>
+		<li>1.9</li>
+		<li>1.10</li>
+	</supportedVersions>
+	<packageId>rupal.rimpymodmanagerdatabase</packageId>
+	<description>This is a database for RimPy Mod Manager.\n\nRimPy Mod Manager is a tool that makes your life easier:\n\n
+- Activate mods by drag and drop or double click
+\n- Activate multiple mods at once with SHIFT and CTRL combos
+\n- Autodetect game, config and mods pathes (you are able to set them manually also)
+\n- Context menu for a quick jump to mod folder or mod steam page
+\n- Automatic mod sorting based on Steam pages database (this mod)
+\n- Sorting takes into account Manifest.xml files and custom rules you can set manually
+\n- Notifications and checks to make changes as safe as possible
+\n- Automatic backup your config before changes apply (beware, every save rewrites backup file!)
+\n- Clear button clears all mods except Core
+\n- Restore button restores all changes back
+\n- Restart button - quick restart to load newly added mods and manual config changes
+\n- Save - saves ModsConfig.xml file
+\n- Run game from the Rimpy Mod Manager
+\n- One file installation
+\n- Windows and Linux (Ubuntu tested) friendly
+\n- Donate button to support a developer\n\n
+I need your support to make RimPy better, implement new functions and rent a server to make possible database (this mod) autoupdates.</description>
+</ModMetaData>

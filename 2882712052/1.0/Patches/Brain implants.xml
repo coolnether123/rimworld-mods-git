@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+   <!-- ========== Joywire ========== -->
+   
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallJoywire"]</xpath>
+		<value>
+			<researchPrerequisite>AdvancedBrainSurgery</researchPrerequisite>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="Joywire"]</xpath>
+		<value>
+			<defaultLabelColor>(188,39,242)</defaultLabelColor>
+		</value>
+	</Operation>
+
+   <!-- ========== Painstopper ========== -->
+   
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallPainstopper"]</xpath>
+		<value>
+			<researchPrerequisite>AdvancedBrainSurgery</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="Painstopper"]</xpath>
+		<value>
+			<defaultLabelColor>(188,39,242)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+</Patch>

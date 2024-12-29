@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainTemplateDef Name="CarpetBase" Abstract="True">
+    <researchPrerequisites>
+      <li>CarpetMaking</li>
+    </researchPrerequisites>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <renderPrecedenceStart>200</renderPrecedenceStart>
+    <statBases>
+      <Beauty>2</Beauty>
+      <Flammability>0.32</Flammability>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+  </TerrainTemplateDef>
+
+
+
+  <!-- Check carpet - all colours -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainTemplateDef ParentName="CarpetBase">
+    <defName>CheckCarpet</defName>
+    <label>checkered carpet ({0})</label>
+    <description>A checkered carpet.</description>
+    <texturePath>Terrain/Surfaces/CheckCarpet</texturePath>
+    <designatorDropdown>TFloor_CarpetCheck</designatorDropdown>
+    <costList>
+      <Cloth>7</Cloth>
+    </costList>
+    <uiOrder>2200</uiOrder>
+  </TerrainTemplateDef>
+
+
+
+  <!-- Wool carpet - all colours -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainTemplateDef ParentName="CarpetBase">
+    <defName>WoolCarpet</defName>
+    <label>wool carpet ({0})</label>
+    <description>A wool carpet.</description>
+    <texturePath>Terrain/Surfaces/WoolCarpet</texturePath>
+    <designatorDropdown>TFloor_CarpetWool</designatorDropdown>
+    <costList>
+      <WoolCloth>4</WoolCloth>
+    </costList>
+    <statBases>
+      <Beauty>3</Beauty>
+    </statBases>
+    <uiOrder>2300</uiOrder>
+  </TerrainTemplateDef>
+
+</Defs>

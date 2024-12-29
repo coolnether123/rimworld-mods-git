@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+	<JobDef>
+		<defName>RomanceOnTheRim_GoToLoversPos</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_GoToLoversPos</driverClass>
+		<reportString>walking towards TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>RomanceOnTheRim_InitiateKiss</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_InitiateKiss</driverClass>
+		<reportString>kissing TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>RomanceOnTheRim_ReceiveKiss</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_ReceiveKiss</driverClass>
+		<reportString>kissed by TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>RomanceOnTheRim_PillowTalk</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_PillowTalk</driverClass>
+		<reportString>pillow talking with TargetB.</reportString>
+	</JobDef>
+	
+	<JobDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>RomanceOnTheRim_PlayInstrument</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_PlayInstrumentForLover</driverClass>
+		<reportString>playing instrument.</reportString>
+		<joyKind>HighCulture</joyKind>
+	</JobDef>
+	
+	<JobDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>RomanceOnTheRim_EnjoyPerformance</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_EnjoyPerformance</driverClass>
+		<reportString>enjoying musical performance.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>RomanceOnTheRim_SkygazeTogether</defName>
+		<driverClass>RomanceOnTheRim.JobDriver_SkygazeTogether</driverClass>
+		<reportString>skygazing with TargetB.</reportString>
+	</JobDef>
+</Defs>

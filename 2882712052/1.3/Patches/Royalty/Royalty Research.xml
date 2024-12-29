@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+   <!-- ========== Research ========== -->
+
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>Royalty</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+         <success>Always</success>
+         <operations>
+            <li Class="PatchOperationAdd">
+               <xpath>Defs/ResearchProjectDef[@Name="BaseBodyPartEmpire_TierA"]</xpath>
+               <value>
+                  <tab>EPOE</tab>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>0</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="SpecializedLimbs"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>1</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>4.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="VenomSynthesis"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>5.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>2.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>3.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>4.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>2.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="FleshShaping"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>1.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>2.00</researchViewX>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/researchViewX</xpath>
+               <value>
+                  <researchViewX>3.00</researchViewX>
+               </value>
+            </li>
+            <!-- Y -->
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.00</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="SpecializedLimbs"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.00</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.00</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="VenomSynthesis"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.00</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.00</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.00</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.75</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.75</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="FleshShaping"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.75</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>4.5</researchViewY>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/researchViewY</xpath>
+               <value>
+                  <researchViewY>3.75</researchViewY>
+               </value>
+            </li>
+            <!-- Requirements -->
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/prerequisites</xpath>
+               <value>
+                  <prerequisites>
+                     <li>BionicWarfare</li>
+                  </prerequisites>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/prerequisites</xpath>
+               <value>
+                  <prerequisites>
+                     <li>BionicWarfare</li>
+                  </prerequisites>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/prerequisites</xpath>
+               <value>
+                  <prerequisites>
+                     <li>AdvancedBrainSurgery</li>
+                  </prerequisites>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/prerequisites</xpath>
+               <value>
+                  <prerequisites>
+                     <li>AdvancedBrainSurgery</li>
+                  </prerequisites>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/hiddenPrerequisites</xpath>
+               <value>
+                  <hiddenPrerequisites>
+                     <li>SyntheticOrgans</li>
+                  </hiddenPrerequisites>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/hiddenPrerequisites</xpath>
+               <value>
+                  <hiddenPrerequisites>
+                     <li>SyntheticOrgans</li>
+                  </hiddenPrerequisites>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/hiddenPrerequisites</xpath>
+               <value>
+                  <hiddenPrerequisites>
+                     <li>SyntheticOrgans</li>
+                  </hiddenPrerequisites>
+               </value>
+            </li>
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/hiddenPrerequisites</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/hiddenPrerequisites</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/hiddenPrerequisites</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/hiddenPrerequisites</xpath>
+            </li>
+			
+            <!-- Brain Wiring workaround because I can't seem to just hide it -->
+            
+			<li Class="PatchOperationAttributeRemove">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]</xpath>
+               <attribute>ParentName</attribute>
+            </li>
+            <li Class="PatchOperationAdd">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]</xpath>
+               <value>
+                  <techLevel>Neolithic</techLevel>
+               </value>
+            </li>
+            <li Class="PatchOperationAdd">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]</xpath>
+               <value>
+                  <tab>EPOE</tab>
+               </value>
+            </li>
+            <li Class="PatchOperationAdd">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]</xpath>
+               <value>
+                  <tags>
+                     <li>ClassicStart</li>
+                  </tags>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/label</xpath>
+               <value>
+                  <label>Have Fun playing EPOE 2.4!</label>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/description</xpath>
+               <value>
+                  <description>Royalty is now fully integrated in EPOE!</description>
+               </value>
+            </li>
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/hiddenPrerequisites</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/prerequisites</xpath>
+            </li>
+			
+            <!-- I hate BrainWiring so much, why won't it just go away?
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewY</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewX</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName="BrainWiring"]</xpath>
+			</li> -->
+         </operations>
+      </match>
+   </Operation>
+</Patch>

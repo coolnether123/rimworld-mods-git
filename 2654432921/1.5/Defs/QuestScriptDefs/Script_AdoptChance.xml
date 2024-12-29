@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<QuestScriptDef>
+		<defName>RotR_Quest_AdoptChance</defName>
+		<autoAccept>true</autoAccept>
+		<defaultHidden>true</defaultHidden>
+		<isRootSpecial>true</isRootSpecial>
+		<sendAvailableLetter>false</sendAvailableLetter>
+		<questNameRules>
+			<rulesStrings>
+				<!-- quest name -->
+				<li>questName->Adopt Chance</li>
+			</rulesStrings>
+		</questNameRules>
+		<questDescriptionRules>
+			<rulesStrings>
+				<li>questDescription->Placeholder.</li>
+			</rulesStrings>
+		</questDescriptionRules>
+		<root Class="RomanceOnTheRim.QuestNode_Root_AdoptChance" />
+	</QuestScriptDef>
+	
+	<ThoughtDef>
+		<defName>RotR_ACAcceptedMood_Child</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>finding home</label>
+				<description>I've found my forever family. I feel loved and secure.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_ACAcceptedMood_Parent</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>our family grows</label>
+				<description>Proud to be the parent of such a brave and loving child.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_ACRejectedMood_Child</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>heartache</label>
+				<description>I thought I found my place, but I'm just floating again. Am I too greedy?</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_ACRejectedMood_Parent</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>difficult decision</label>
+				<description>I hope this decision is for the best, but doubt clouds my thoughts.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

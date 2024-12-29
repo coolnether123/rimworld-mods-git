@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+	<!-- Precepts -->
+	<PreceptDef>
+		<defName>RomanceOnTheRim_Cheat_Forbidden</defName>
+		<issue>RomanceOnTheRim_Issue_Cheat</issue>
+		<label>forbidden</label>
+		<description>People should never cheat on others.\n\n&lt;color=#E5E54C&gt;Effect:&lt;/color&gt;\n - Pawns with this precept will not try to cheat or accept it naturally.</description>
+		<impact>High</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>70</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+	<PreceptDef>
+		<defName>RomanceOnTheRim_Cheat_Discouraged</defName>
+		<issue>RomanceOnTheRim_Issue_Cheat</issue>
+		<label>discouraged</label>
+		<description>People should keep their pledge in most cases.\n\n&lt;color=#E5E54C&gt;Effect:&lt;/color&gt;\n - (Initiator)Cheat chance -50% \n - (Recipient)Cheat success chance -50%.</description>
+		<impact>Medium</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>60</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+		<PreceptDef>
+		<defName>RomanceOnTheRim_Cheat_Encouraged</defName>
+		<issue>RomanceOnTheRim_Issue_Cheat</issue>
+		<label>encouraged</label>
+		<description>Love is chaotic and insane. Things will change, I am sorry for that.\n\n&lt;color=#E5E54C&gt;Effect:&lt;/color&gt;\n - (Initiator)Cheat chance +50% \n - (Recipient)Cheat success chance +50%.</description>
+		<impact>Medium</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>50</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+</Defs>

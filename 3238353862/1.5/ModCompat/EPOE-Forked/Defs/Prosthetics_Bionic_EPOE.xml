@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!--             Synthetics             -->	
+	
+	<HediffDef Name="AddedSyntheticBodyPartAnimalBase" ParentName="AddedBionicBodyPartAnimalBase" Abstract="True">
+		<defaultLabelColor>(188,39,242)</defaultLabelColor>
+	</HediffDef>
+
+	<ThingDef Name="BodyPartSyntheticAnimalBase" ParentName="BodyPartBionicAnimalBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItemAnimalSynthetic</texPath>
+		</graphicData>
+		<recipeMaker>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>TableOrgans</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef Name="SurgeryInstallSyntheticBodyPartAnimalBase" ParentName="SurgeryInstallBionicBodyPartAnimalBase" Abstract="True">
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+
+	<!-- Synthetic lung -->
+
+	<HediffDef ParentName="AddedSyntheticBodyPartAnimalBase">
+		<defName>SyntheticLungAnimal</defName>
+		<label>synthetic animal lung</label>
+		<labelNoun>a synthetic animal lung</labelNoun>
+		<description>An installed synthetic animal lung.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticLungAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticLungAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartSyntheticAnimalBase">
+		<defName>SyntheticLungAnimal</defName>
+		<label>synthetic animal lung</label>
+		<description>An advanced artificial animal lung. It has synthetic muscle fibers for a realistic breathing, plus a high-flow pump for rapid deep breathes during intensive activities. It is better than a biological lung in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticLungAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSyntheticBodyPartAnimalBase">
+		<defName>InstallSyntheticLungAnimal</defName>
+		<label>install synthetic animal lung</label>
+		<description>Installs a synthetic animal lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLungAnimal</ThingDef>
+			<HediffDef>SyntheticLungAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic animal lung.</jobString>
+		<addsHediff>SyntheticLungAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLungAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLungAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SyntheticLungAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Synthetic liver -->
+
+	<HediffDef ParentName="AddedSyntheticBodyPartAnimalBase">
+		<defName>SyntheticLiverAnimal</defName>
+		<label>synthetic animal liver</label>
+		<labelNoun>a synthetic animal liver</labelNoun>
+		<description>An installed synthetic animal liver.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticLiverAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticLiverAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartSyntheticAnimalBase">
+		<defName>SyntheticLiverAnimal</defName>
+		<label>synthetic animal liver</label>
+		<description>An advanced artificial animal liver. A set of sensors and chemical synthesizers monitors and replicate the liver's role in metabolism, instantly adapting to changes in the body. It is better than a biological liver in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticLiverAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSyntheticBodyPartAnimalBase">
+		<defName>InstallSyntheticLiverAnimal</defName>
+		<label>install synthetic animal liver</label>
+		<description>Installs a synthetic animal liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLiverAnimal</ThingDef>
+			<HediffDef>SyntheticLiverAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic animal liver.</jobString>
+		<addsHediff>SyntheticLiverAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLiverAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLiverAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SyntheticLiverAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Synthetic kidney -->
+
+	<HediffDef ParentName="AddedSyntheticBodyPartAnimalBase">
+		<defName>SyntheticKidneyAnimal</defName>
+		<label>synthetic animal kidney</label>
+		<labelNoun>a synthetic animal kidney</labelNoun>
+		<description>An installed synthetic animal kidney.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticKidneyAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticKidneyAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartSyntheticAnimalBase">
+		<defName>SyntheticKidneyAnimal</defName>
+		<label>synthetic animal kidney</label>
+		<description>An advanced artificial animal kidney. A set of sensors and synthetic filters that efficiently removes waste products from the blood. It is better than a biological kidney in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticKidneyAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSyntheticBodyPartAnimalBase">
+		<defName>InstallSyntheticKidneyAnimal</defName>
+		<label>install synthetic animal kidney</label>
+		<description>Installs a synthetic animal kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticKidneyAnimal</ThingDef>
+			<HediffDef>SyntheticKidneyAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic animal kidney.</jobString>
+		<addsHediff>SyntheticKidneyAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticKidneyAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticKidneyAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SyntheticKidneyAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

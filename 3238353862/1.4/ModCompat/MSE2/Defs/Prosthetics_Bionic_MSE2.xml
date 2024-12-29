@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Bionic forearm -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicForearmAnimal</defName>
+		<label>bionic animal forearm</label>
+		<labelNoun>a bionic animal forearm</labelNoun>
+		<description>An installed advanced artificial animal forearm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological forearm in almost every way.</description>
+		<descriptionHyperlinks><ThingDef>BionicForearmAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicForearmAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="MSE2.HediffCompProperties_ModuleHolder">
+				<maxModules>1</maxModules>
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicForearmAnimal</defName>
+		<label>bionic animal forearm</label>
+		<description>An advanced artificial animal forearm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBionicForearmAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>4</Steel>
+			<Plasteel>6</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+			<comps>
+				<li Class="MSE2.CompProperties_IncludedChildParts">
+					<standardChildren>
+						<li>BionicHandAnimal</li>
+						<li>BionicInternalSupportAnimal</li>
+						<li>BionicClawAnimal</li>
+					</standardChildren>
+				</li>
+			</comps>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicForearmAnimal</defName>
+		<label>install bionic animal forearm</label>
+		<description>Installs a bionic animal forearm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicForearmAnimal</ThingDef>
+			<HediffDef>BionicForearmAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal forearm.</jobString>
+		<addsHediff>BionicForearmAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicForearmAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicForearmAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicForearmAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+
+	<!-- Internal support -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicInternalSupportAnimal</defName>
+		<label>bionic animal internal support</label>
+		<labelNoun>a bionic animal internal support</labelNoun>
+		<description>An installed bionic animal internal support.</description>
+		<descriptionHyperlinks><ThingDef>BionicInternalSupportAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicInternalSupportAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicInternalSupportAnimal</defName>
+		<label>bionic animal internal support</label>
+		<description>An advanced artificial animal internal support. Useful replacement to have on hand for when an internal component of a bionic prosthesis breaks. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBionicInternalSupportAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>6</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>0.8</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicInternalSupportAnimal</defName>
+		<label>install bionic animal internal support</label>
+		<description>Installs a bionic animal internal support.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicInternalSupportAnimal</ThingDef>
+			<HediffDef>BionicInternalSupportAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal internal support.</jobString>
+		<addsHediff>BionicInternalSupportAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Clavicle</li>
+			<li>Humerus</li>
+			<li>Radius</li>
+			<li>Femur</li>
+			<li>Tibia</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter> 
+					<thingDefs>
+						<li>BionicInternalSupportAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicInternalSupportAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicInternalSupportAnimal</uiIconThing>
+		<modExtensions>
+			<li Class="MSE2.InstallationRestrictions">
+				<whitelist>
+					<li>BionicArmAnimal</li>
+					<li>BionicForearmAnimal</li>
+					<li>BionicLegAnimal</li>
+				</whitelist>
+			</li>
+		</modExtensions>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic Foot Claw -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase" MayRequire="regrowth.botr.extinctanimalspack">
+		<defName>Bionic_RG_FootClaw</defName>
+		<label>bionic animal foot claw</label>
+		<labelNoun>a bionic animal foot claw</labelNoun>
+		<description>An installed bionic animal foot claw.</description>
+		<descriptionHyperlinks><ThingDef>Bionic_RG_FootClaw</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>Bionic_RG_FootClaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic foot claw</label>
+						<capacities>
+							<li>Scratch</li>
+							<li>Stab</li>
+						</capacities>
+						<power>8.5</power>
+						<cooldownTime>1.2</cooldownTime>
+						<chanceFactor>0.3</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicAnimalBase" MayRequire="regrowth.botr.extinctanimalspack">
+		<defName>Bionic_RG_FootClaw</defName>
+		<label>bionic animal foot claw</label>
+		<description>An advanced artificial animal foot claw. With its biogel nerve-link, powerful mini-servos, lattice-dust healing system, and sharp plasteel blade, it is better than a biological foot claw in almost every way. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBionic_RG_FootClaw</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>8</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase" MayRequire="regrowth.botr.extinctanimalspack">
+		<defName>InstallBionic_RG_FootClaw</defName>
+		<label>install bionic animal foot claw</label>
+		<description>Installs bionic foot claw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Bionic_RG_FootClaw</ThingDef>
+			<HediffDef>Bionic_RG_FootClaw</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal foot claw.</jobString>
+		<addsHediff>Bionic_RG_FootClaw</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>RG_FootClaw</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bionic_RG_FootClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Bionic_RG_FootClaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>Bionic_RG_FootClaw</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

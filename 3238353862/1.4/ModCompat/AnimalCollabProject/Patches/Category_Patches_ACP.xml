@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- patches animals from Animal Collab Project Vanilla-Style
+!! does not include animals from legacy versions pre 1.4 that have been excluded due to being dupilcates to vanilla !!-->
+<Patch>
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+          <li>ACPErmine</li>
+          <li>ACPFerret</li>
+          <li>ACPMegaFerret</li>
+          <li>ACPMegabadger</li>
+          <li>ACPDomesticRabbit</li>
+          <li>ACPXenguana</li>
+          <li>ACPRedPanda</li>
+          <li>ACPPanda</li>
+          <li>ACPBlackbear</li>
+          <li>ACPWoolyRhino</li>
+          <li>ACPBlackRhinoceros</li>
+          <li>ACPHippopotamus</li>
+          <li>ACPWoolyHorse</li>
+          <li>ACPTapir</li>
+          <li>ACPMegascorpion</li>
+          <li>ACPHaulerAnt</li>
+          <li>ACPAcidAnt</li>
+          <li>ACPMunchkinCat</li>
+          <li>ACPDirewolf</li>
+					<li>ACPBlackwolf</li>
+					<li>ACPSpiritwolf</li>
+					<li>ACPSpiritwolfFF</li>
+          <li>ACPWildDog</li>
+				</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+				  <li>ACPFlamingo</li>
+          <li>ACPGreatBustard</li>
+          <li>ACPDuckBilledPlatypus</li>
+          <li>ACPPenguin</li>
+          <li>ACPWalrus</li>
+          <li>ACPSpottedSeal</li>
+          <li>ACPHoneyBadger</li>
+          <li>ACPPeccary</li>
+          <li>ACPGiraffe</li>
+          <li>ACPSilkspider</li>
+          <li>ACPMajoreraGoat</li>
+          <li>ACPLion</li>
+          <li>ACPTiger</li>
+          <li>ACPCheetah</li>
+          <li>ACPAmurLeopard</li>
+					<li>ACPSnowLeopard</li>
+          <li>ACPSilkieChicken</li>
+          <li>ACPLlama</li>
+					<li>ACPValleyQuail</li>
+				</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+          <li>ACPKiwi</li>
+          <li>ACPPtarmigan</li>
+          <li>ACPFishercat</li>
+          <li>ACPOtter</li>
+          <li>ACPChipmunk</li>
+          <li>ACPHedgehog</li>
+					<li>ACPJackalope</li>
+          <li>ACPPorcupine</li>
+          <li>ACPThornyDevil</li>
+          <li>ACPXenguana</li>
+          <li>ACPKomodo</li>
+          <li>ACPXGecko</li>
+          <li>ACPAngoraRabbit</li>
+				</value>
+	</Operation>
+</Patch>

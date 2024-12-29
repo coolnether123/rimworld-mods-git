@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<DutyDef>
+		<defName>RomanceOnTheRim_InitiateKiss</defName>
+		<label>kiss</label>
+		<hook>MediumPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			<li Class="RomanceOnTheRim.JobGiver_GoToLoversPos"/>
+			<li Class="RomanceOnTheRim.JobGiver_InitiateKiss"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
+	<DutyDef>
+		<defName>RomanceOnTheRim_GetJoyTogether</defName>
+		<label>get joy with my lover</label>
+		<hook>MediumPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			<li Class="RomanceOnTheRim.JobGiver_GetJoyTogether"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
+		
+	<DutyDef>
+		<defName>RomanceOnTheRim_PillowTalk</defName>
+		<label>pillow talk</label>
+		<hook>MediumPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			<li Class="RomanceOnTheRim.JobGiver_PillowTalk"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
+	<DutyDef>
+		<defName>RomanceOnTheRim_SkygazeTogether</defName>
+		<label>skygaze with lover</label>
+		<hook>MediumPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			<li Class="RomanceOnTheRim.JobGiver_SkygazeTogether"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
+	<DutyDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>RomanceOnTheRim_PlayInstrument</defName>
+		<label>play instrument for lover</label>
+		<hook>MediumPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			<li Class="RomanceOnTheRim.JobGiver_PlayInstrumentForLover"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
+	<DutyDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>RomanceOnTheRim_EnjoyPerformance</defName>
+		<label>enjoy musical performance</label>
+		<hook>MediumPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			<li Class="RomanceOnTheRim.JobGiver_EnjoyPerformance"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+</Defs>

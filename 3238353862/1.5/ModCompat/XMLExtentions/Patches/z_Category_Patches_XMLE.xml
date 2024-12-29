@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>SamBucher.ADogSaidAnimalProsthetics2</modId>
+		<key>animalCategoryToggle</key>
+		<defaultValue>true</defaultValue>
+		<caseTrue>
+			<!--Medieval-->
+			<Operation Class="PatchOperationAddOrMergeCopy">
+				<xpath>/Defs/RecipeDef[
+					@Name="SurgeryInstallMedievalBodyPartAnimalBase" or
+					defName="InstallDentureAnimal"
+				]</xpath>
+				<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat1"]/recipeUsers</fromxpath>
+			</Operation>
+			<!--Prosthetic-->
+			<Operation Class="PatchOperationAddOrMergeCopy">
+				<xpath>/Defs/RecipeDef[
+					@Name="SurgeryInstallSimpleProstheticBodyPartAnimalBase"
+				]</xpath>
+				<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat2"]/recipeUsers</fromxpath>
+			</Operation>
+			<!--Bionic-->
+			<Operation Class="PatchOperationAddOrMergeCopy">
+				<xpath>/Defs/RecipeDef[
+					@Name="SurgeryInstallBionicBodyPartAnimalBase" or
+					@Name="SurgeryInstallMiscBodyPartAnimalBase"
+				]</xpath>
+				<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat3"]/recipeUsers</fromxpath>
+			</Operation>
+		</caseTrue>
+		<caseFalse>
+			<!--Free for all-->
+			<Operation Class="PatchOperationAddOrMergeCopy">
+				<xpath>/Defs/RecipeDef[
+					@Name="SurgeryInstallArtificialBodyPartAnimalBase"
+				]</xpath>
+				<fromxpath>/Defs/RecipeDef[@Name="ADS_Cat1"]/recipeUsers</fromxpath>
+			</Operation>
+		</caseFalse>
+	</Operation>
+	
+	
+	<!--             EPOE-Forked Settings             -->
+
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Expanded Prosthetics and Organ Engineering - Forked</li>
+        </mods>
+        <match Class="PatchOperationFindMod">
+			<mods>
+				<li>[FSF] Advanced Bionics Expansion</li>
+				<li>EPOE-Forked: Remove workbench patch</li>
+			</mods>
+			<nomatch Class="PatchOperationSequence">
+				<success>Always</success>
+				<operations>
+					<li Class="XmlExtensions.OptionalPatch">
+						<modId>vat.epoeforked</modId>
+						<key>RemoveWorkbench</key>
+						<defaultValue>false</defaultValue>
+						<caseTrue>
+							<Operation Class="PatchOperationSequence">
+								<operations>
+									<li Class="PatchOperationReplace">
+										<xpath>Defs/ThingDef[@Name="BodyPartBionicAnimalBase"]/recipeMaker/recipeUsers</xpath>
+										<value>
+											<recipeUsers>
+												<li>FabricationBench</li>
+											</recipeUsers>
+										</value>
+									</li>
+									<li Class="PatchOperationRemove">
+										<xpath>Defs/ThingDef[@Name="BodyPartSyntheticAnimalBase"]/recipeMaker/recipeUsers</xpath>
+									</li>
+								</operations>
+							</Operation>
+						</caseTrue>
+					</li>
+				</operations>
+			</nomatch>
+		</match>
+    </Operation>
+
+
+	<!--             [FSF] Advanced Bionics Expansion Settings             -->
+
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+			<li>[FSF] Advanced Bionics Expansion</li>
+        </mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>FrozenSnowFox.FrozenSnowFoxAdvancedBionicsExpansion</modId>
+					<key>FSFABEBionicsTableOn</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationSequence">
+							<success>Normal</success>
+							<operations>
+							
+							<!-- Change Prosthetic Base Recipe -->
+							
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[@Name = "BodyPartProstheticAnimalBase"]/recipeMaker/recipeUsers</xpath>
+								<value>
+									<recipeUsers>
+										<li>FSFBionicsTable</li>
+									</recipeUsers>
+								</value>
+							</li>
+							<!-- Change Bionic Base Recipe -->
+							
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[@Name="BodyPartBionicAnimalBase"]/recipeMaker/recipeUsers</xpath>
+								<value>
+									<recipeUsers>
+										<li>FSFBionicsTable</li>
+									</recipeUsers>
+								</value>
+							</li>
+								
+							</operations>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+    </Operation>
+
+
+</Patch>

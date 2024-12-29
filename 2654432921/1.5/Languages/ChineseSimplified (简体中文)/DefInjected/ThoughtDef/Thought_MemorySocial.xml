@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: kiss -->
+    <RomanceOnTheRim_CommonKiss.stages.kiss.label>亲吻</RomanceOnTheRim_CommonKiss.stages.kiss.label>
+    
+    <!-- EN: Kiss -->
+    <RomanceOnTheRim_CommonKissMood.stages.Kiss.label>亲吻</RomanceOnTheRim_CommonKissMood.stages.Kiss.label>
+    <!-- EN: A sweet kiss, I love it. -->
+    <RomanceOnTheRim_CommonKissMood.stages.Kiss.description>甜蜜的吻，让人迷醉。</RomanceOnTheRim_CommonKissMood.stages.Kiss.description>
+    
+    <!-- EN: get joy together -->
+    <RomanceOnTheRim_GetJoyTogether.stages.get_joy_together.label>一起娱乐</RomanceOnTheRim_GetJoyTogether.stages.get_joy_together.label>
+    
+    <!-- EN: enjoy musical performance -->
+    <RomanceOnTheRim_MusicalPerformance.stages.enjoy_musical_performance.label>一起享受音乐</RomanceOnTheRim_MusicalPerformance.stages.enjoy_musical_performance.label>
+    
+    <!-- EN: pillow talk -->
+    <RomanceOnTheRim_PillowTalk.stages.pillow_talk.label>枕边对话</RomanceOnTheRim_PillowTalk.stages.pillow_talk.label>
+    
+    <!-- EN: romantic kiss -->
+    <RomanceOnTheRim_RomanticKiss.stages.romantic_kiss.label>浪漫的吻</RomanceOnTheRim_RomanticKiss.stages.romantic_kiss.label>
+    
+    <!-- EN: Romantic kiss -->
+    <RomanceOnTheRim_RomanticKissMood.stages.Romantic_kiss.label>浪漫的吻</RomanceOnTheRim_RomanticKissMood.stages.Romantic_kiss.label>
+    <!-- EN: Warm, fuzzy and dazed, who could ask for anything more? -->
+    <RomanceOnTheRim_RomanticKissMood.stages.Romantic_kiss.description>温暖，柔软又有些眩晕，多么美妙的感觉。</RomanceOnTheRim_RomanticKissMood.stages.Romantic_kiss.description>
+    
+    <!-- EN: skygaze together -->
+    <RomanceOnTheRim_SkygazeTogether.stages.skygaze_together.label>一起仰望天空</RomanceOnTheRim_SkygazeTogether.stages.skygaze_together.label>
+    
+    <!-- EN: arguement -->
+    <RotR_Memory_Argument.stages.arguement.label>争论</RotR_Memory_Argument.stages.arguement.label>
+    
+    <!-- EN: quarrel -->
+    <RotR_Memory_Quarrel.stages.quarrel.label>吵架</RotR_Memory_Quarrel.stages.quarrel.label>
+    
+    <!-- EN: read together -->
+    <RotR_Memory_ReadTogether.stages.read_together.label>一起阅读</RotR_Memory_ReadTogether.stages.read_together.label>
+    
+    <!-- EN: share reading -->
+    <RotR_Memory_SharedReading.stages.share_reading.label>分享阅读</RotR_Memory_SharedReading.stages.share_reading.label>
+    
+    <!-- EN: snowball fight -->
+    <RotR_Memory_SnowballFight.stages.snowball_fight.label>打雪仗</RotR_Memory_SnowballFight.stages.snowball_fight.label>
+    
+</LanguageData>

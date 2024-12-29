@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_ReunionMood</defName>
+		<durationDays>5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stages>
+		  <li>
+			<label>reunion</label>
+			<description>It's been a while but I reunite with my lover. Thanks god.</description>
+			<baseMoodEffect>5</baseMoodEffect>
+		  </li>
+		  <li>
+			<label>awkward reunion</label>
+			<description>I hate seeing this guy, again.</description>
+			<baseMoodEffect>-3</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
+
+
+</Defs>

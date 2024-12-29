@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>Royalty</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+         <success>Always</success>
+         <operations>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/PawnKindDef[@Name="ImperialFighterBase"]/techHediffsMoney</xpath>
+               <value>
+                  <techHediffsMoney>2000~3500</techHediffsMoney>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/PawnKindDef[@Name="StellicGuardBase"]/techHediffsMoney</xpath>
+               <value>
+                  <techHediffsMoney>3000~5000</techHediffsMoney>
+               </value>
+            </li>
+            <li Class="PatchOperationReplace">
+               <xpath>Defs/PawnKindDef[defName="Empire_Royal_Stellarch"]/techHediffsMoney</xpath>
+               <value>
+                  <techHediffsMoney>5000~7000</techHediffsMoney>
+               </value>
+            </li>
+         </operations>
+      </match>
+   </Operation>
+</Patch>

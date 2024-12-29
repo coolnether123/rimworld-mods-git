@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<QuestScriptDef>
+		<defName>RotR_Quest_DiplomaticMarriageAway</defName>
+		<autoAccept>true</autoAccept>
+		<defaultHidden>false</defaultHidden>
+		<rootSelectionWeight>0.5</rootSelectionWeight>
+		<minRefireDays>10</minRefireDays>
+		<sendAvailableLetter>true</sendAvailableLetter>
+		<questNameRules>
+			<rulesStrings>
+				<!-- quest name -->
+				<li>questName->Diplomatic Marriage</li>
+			</rulesStrings>
+		</questNameRules>
+		<questDescriptionRules>
+			<rulesStrings>
+				<li>questDescription->A nearby settlement, [settlement_label], sended a special diplomatic marriage proposal.</li>
+			</rulesStrings>
+		</questDescriptionRules>
+		<root Class="RomanceOnTheRim.QuestNode_Root_DiplomaticMarriageAway" />
+	</QuestScriptDef>
+	
+	<ThoughtDef>
+		<defName>RotR_DMABetrothedMood</defName>
+		<durationDays>7</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>prideful marriage</label>
+				<description>Leaving my colony for this marriage is a significant sacrifice, but I'm proud to be chosen for this role, knowing I'm contributing to a greater good.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>exciting marriage</label>
+				<description>This marriage is a step into the unknown, but I'm filled with excitement at the prospect of starting anew.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>marriage apprehension</label>
+				<description>What awaits me beyond our borders? Can I find my place in a new community, bound by marriage to someone I've never met?</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>marriage duty</label>
+				<description>I know this marriage is for the greater good of our colony, but it's hard not to feel like I'm being sacrificed. I'm proud to serve our people, yet I can't shake off the feeling of loss.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>hurtful marriage</label>
+				<description>Leaving my friends and family behind is tearing me apart. How can I say goodbye to those I love for a marriage that feels more like a political strategy than a personal choice?</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			
+		</stages>
+	</ThoughtDef>
+</Defs>

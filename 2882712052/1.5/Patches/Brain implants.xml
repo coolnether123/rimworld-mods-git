@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   
+   <!-- ========== Prosthethic base ========== -->
+   
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/graphicData</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/BodyPart/BionicPart</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+   <!-- ========== Joywire ========== -->
+   
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallJoywire"]</xpath>
+		<value>
+			<researchPrerequisite>AdvancedBrainSurgery</researchPrerequisite>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="Joywire"]</xpath>
+		<value>
+			<defaultLabelColor>(188,39,242)</defaultLabelColor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Joywire"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/BodyPart/SyntheticPart</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+   <!-- ========== Painstopper ========== -->
+   
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallPainstopper"]</xpath>
+		<value>
+			<researchPrerequisite>AdvancedBrainSurgery</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="Painstopper"]</xpath>
+		<value>
+			<defaultLabelColor>(188,39,242)</defaultLabelColor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Painstopper"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Item/BodyPart/SyntheticPart</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>0.80</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+
+</Patch>

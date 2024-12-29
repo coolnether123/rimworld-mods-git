@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: romance -->
+    <RomanceOnTheRim_Need_Romance.label>浪漫</RomanceOnTheRim_Need_Romance.label>
+    <!-- EN: Even in the rimworld, people need periodic romantic interactions to keep their relationship fresh. A low romance level affects person's mood. They can raise it by sleeping together or doing automatically triggered interactions. -->
+    <RomanceOnTheRim_Need_Romance.description>即使在边缘世界，人们也需要不时的浪漫互动来维持他们的关系。浪漫需求低会影响他们的心情。通过睡在一起或自动触发的浪漫互动可以提高它。</RomanceOnTheRim_Need_Romance.description>
+    
+</LanguageData>

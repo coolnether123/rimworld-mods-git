@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<QuestScriptDef>
+		<defName>RotR_Quest_DiplomaticMarriage</defName>
+		<autoAccept>true</autoAccept>
+		<defaultHidden>true</defaultHidden>
+		<rootSelectionWeight>0.5</rootSelectionWeight>
+		<minRefireDays>15</minRefireDays>
+		<sendAvailableLetter>false</sendAvailableLetter>
+		<questNameRules>
+			<rulesStrings>
+				<!-- quest name -->
+				<li>questName->Diplomatic Marriage</li>
+			</rulesStrings>
+		</questNameRules>
+		<questDescriptionRules>
+			<rulesStrings>
+				<li>questDescription->Placeholder.</li>
+			</rulesStrings>
+		</questDescriptionRules>
+		<root Class="RomanceOnTheRim.QuestNode_Root_DiplomaticMarriage" />
+	</QuestScriptDef>
+	
+	<ThoughtDef>
+		<defName>RotR_DMBetrothedMood</defName>
+		<durationDays>7</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>hopeful marriage</label>
+				<description>This could be the beginning of a beautiful partnership, both personally and for our communities.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>diplomatic marriage</label>
+				<description>I know this marriage is more about diplomacy than love. It's a responsibility I'm ready to take on.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>bittersweet marriage</label>
+				<description>It's strange to think that my marriage could mean so much more than just my personal happiness.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>overwhelming marriage</label>
+				<description>This marriage feels like a sacrifice of my personal happiness for the colony's gain. The weight of the colony's expectations on my shoulders is overwhelming. </description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>terrifying marriage</label>
+				<description>What if we're completely incompatible? The thought of spending my life with someone I might not even like, let alone love, is terrifying.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_DMSuitorMood</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>hopeful marriage</label>
+				<description>I hope my presence here will be a bridge between our peoples.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>diplomatic marriage</label>
+				<description>I've left everything I know behind, but I'm determined to make this work. This marriage isn't just about me; it's about our future together.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>weight of expectation</label>
+				<description>I can feel the eyes of my new community on me, weighing me with their expectations. It's a lot to bear, but I'm committed to proving myself worthy of their trust.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>isolating marriage</label>
+				<description>Stepping into this colony, knowing no one but bound to someone by marriage, is isolating. I fear I'll always be seen as an outsider, never truly belonging.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>terrifying marriage</label>
+				<description>I sometimes catch myself wondering if this was all a mistake. This marriage unroot my life.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RitualOutcomeEffectDef>
+    <defName>WeddingCeremony_Outcome</defName>
+    <description>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</description>
+    <workerClass>RomanceOnTheRim.RitualOutcomeEffectWorker_WeddingCeremony</workerClass>
+    <allowAttachableOutcome>false</allowAttachableOutcome>
+	<givesDevelopmentPoints>false</givesDevelopmentPoints>
+    <comps>
+		<li Class="RitualOutcomeComp_RolePresentNotSubstituted">
+			<roleId>officiant</roleId>
+			<label>officiant present</label>
+			<qualityOffset>0.1</qualityOffset>
+			<disableInClassicMode>true</disableInClassicMode>
+		</li>
+		<li Class="RitualOutcomeComp_ParticipantCount">
+			<label>guest</label>
+			<curve>
+				<points>
+					<li>(0,  0.0)</li>
+					<li>(5,  0.2)</li>
+					<li>(10, 0.4)</li>
+					<li>(30, 0.65)</li>
+				</points>
+			</curve>
+		</li>
+		<li Class="RomanceOnTheRim.RitualOutcomeComp_RoleCount">
+			<roleId>bridesmaid</roleId>
+			<label>bridesmaid</label>
+			<curve>
+				<points>
+					<li>(1,  0.02)</li>
+					<li>(5,  0.1)</li>
+				</points>
+			</curve>
+		</li>
+		<li Class="RomanceOnTheRim.RitualOutcomeComp_RoleCount">
+			<roleId>groomsman</roleId>
+			<label>groomsman</label>
+			<curve>
+				<points>
+					<li>(1,  0.02)</li>
+					<li>(5,  0.1)</li>
+				</points>
+			</curve>
+		</li>
+		
+		<li Class="RomanceOnTheRim.RitualOutcomeComp_RoleCount">
+			<roleId>flower girl</roleId>
+			<label>flower child</label>
+			<curve>
+				<points>
+					<li>(1,  0.02)</li>
+					<li>(3,  0.05)</li>
+				</points>
+			</curve>
+		</li>
+		<li Class="RomanceOnTheRim.RitualOutcomeComp_RoleCount">
+			<roleId>ring bearer</roleId>
+			<label>ring bearer</label>
+			<curve>
+				<points>
+					<li>(0,  0.0)</li>
+					<li>(1,  0.05)</li>
+				</points>
+			</curve>
+		</li>
+		<!-- same as vanilla bestowing ceremony -->
+		<li Class="RitualOutcomeComp_RoomStat">
+			<label>room impressiveness</label>
+			<statDef>Impressiveness</statDef>
+			<curve>
+				<points>
+					<li>0,  0</li>
+					<li>50,  0.15</li>
+					<li>100,  0.3</li>
+					<li>170, 0.4</li>
+				</points>
+			</curve>
+		</li>
+	</comps>
+	<outcomeChances>
+      <li>
+        <label>Terrible</label>
+        <chance>0.05</chance>
+        <memory>TerribleWedding</memory>
+        <description>The {0} was a disaster! The coordination was off, leading to a series of mishaps and an overall disjointed atmosphere.</description>
+        <positivityIndex>-2</positivityIndex>
+      </li>
+      <li>
+        <label>Unimpressive</label>
+        <chance>0.15</chance>
+        <memory>UnimpressiveWedding</memory>
+        <description>The {0} felt somewhat underwhelming and lacked any memorable or special moments. The decorations were sparse, lacking in both vibrancy and elegance. </description>
+        <positivityIndex>-1</positivityIndex>
+      </li>
+      <li>
+        <label>Beautiful</label>
+        <chance>0.6</chance>
+        <memory>BeautifulWedding</memory>
+        <description>The {0} was beautiful. A perfect blend of elegance and charm, it captivated everyone with its heartfelt moments and stunning decor.</description>
+        <positivityIndex>1</positivityIndex>
+      </li>
+      <li>
+        <label>Unforgettable</label>
+        <chance>0.2</chance>
+        <memory>UnforgettableWedding</memory>
+        <description>The {0} was unforgettable! Every moment was a harmonious blend of beauty and joy, leaving everyone mesmerized by the enchanting and perfectly orchestrated event.</description>
+        <positivityIndex>2</positivityIndex>
+      </li>
+    </outcomeChances>
+  </RitualOutcomeEffectDef>
+</Defs>

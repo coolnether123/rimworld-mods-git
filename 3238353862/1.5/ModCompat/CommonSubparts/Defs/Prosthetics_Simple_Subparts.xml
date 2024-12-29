@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Prosthetic hand -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticHandAnimal</defName>
+		<label>prosthetic animal hand</label>
+		<labelNoun>a prosthetic animal hand</labelNoun>
+		<description>An installed prosthetic animal hand. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's hand.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHandAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHandAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>3.6</power>
+						<cooldownTime>1.5</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticHandAnimal</defName>
+		<label>prosthetic animal hand</label>
+		<description>An animal hand prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's hand. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHandAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticHandAnimal</defName>
+		<label>install prosthetic animal hand</label>
+		<description>Installs a prosthetic animal hand.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHandAnimal</ThingDef>
+			<HediffDef>SimpleProstheticHandAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal hand.</jobString>
+		<addsHediff>SimpleProstheticHandAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHandAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHandAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticHandAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Prosthetic finger -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticFingerAnimal</defName>
+		<label>prosthetic animal finger</label>
+		<labelNoun>a prosthetic animal finger</labelNoun>
+		<description>An installed prosthetic animal finger. Not terribly efficient and certainly not comfortable, but gets the job done.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticFingerAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticFingerAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticFingerAnimal</defName>
+		<label>prosthetic animal finger</label>
+		<description>Archaic and crude replacement for lost animal fingers. Not terribly efficient and certainly not comfortable, but gets the job done. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFingerAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>3</Steel>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+			<WorkToMake>2000</WorkToMake>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticFingerAnimal</defName>
+		<label>install prosthetic animal finger</label>
+		<description>Installs prosthetic finger. Requires a min skill in medicine of 4.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticFingerAnimal</ThingDef>
+			<HediffDef>SimpleProstheticFingerAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal finger.</jobString>
+		<addsHediff>SimpleProstheticFingerAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Finger</li>
+			<li>FrontClaw</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFingerAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFingerAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticFingerAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+
+	<!-- Prosthetic foot -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticFootAnimal</defName>
+		<label>prosthetic animal foot</label>
+		<labelNoun>a prosthetic animal foot</labelNoun>
+		<description>An installed prosthetic animal foot. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's foot.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticFootAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticFootAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticFootAnimal</defName>
+		<label>prosthetic animal foot</label>
+		<description>An animal foot prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's foot. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFootAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticFootAnimal</defName>
+		<label>install prosthetic animal foot</label>
+		<description>Installs prosthetic foot. Requires a min skill in medicine of 4.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticFootAnimal</ThingDef>
+			<HediffDef>SimpleProstheticFootAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal foot.</jobString>
+		<addsHediff>SimpleProstheticFootAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Foot</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFootAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFootAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticFootAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Prosthetic toe -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticToeAnimal</defName>
+		<label>prosthetic animal toe</label>
+		<labelNoun>a prosthetic animal toe</labelNoun>
+		<description>An installed prosthetic animal toe. Inefficient and uncomfortable, they generate a lot of noise while walking, but they get the job done.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticToeAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticToeAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticToeAnimal</defName>
+		<label>prosthetic animal toe</label>
+		<description>Archaic and crude replacement for lost animal toes. Inefficient and uncomfortable, they generate a lot of noise while walking, but they get the job done. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticToeAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>3</Steel>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+			<WorkToMake>2000</WorkToMake>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticToeAnimal</defName>
+		<label>install prosthetic animal toe</label>
+		<description>Installs prosthetic toe. Requires a min skill in medicine of 4.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticToeAnimal</ThingDef>
+			<HediffDef>SimpleProstheticToeAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal toe.</jobString>
+		<addsHediff>SimpleProstheticToeAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+			<li>FrontClaw</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticToeAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticToeAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticToeAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Prosthetic paw -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticPawAnimal</defName>
+		<label>prosthetic animal paw</label>
+		<labelNoun>a prosthetic animal paw</labelNoun>
+		<description>An installed prosthetic animal paw. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's paw.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticPawAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticPawAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>prothetic animal paw</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>2.1</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticPawAnimal</defName>
+		<label>prosthetic animal paw</label>
+		<description>An animal paw prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's paw. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticPawAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticPawAnimal</defName>
+		<label>install prosthetic animal paw</label>
+		<description>Installs a prosthetic animal paw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticPawAnimal</ThingDef>
+			<HediffDef>SimpleProstheticPawAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal paw.</jobString>
+		<addsHediff>SimpleProstheticPawAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Paw</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticPawAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticPawAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticPawAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Prosthetic hoof -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticHoofAnimal</defName>
+		<label>prosthetic animal hoof</label>
+		<labelNoun>a prosthetic animal hoof</labelNoun>
+		<description>An installed prosthetic animal hoof. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's hoof.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHoofAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHoofAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>prothetic animal hoof</label>
+						<capacities>
+							<li>Blunt</li>
+							<li>Poke</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticHoofAnimal</defName>
+		<label>prosthetic animal hoof</label>
+		<description>An animal hoof prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's hoof. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHoofAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticHoofAnimal</defName>
+		<label>install prosthetic animal hoof</label>
+		<description>Installs a prosthetic animal hoof.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHoofAnimal</ThingDef>
+			<HediffDef>SimpleProstheticHoofAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal hoof.</jobString>
+		<addsHediff>SimpleProstheticHoofAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Hoof</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHoofAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHoofAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticHoofAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Prosthetic claw -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticClawAnimal</defName>
+		<label>prosthetic animal claw</label>
+		<labelNoun>a prosthetic animal claw</labelNoun>
+		<description>An installed prosthetic animal claw. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's claw.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticClawAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticClawAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticClawAnimal</defName>
+		<label>prosthetic animal claw</label>
+		<description>An animal claw prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's claw. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticClawAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticClawAnimal</defName>
+		<label>install prosthetic animal claw</label>
+		<description>Installs a prosthetic animal claw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticClawAnimal</ThingDef>
+			<HediffDef>SimpleProstheticClawAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal claw.</jobString>
+		<addsHediff>SimpleProstheticClawAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>FrontClaw</li>
+			<li>RearClaw</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticClawAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticClawAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticClawAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

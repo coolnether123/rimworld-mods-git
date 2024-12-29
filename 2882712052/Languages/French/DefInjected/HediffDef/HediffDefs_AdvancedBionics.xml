@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+   <AdvancedBionicHand.label>Main bionique avancée</AdvancedBionicHand.label>
+   <AdvancedBionicFoot.label>Pied bionique avancé</AdvancedBionicFoot.label>
+   <AdvancedBionicLeg.label>Jambe bionique avancée</AdvancedBionicLeg.label>
+   <AdvancedBionicArm.label>Bras bionique avancé</AdvancedBionicArm.label>
+   <AdvancedPowerArm.label>Bras puissant avancé</AdvancedPowerArm.label>
+   <AdvancedPowerClaw.label>Griffe motorisée avancée</AdvancedPowerClaw.label>
+   <AdvancedBionicSpine.label>Colonne vertébrale bionique avancée</AdvancedBionicSpine.label>
+   <AdvancedBionicJaw.label>Mâchoire bionique avancée</AdvancedBionicJaw.label>
+   <AdvancedBionicEar.label>Oreille bionique avancée</AdvancedBionicEar.label>
+   <AdvancedBionicEye.label>Oeil bionique avancée</AdvancedBionicEye.label>
+	
+</LanguageData>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <RecipeDef Name="SurgeryRemoval" ParentName="SurgeryFlesh" Abstract="True">
+      <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+      <workAmount>2500</workAmount>
+      <workerClass>Recipe_RemoveHediff</workerClass>
+      <skillRequirements>
+         <Medicine>7</Medicine>
+      </skillRequirements>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>3</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <disallowedThingDefs>
+            <li>MedicineHerbal</li>
+         </disallowedThingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>Human</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <!-- Removal Recipes -->
+
+   <RecipeDef ParentName="SurgeryRemoval">
+      <defName>RemoveBrainStimulator</defName>
+      <label>remove brain stimulator</label>
+      <description>Removes brain stimulator.</description>
+      <jobString>Removing brain stimulator.</jobString>
+      <removesHediff>BrainStimulator</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
+   </RecipeDef>
+
+   <RecipeDef ParentName="SurgeryRemoval">
+      <defName>RemoveAIChip</defName>
+      <label>remove AI chip</label>
+      <description>Removes AI chip.</description>
+      <jobString>Removing AI chip.</jobString>
+      <removesHediff>AIChip</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s AI chip.</successfullyRemovedHediffMessage>
+   </RecipeDef>
+
+   <RecipeDef ParentName="SurgeryRemoval">
+      <defName>RemoveMedicalRib</defName>
+      <label>remove medical rib</label>
+      <description>Removes medical rib.</description>
+      <jobString>removing medical rib.</jobString>
+      <removesHediff>MedicalRib</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s medical rib.</successfullyRemovedHediffMessage>
+   </RecipeDef>
+    
+   <RecipeDef ParentName="SurgeryRemoval">
+      <defName>RemoveDruggedRib</defName>
+      <label>remove drugged rib</label>
+      <description>Removes drugged rib.</description>
+      <jobString>removing drugged rib.</jobString>
+      <removesHediff>DruggedRib</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s drugged rib.</successfullyRemovedHediffMessage>
+   </RecipeDef>
+  
+   <RecipeDef ParentName="SurgeryRemoval">
+      <defName>RemoveAdrenalineRib</defName>
+      <label>remove adrenaline rib</label>
+      <description>Removes adrenaline rib.</description>
+      <jobString>removing adrenaline rib.</jobString>
+      <removesHediff>AdrenalineRib</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s adrenaline rib.</successfullyRemovedHediffMessage>
+   </RecipeDef>
+   
+   <RecipeDef ParentName="SurgeryRemoval">
+      <defName>RemovePainkillerRib</defName>
+      <label>remove painkiller rib</label>
+      <description>Removes painkiller rib.</description>
+      <jobString>removing painkiller rib.</jobString>
+      <removesHediff>PainkillerRib</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s painkiller rib.</successfullyRemovedHediffMessage>
+   </RecipeDef>
+
+</Defs>

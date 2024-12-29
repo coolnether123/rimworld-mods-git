@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>VAEWaste_Megatardi</li>
+					<li>VAEWaste_Toxafox</li>
+					<li>VAEWaste_Toxbear</li>
+					<li>VAEWaste_Toxlion</li>
+					<li>VAEWaste_Toxscorpion</li>
+					<li>VAEWaste_Wasteboar</li>
+					<li>VAEWaste_Wasteffalo</li>
+				</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>VAEWaste_Pestigator</li>
+					<li>VAEWaste_Wastedeer</li>
+				</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>VAEWaste_Hydra</li>
+					<li>VAEWaste_Toxiguana</li>
+				</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<WeaponStats.Ground>Almacén</WeaponStats.Ground>
+	<WeaponStats.Colonists>Colonos</WeaponStats.Colonists>
+	<WeaponStats.Prisoners>Prisioneros</WeaponStats.Prisoners>
+	<WeaponStats.Hostiles>Hostiles</WeaponStats.Hostiles>
+	<WeaponStats.Friendlies>Amistosos</WeaponStats.Friendlies>
+	<WeaponStats.Corpses>Cadáveres</WeaponStats.Corpses>
+	<WeaponStats.All>Todo</WeaponStats.All>
+	<WeaponStats.Craftable>Fabricable</WeaponStats.Craftable>
+	<WeaponStats.Storage>Almacenado</WeaponStats.Storage>
+
+	<WeaponStats.Ranged>Disparo</WeaponStats.Ranged>
+	<WeaponStats.Melee>Quemarropa</WeaponStats.Melee>
+	<WeaponStats.Grenades>Granadas</WeaponStats.Grenades>
+	<WeaponStats.Apparel>Vestimenta</WeaponStats.Apparel>
+	<WeaponStats.Tools>Herramientas</WeaponStats.Tools>
+	<WeaponStats.Turrets>Torretas</WeaponStats.Turrets>
+	<WeaponStats.Other>Otros</WeaponStats.Other>
+
+	<WeaponStats.ColName>Nombre</WeaponStats.ColName>
+	<WeaponStats.ColQuality>Calidad</WeaponStats.ColQuality>
+	<WeaponStats.ColHP>HP</WeaponStats.ColHP>
+	<WeaponStats.ColValue>Valor mercado</WeaponStats.ColValue>
+	<WeaponStats.ColRange>Rango</WeaponStats.ColRange>
+	<WeaponStats.ColCooldwn>Enfriamiento</WeaponStats.ColCooldwn>
+	<WeaponStats.ColWarmup>Calentamiento</WeaponStats.ColWarmup>
+	<WeaponStats.ColSights>Eficacia visión</WeaponStats.ColSights>
+	<WeaponStats.ColSpread>Dispersión</WeaponStats.ColSpread>
+	<WeaponStats.ColSway>Oscilación</WeaponStats.ColSway>
+	<WeaponStats.ColBulk>Peso</WeaponStats.ColBulk>
+	<WeaponStats.ColMagazineCapacity>Capacidad de cargador</WeaponStats.ColMagazineCapacity>
+	<WeaponStats.ColDPS>DPS</WeaponStats.ColDPS>
+	<WeaponStats.ColDPSA>DPS con precisión</WeaponStats.ColDPSA>
+	<WeaponStats.ColDamage>Daño</WeaponStats.ColDamage>
+	<WeaponStats.ColAccuracy>Precisión</WeaponStats.ColAccuracy>
+	<WeaponStats.ColType></WeaponStats.ColType>
+	<WeaponStats.ColRadius>Radio de exploción</WeaponStats.ColRadius>
+	<WeaponStats.ColDelay>Retraso de explosión</WeaponStats.ColDelay>
+	<WeaponStats.ColBlunt>Protección contundente</WeaponStats.ColBlunt>
+	<WeaponStats.ColSharp>Protección cortante</WeaponStats.ColSharp>
+	<WeaponStats.ColHeat>Protección calor</WeaponStats.ColHeat>
+	<WeaponStats.ColICold>Aislamiento de frío</WeaponStats.ColICold>
+	<WeaponStats.ColIHeat>Aislamiento térmico</WeaponStats.ColIHeat>
+	<WeaponStats.ColArmorPenetration>Penetración de armadura</WeaponStats.ColArmorPenetration>
+	<WeaponStats.ColCounterParry>Contramedidas</WeaponStats.ColCounterParry>
+
+	<WeaponStats.AccRbName.All>Todo</WeaponStats.AccRbName.All>
+	<WeaponStats.AccRbName.Touch>Quemarropa</WeaponStats.AccRbName.Touch>
+	<WeaponStats.AccRbName.Short>Corto</WeaponStats.AccRbName.Short>
+	<WeaponStats.AccRbName.Medium>Medio</WeaponStats.AccRbName.Medium>
+	<WeaponStats.AccRbName.Long>Largo</WeaponStats.AccRbName.Long>
+
+</LanguageData>

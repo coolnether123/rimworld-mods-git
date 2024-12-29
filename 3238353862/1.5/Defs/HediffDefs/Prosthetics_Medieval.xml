@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>	
+	
+	<HediffDef Name="AddedMedievalBodyPartAnimalBase" ParentName="AddedBodyPartAnimalBase"  Abstract="True">
+	</HediffDef>
+	
+
+	<RecipeDef Name="SurgeryInstallMedievalBodyPartAnimalBase" ParentName="SurgeryInstallArtificialBodyPartAnimalBase" Abstract="True">
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<descriptionHyperlinks><ThingDef>WoodLog</ThingDef></descriptionHyperlinks>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
+		<uiIconThing>WoodLog</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+
+	<!-- Denture -->
+	
+	<RecipeDef ParentName="SurgeryInstallArtificialBodyPartAnimalBase">
+		<defName>InstallDentureAnimal</defName>
+		<label>install animal denture</label>
+		<description>Installs animal denture.</description>
+		<jobString>Installing an animal denture.</jobString>
+		<addsHediff>Denture</addsHediff>
+		<surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<workAmount>1500</workAmount>
+		<appliedOnFixedBodyParts>
+			<li>AnimalJaw</li>
+			<li>InsectMouth</li>
+			<li>Beak</li>
+			<li>TurtleBeak</li>
+			<li>SnakeMouth</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Pegleg -->
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallPegLegAnimal</defName>
+		<label>install animal peg leg</label>
+		<description>Installs animal peg leg.</description>
+		<jobString>Installing peg leg.</jobString>
+		<addsHediff>PegLeg</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>InsectLeg</li>
+			<li>Leg</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Wooden paw -->
+
+	<HediffDef ParentName="AddedMedievalBodyPartAnimalBase">
+		<defName>WoodenPawAnimal</defName>
+		<label>wooden paw</label>
+		<labelNoun>a wooden animal paw</labelNoun>
+		<description>An installed wooden animal paw.</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallWoodenPawAnimal</defName>
+		<label>install wooden animal paw</label>
+		<description>Installs a wooden animal paw.</description>
+		<jobString>Installing a wooden animal paw.</jobString>
+		<addsHediff>WoodenPawAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Paw</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Wooden hoof -->
+
+	<HediffDef ParentName="AddedMedievalBodyPartAnimalBase">
+		<defName>WoodenHoofAnimal</defName>
+		<label>wooden hoof</label>
+		<labelNoun>a wooden animal hoof</labelNoun>
+		<description>An installed wooden animal hoof.</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.75</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallWoodenHoofAnimal</defName>
+		<label>install wooden animal hoof</label>
+		<description>Installs a wooden animal hoof.</description>
+		<jobString>Installing a wooden animal hoof.</jobString>
+		<addsHediff>WoodenHoofAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Hoof</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Wooden hand -->
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallWoodenHandAnimal</defName>
+		<label>install wooden animal hand</label>
+		<description>Installs a wooden animal hand.</description>
+		<jobString>Installing a wooden animal hand.</jobString>
+		<addsHediff>WoodenHand</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Wooden foot -->
+	
+	<RecipeDef ParentName="SurgeryInstallMedievalBodyPartAnimalBase">
+		<defName>InstallWoodenFootAnimal</defName>
+		<label>install wooden animal foot</label>
+		<description>Installs a wooden animal foot.</description>
+		<jobString>Installing a wooden animal foot.</jobString>
+		<addsHediff>WoodenFoot</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Foot</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

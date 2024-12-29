@@ -1,0 +1,22 @@
+<ModMetaData>
+	<name>Bulk Smelting (Continued)</name>
+	<author>Zaljerem</author>
+	<supportedVersions>    
+    <li>1.4</li>
+	<li>1.5</li>
+  </supportedVersions>
+<modVersion IgnoreIfNoMatchingField="True">1.0.5</modVersion>
+  <packageId>zal.bulksmelting</packageId>
+	<description>
+Original mod by Neceros
+https://steamcommunity.com/sharedfiles/filedetails/?id=2060240608
+If the original author requests it, I will remove this update.
+
+---
+
+Original mod notes (1.3):
+
+Adds a recipe to your smelter which allows you to smelt 3 slag chunks at once in order to save you time. You save an extra 10% off the workspeed when smelting three at once.
+
+"Crom is strong! If I die, I have to go before him, and he will ask me, 'What is the riddle of steel?' If I don't know it, he will cast me out of Valhalla and laugh at me." ~Conan the Barbarian</description>
+</ModMetaData>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Prosthetic forearm -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase">
+		<defName>SimpleProstheticForearmAnimal</defName>
+		<label>prosthetic animal forearm</label>
+		<labelNoun>a prosthetic animal forearm</labelNoun>
+		<description>An installed prosthetic animal forearm. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's forearm.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticForearmAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticForearmAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartProstheticAnimalBase">
+		<defName>SimpleProstheticForearmAnimal</defName>
+		<label>prosthetic animal forearm</label>
+		<description>An animal forearm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's forearm. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticForearmAnimal</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+			<comps>
+				<li Class="MSE2.CompProperties_IncludedChildParts">
+					<standardChildren>
+						<li>SimpleProstheticHandAnimal</li>
+						<li>SimpleProstheticClawAnimal</li>
+					</standardChildren>
+				</li>
+			</comps>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase">
+		<defName>InstallSimpleProstheticForearmAnimal</defName>
+		<label>install prosthetic animal forearm</label>
+		<description>Installs a prosthetic animal forearm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticForearmAnimal</ThingDef>
+			<HediffDef>SimpleProstheticForearmAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal forearm.</jobString>
+		<addsHediff>SimpleProstheticForearmAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticForearmAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticForearmAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProstheticForearmAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Prosthetic Foot Claw -->
+
+	<HediffDef ParentName="AddedSimpleBodyPartAnimalBase" MayRequire="regrowth.botr.extinctanimalspack">
+		<defName>SimpleProsthetic_RG_FootClaw</defName>
+		<label>prosthetic animal foot claw</label>
+		<labelNoun>a prosthetic animal foot claw</labelNoun>
+		<description>An installed prosthetic animal foot claw.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProsthetic_RG_FootClaw</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProsthetic_RG_FootClaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>prosthetic foot claw</label>
+						<capacities>
+							<li>Scratch</li>
+							<li>Stab</li>
+						</capacities>
+						<power>4</power>
+						<cooldownTime>1.7</cooldownTime>
+						<chanceFactor>0.3</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticAnimalBase" MayRequire="regrowth.botr.extinctanimalspack">
+		<defName>SimpleProsthetic_RG_FootClaw</defName>
+		<label>prosthetic animal foot claw</label>
+		<description>An animal foot claw prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real animal's foot claw. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProsthetic_RG_FootClaw</RecipeDef></descriptionHyperlinks>
+		<costList>
+				<Steel>12</Steel>
+				<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>2.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallSimpleProstheticBodyPartAnimalBase" MayRequire="regrowth.botr.extinctanimalspack">
+		<defName>InstallSimpleProsthetic_RG_FootClaw</defName>
+		<label>install prosthetic animal foot claw</label>
+		<description>Installs prosthetic foot claw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProsthetic_RG_FootClaw</ThingDef>
+			<HediffDef>SimpleProsthetic_RG_FootClaw</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic animal foot claw.</jobString>
+		<addsHediff>SimpleProsthetic_RG_FootClaw</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>RG_FootClaw</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProsthetic_RG_FootClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProsthetic_RG_FootClaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>SimpleProsthetic_RG_FootClaw</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+
+</Defs>

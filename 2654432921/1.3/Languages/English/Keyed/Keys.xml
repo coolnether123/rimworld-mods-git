@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RomanceOnTheRim>Romance on the Rim</RomanceOnTheRim>
+	<TryStartMarriageButtonLabel>StartMarriage</TryStartMarriageButtonLabel>
+	<TryStartMarriageButtonDesc>Select fiances and start their marriage immediately.</TryStartMarriageButtonDesc>
+	<AssignedFiances>Assigned:</AssignedFiances>
+	<CeremonyFiancesUnassign>Unassign</CeremonyFiancesUnassign>
+	<FiancesCandidates>Candidates:</FiancesCandidates>
+	<CeremonyFiancesReassign>Reassign</CeremonyFiancesReassign>
+	<CeremonyFiancesAssign>Assign</CeremonyFiancesAssign>
+	<CancelButton>Cancel</CancelButton>
+	<ConfirmButton>Confirm</ConfirmButton>
+	<Setting_EnableNeedAndInteraction>Enable romance need and interactions</Setting_EnableNeedAndInteraction>
+    <Setting_EnableThoughts>Enable thoughts</Setting_EnableThoughts>
+	<Setting_NeedFallPerDay>Romance need fall rate per day (default=0.25)</Setting_NeedFallPerDay>
+	<Setting_InteractionSelectionWeight>Tweak interactions weights (Affects their happening chances):</Setting_InteractionSelectionWeight>
+	<Setting_InteractionSelectionWeightToolTip>Default is 1, set it to 0 to disable that kind of interaction or raise it to increase its chance.</Setting_InteractionSelectionWeightToolTip>
+	<Setting_KissSelectionWeight>Kiss</Setting_KissSelectionWeight>
+	<Setting_GetJoyTogetherSelectionWeight>Get joy together</Setting_GetJoyTogetherSelectionWeight>
+	<Setting_PillowTalkSelectionWeight>Pillow talk</Setting_PillowTalkSelectionWeight>
+	<Setting_MusicalPerformanceSelectionWeight>Muscial performance</Setting_MusicalPerformanceSelectionWeight>
+	<Setting_SkygazeTogetherSelectionWeight>Skygaze together</Setting_SkygazeTogetherSelectionWeight>
+	<SocialTab_RelationshipSpanTooltip>They have been together for {0}.</SocialTab_RelationshipSpanTooltip>
+	<SocialTab_AnniversaryTooltip>Anniversary: {0}</SocialTab_AnniversaryTooltip>
+	<Setting_MaxDistanceForInteractions>Pawns should not interact if the distance between them exceeds:</Setting_MaxDistanceForInteractions>
+</LanguageData>

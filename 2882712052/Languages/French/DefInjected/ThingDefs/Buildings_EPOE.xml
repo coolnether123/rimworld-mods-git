@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- tissue printer -->
+  <TableOrgans.label>imprimante de tissus organiques</TableOrgans.label>
+  <!-- A workstation, equipped with a 3D printer to craft organs. -->
+  <TableOrgans.description>Un poste de travail équipé d'une imprimante 3D pour fabriquer des organes.</TableOrgans.description>
+
+  <!-- prosthetics table -->
+  <TableProsthetics.label>atelier de prothèses</TableProsthetics.label>
+  <!-- A workbench equipped for production of all kinds of prosthetics. -->
+  <TableProsthetics.description>Un établi équipé pour la production de toutes sortes de prothèses.</TableProsthetics.description>
+</LanguageData>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--Kiss-->
+	<!--Common Kiss-->
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_CommonKiss</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>5</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>kiss</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+		<thoughtToMake>RomanceOnTheRim_CommonKissMood</thoughtToMake>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_CommonKissMood</defName>
+		<durationDays>2</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.3</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>Kiss</label>
+				<description>A sweet kiss, I love it.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!--Romantic Kiss-->
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_RomanticKiss</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>7</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>romantic kiss</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+		</stages>
+		<thoughtToMake>RomanceOnTheRim_RomanticKissMood</thoughtToMake>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_RomanticKissMood</defName>
+		<durationDays>2</durationDays>
+		<stackLimit>2</stackLimit>
+		<stackedEffectMultiplier>0.3</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>Romantic kiss</label>
+				<description>Warm, fuzzy and dazed, who could ask for anything more?</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!--Pillow talk-->
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_PillowTalk</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>7</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>pillow talk</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!--Skygaze Together-->
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_SkygazeTogether</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>5</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>skygaze together</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!--Musical Performance-->
+	<ThoughtDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>RomanceOnTheRim_MusicalPerformance</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>7</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>enjoy musical performance</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!--Get joy together-->
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_GetJoyTogether</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>7</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>get joy together</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Share reading -->
+	<ThoughtDef>
+		<defName>RotR_Memory_SharedReading</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>7</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>share reading</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_Memory_ReadTogether</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>7</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>read together</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_Memory_SnowballFight</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>7</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>snowball fight</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Argument -->
+	<ThoughtDef>
+		<defName>RotR_Memory_Argument</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>10</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>arguement</label>
+				<baseOpinionOffset>-3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Quarrel -->
+	<ThoughtDef>
+		<defName>RotR_Memory_Quarrel</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>15</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>quarrel</label>
+				<baseOpinionOffset>-8</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

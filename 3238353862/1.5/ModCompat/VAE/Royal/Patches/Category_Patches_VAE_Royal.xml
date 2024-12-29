@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>VAERoy_AngoraRabbit</li>
+					<li>VAERoy_Megachicken</li>
+					<li>VAERoy_Orangutan</li>
+					<li>VAERoy_RoyalTiger</li>
+				</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>VAERoy_Crane</li>
+					<li>VAERoy_Peacock</li>
+					<li>VAERoy_Swan</li>
+				</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>VAERoy_Pheasant</li>
+					<li>VAERoy_Quail</li>
+				</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RitualBehaviorDef>
+		<defName>WeddingCeremony_Behavior</defName>
+		<workerClass>RomanceOnTheRim.RitualBehaviorWorker_WeddingCeremony</workerClass>
+		<durationTicks>10000</durationTicks>
+		<!-- name in start ritual dialog-->
+		<spectatorsLabel>Guests</spectatorsLabel>
+		<spectatorGerund>spectate</spectatorGerund>
+		<roles>
+			<li Class="RomanceOnTheRim.RitualRoleOfficiant">
+				<label>officiant</label>
+				<categoryLabel>officiant</categoryLabel>
+				<id>officiant</id>
+				<mergeId>officiant</mergeId>
+				<substitutable>True</substitutable>
+				<maxCount>1</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleBride">
+				<label>bride</label>
+				<categoryLabel>bride</categoryLabel>
+				<missingDesc>an ummarried couple</missingDesc>
+				<id>bride</id>
+				<mergeId>bride</mergeId>
+				<required>True</required>
+				<maxCount>5</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleGroom">
+				<label>groom</label>
+				<categoryLabel>groom</categoryLabel>
+				<id>groom</id>
+				<mergeId>groom</mergeId>
+				<required>True</required>
+				<maxCount>5</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleParentOfBride">
+				<label>parent of bride</label>
+				<categoryLabel>parent of bride</categoryLabel>
+				<id>parent of bride</id>
+				<mergeId>parent of bride</mergeId>
+				<substitutable>True</substitutable>
+				<maxCount>10</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleParentOfGroom">
+				<label>parent of groom</label>
+				<categoryLabel>parent of groom</categoryLabel>
+				<id>parent of groom</id>
+				<mergeId>parent of groom</mergeId>
+				<substitutable>True</substitutable>
+				<maxCount>10</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleBridesmaids">
+				<label>bridesmaid</label>
+				<categoryLabel>bridesmaid</categoryLabel>
+				<id>bridesmaid</id>
+				<mergeId>bridesmaid</mergeId>
+				<substitutable>True</substitutable>
+				<maxCount>5</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleGroomsman">
+				<label>groomsman</label>
+				<categoryLabel>groomsman</categoryLabel>
+				<id>groomsman</id>
+				<mergeId>groomsman</mergeId>
+				<substitutable>True</substitutable>
+				<maxCount>5</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleFlowerGirl">
+				<label>flower child</label>
+				<categoryLabel>flower child</categoryLabel>
+				<id>flower girl</id>
+				<mergeId>flower girl</mergeId>
+				<substitutable>True</substitutable>
+				<maxCount>3</maxCount>
+			</li>
+			<li Class="RomanceOnTheRim.RitualRoleRingBearer">
+				<label>ring bearer</label>
+				<categoryLabel>ring bearer</categoryLabel>
+				<id>ring bearer</id>
+				<mergeId>ring bearer</mergeId>
+				<substitutable>True</substitutable>
+				<maxCount>1</maxCount>
+			</li>
+		</roles>
+		<stages>
+			<!-- Entrance -->
+			<li>
+				<defaultDuty>RotR_Duty_CeremonyEntrance</defaultDuty>
+				<showProgressBar>false</showProgressBar>
+				<endTriggers>
+					<li Class="RomanceOnTheRim.StageEndTrigger_AllArrived">
+					</li>
+				</endTriggers>
+			</li>
+			<!-- Procession Start -->
+			<li>
+				<defaultDuty>RotR_Duty_SpectateCeremony</defaultDuty>
+				<showProgressBar>false</showProgressBar>
+				<spectateDistanceOverride>1~2</spectateDistanceOverride>
+				<endTriggers>
+					<li Class="RomanceOnTheRim.StageEndTrigger_ProcessionEnd">
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>flower girl</roleId>
+						<dutyDef>RotR_Duty_ScatterPetal</dutyDef>
+					</li>
+					<li>
+						<roleId>ring bearer</roleId>
+						<dutyDef>RotR_Duty_DeliverRing</dutyDef>
+					</li>
+					<li>
+						<roleId>parent of bride</roleId>
+						<dutyDef>RotR_Duty_ProcessionWithBride</dutyDef>
+					</li>
+					<li>
+						<roleId>bridesmaid</roleId>
+						<dutyDef>RotR_Duty_ProcessionWithBride</dutyDef>
+					</li>
+					<li>
+						<roleId>bride</roleId>
+						<dutyDef>RotR_Duty_ProcessionBride</dutyDef>
+					</li>
+				</roleBehaviors>
+			</li>
+			<!-- Ceremony Start -->
+			<li>
+				<defaultDuty>RotR_Duty_SpectateCeremony</defaultDuty>
+				<showProgressBar>false</showProgressBar>
+				<spectateDistanceOverride>1~2</spectateDistanceOverride>
+				<endTriggers>
+					<li Class="RomanceOnTheRim.StageEndTrigger_CeremonyEnd">
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>officiant</roleId>
+						<dutyDef>RotR_Duty_HostCeremony</dutyDef>
+					</li>
+					<li>
+						<roleId>bride</roleId>
+						<dutyDef>RotR_Duty_Marry</dutyDef>
+					</li>
+					<li>
+						<roleId>groom</roleId>
+						<dutyDef>RotR_Duty_Marry</dutyDef>
+					</li>
+				</roleBehaviors>
+			</li>
+			<!-- Party -->
+			<li>
+				<defaultDuty>Party</defaultDuty>
+				<endTriggers>
+					<li Class="RomanceOnTheRim.StageEndTrigger_PartyEnd">
+					</li>
+				</endTriggers>
+			</li>
+		</stages>
+	</RitualBehaviorDef>
+</Defs>

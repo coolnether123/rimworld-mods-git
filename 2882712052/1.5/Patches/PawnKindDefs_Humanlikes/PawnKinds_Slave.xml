@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- slave -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="Slave"]/techHediffsMoney</xpath>
+		<value>
+			<techHediffsMoney>50~750</techHediffsMoney>
+		</value>
+	</Operation>
+
+</Patch>

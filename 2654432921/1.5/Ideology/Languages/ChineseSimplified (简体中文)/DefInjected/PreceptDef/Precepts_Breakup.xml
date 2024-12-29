@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: arranged -->
+    <RomanceOnTheRim_Breakup_Arranged.label>手动</RomanceOnTheRim_Breakup_Arranged.label>
+    <!-- EN: People should never break up with their lovers unless it's asked by the society.\n\n<color=#E5E54C>Effect:</color>\n - Natural breakup chance: 0%\n - You can control breakup directly in right-click menu or the social tab. -->
+    <RomanceOnTheRim_Breakup_Arranged.description>人们不能和恋人分手，除非它不被社会允许。\n\n&lt;color=#E5E54C>影响:&lt;/color>\n - 自然分手概率: 0%\n - 你可以用右键或社交面板手动分手.</RomanceOnTheRim_Breakup_Arranged.description>
+    
+    <!-- EN: discouraged -->
+    <RomanceOnTheRim_Breakup_Discouraged.label>不提倡</RomanceOnTheRim_Breakup_Discouraged.label>
+    <!-- EN: People should not break up with their lovers in most cases.\n\n<color=#E5E54C>Effect:</color>\n - Breakup chance -50%. -->
+    <RomanceOnTheRim_Breakup_Discouraged.description>大多数情况下，人们不应该和恋人分手。\n\n&lt;color=#E5E54C>效果:&lt;/color>\n - 自然分手概率 -50%.</RomanceOnTheRim_Breakup_Discouraged.description>
+    
+    <!-- EN: encouraged -->
+    <RomanceOnTheRim_Breakup_Encouraged.label>提倡</RomanceOnTheRim_Breakup_Encouraged.label>
+    <!-- EN: People should have their right to break up with their lovers freely.\n\n<color=#E5E54C>Effect:</color>\n - Breakup chance +50%. -->
+    <RomanceOnTheRim_Breakup_Encouraged.description>人们应该有权利和恋人自由分手。\n\n&lt;color=#E5E54C>效果:&lt;/color>\n - 自然分手概率 +50%.</RomanceOnTheRim_Breakup_Encouraged.description>
+    
+    <!-- EN: forbidden -->
+    <RomanceOnTheRim_Breakup_Forbidden.label>禁止</RomanceOnTheRim_Breakup_Forbidden.label>
+    <!-- EN: People should never break up with their lovers.\n\n<color=#E5E54C>Effect:</color>\n - Natural breakup chance: 0%. -->
+    <RomanceOnTheRim_Breakup_Forbidden.description>人们不能和恋人分手。\n\n&lt;color=#E5E54C>效果:&lt;/color>\n - 自然分手概率: 0%.</RomanceOnTheRim_Breakup_Forbidden.description>
+    
+</LanguageData>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Outcome>Outcome</Outcome>
+	<RotR_Quest_TalkWith>Talk with {0}</RotR_Quest_TalkWith>
+	<RotR_Quest_BoFAcceptButtonLabel>Embrace</RotR_Quest_BoFAcceptButtonLabel>
+	<RotR_Quest_BoFDismissButtonLabel>Dismiss</RotR_Quest_BoFDismissButtonLabel>
+	<RotR_Quest_BoFAcceptedOutcome>{slave_nameDef} has joined the colony.</RotR_Quest_BoFAcceptedOutcome>
+	<RotR_Quest_BoFRejectedOutcome>The joining proposal is rejected.</RotR_Quest_BoFRejectedOutcome>
+	<RotR_Quest_NoLongerLovers>{lover_nameDef} and {slave_nameDef} are no longer in a relationship.</RotR_Quest_NoLongerLovers>
+	<RotR_Quest_Pleased>The following colonists are pleased</RotR_Quest_Pleased>
+	<RotR_Quest_Disappointed>The following colonists are disappointed</RotR_Quest_Disappointed>
+	
+	<RotR_Quest_OLWelcomeButtonLabel>Welcome</RotR_Quest_OLWelcomeButtonLabel>
+	<RotR_Quest_OLHostButtonLabel>Host for a while</RotR_Quest_OLHostButtonLabel>
+	<RotR_Quest_OLRefuseButtonLabel>Refuse entry</RotR_Quest_OLRefuseButtonLabel>
+	<RotR_Quest_OLAcceptedOutcome>You've welcomed {boy_nameDef} and {girl_nameDef} into your colony.\n\nThe orphans are filled with joy and gratitude, seeing this as a new beginning, eagerly begin to contribute to the community.</RotR_Quest_OLAcceptedOutcome>
+	<RotR_Quest_OLHostedOutcome>You decide to provide a temporary shelter for {boy_nameDef} and {girl_nameDef}.\n\nThey will stay in the colony for a while.</RotR_Quest_OLHostedOutcome>
+	<RotR_Quest_OLHostedLeavingOutcome>You offered {boy_nameDef} and {girl_nameDef} a much-needed pause on their journey. They express deep appreciation for the brief stay.\n\nNow they are prepared to leave and find a place they can finally call home.</RotR_Quest_OLHostedLeavingOutcome>
+	<RotR_Quest_OLRejectedOutcome>Upon being turned away, {boy_nameDef} and {girl_nameDef} respectfully accept your decision, expressing understanding for the colony's priorities as they continue their search for sanctuary elsewhere.</RotR_Quest_OLRejectedOutcome>
+	
+	<RotR_Quest_CrushTryRomanceButtonLabel>Be brave</RotR_Quest_CrushTryRomanceButtonLabel>
+	<RotR_Quest_CrushIgnoreButtonLabel>Just an illusion</RotR_Quest_CrushIgnoreButtonLabel>
+	<RotR_Quest_CrushInitiatedOutcome>Encouraged to pursue {initiator_possessive} feelings, the smitten colonist, {initiator_nameDef}, is making a heartfelt attempt at romance towards {other_nameDef}.</RotR_Quest_CrushInitiatedOutcome>
+	<RotR_Quest_SAInitiatedOutcome>Driven by curiosity and the allure of a hidden connection, {initiator_nameDef} takes a proactive step to uncover the feelings of {initiator_possessive} secret admirer.</RotR_Quest_SAInitiatedOutcome>
+	<RotR_Quest_CrushIgnoredOutcome>To maintain their current relationship without complicating it with romantic undertones, {initiator_nameDef} steps back.\n\n{initiator_pronoun} needs more time to figure out whether it is a illusion forged by survival and shared experiences.</RotR_Quest_CrushIgnoredOutcome>
+	<RotR_Quest_SAIgnoredOutcome>To preserve the status quo, keeping {initiator_possessive} interactions with {other_nameDef} within the comfortable boundaries of familiarity.\n\n{initiator_nameDef} choose not to act on {initiator_possessive} suspicions.</RotR_Quest_SAIgnoredOutcome>
+
+	<RotR_Quest_KidneyTrade_Title>Kidney Trade</RotR_Quest_KidneyTrade_Title>
+	<RotR_Quest_KTIntro>(A weary but determined trader. {trader_possessive} eyes, shadowed beneath a weathered brow, flicker with a mix of hope and desperation.)\n\nPlease, I need your help. I've come to offer something valuable in exchange for your assistance.\n\nMy family and our settlement are in dire straits, and we desperately need the funds.\n\nHow would you like to buy a perfectly good kidney for a cheaper price? Only slightly used, I assure you.\n\n({trader_pronoun} presents it with an air of nonchalance.)</RotR_Quest_KTIntro>
+	<RotR_Quest_KTIntro_Trade>We could use the extra organ. Let's make a deal.</RotR_Quest_KTIntro_Trade>
+	<RotR_Quest_KTIntro_Question>How do you happen to have an... extra kidney?</RotR_Quest_KTIntro_Question>
+	<RotR_Quest_KTIntro_Refuse>We're not in the market for organs right now, but thanks for the offer.</RotR_Quest_KTIntro_Refuse>
+	<RotR_Quest_KTExplain>Don't worry, the kidney I'm selling isn't mine. It's a... friend's. Yes, a very generous friend.</RotR_Quest_KTExplain>
+	<RotR_Quest_KTExplain_Trade>A kidney is a kidney, I suppose. Let's do the trade.</RotR_Quest_KTExplain_Trade>
+	<RotR_Quest_KTExplain_QuestionSituation>Tell me more about your situation. Why do you need the funds?</RotR_Quest_KTExplain_QuestionSituation>
+	<RotR_Quest_KTExplain_Refuse>That sounds... highly unethical. I think we'll pass.</RotR_Quest_KTExplain_Refuse>
+	<RotR_Quest_KTExplainSituation>It's the raiders. They've been relentless, and we've exhausted all our resources just trying to keep them at bay.\n\nWe need to buy protection, repair our defenses... anything to keep my family safe. I'm out of options.</RotR_Quest_KTExplainSituation>
+	<RotR_Quest_KTExplainSituation_Trade>Alright, we'll do this. But only because it seems you're out of options.</RotR_Quest_KTExplainSituation_Trade>
+	<RotR_Quest_KTExplainSituation_Refuse>It's better if you keep your kidney. Relying on such extreme measures\nwon't solve your problems in the long run.</RotR_Quest_KTExplainSituation_Refuse>
+	<RotR_Quest_KTRefused_LastTry>Please, I understand your reservations, but this isn't just about a trade for me—it's about survival.\n\nMy settlement... we're on the brink. Without this trade, I don't know if we'll make it.</RotR_Quest_KTRefused_LastTry>
+	<RotR_Quest_KTRefused_LastTry_Trade>Your situation has touched us, and we've reconsidered. We'll accept the trade</RotR_Quest_KTRefused_LastTry_Trade>
+	<RotR_Quest_KTRefused_LastTry_Refuse>I'm sorry, but our decision is final.</RotR_Quest_KTRefused_LastTry_Refuse>
+	<RotR_Quest_KTTradeOutcome>The trader's tension eased as you finalize the trade, {trader_possessive} shoulders dropping in a sigh of relief. {trader_nameDef} managed a brief, grateful smile towards your colonists before turning to leave, {trader_possessive} steps lighter than when {trader_pronoun} arrived.</RotR_Quest_KTTradeOutcome>
+	<RotR_Quest_KTRefuseOutcome>A flash of disappointment crosses {trader_nameDef}'s face, quickly masked as {trader_pronoun} nodded in acknowledgment of your decision.\n\nWithout a backward glance, {trader_pronoun} gathered {trader_possessive} belongings and stepped away, {trader_possessive} movements deliberate and slow.</RotR_Quest_KTRefuseOutcome>
+
+	<RotR_Quest_ACAcceptButtonLabel>Welcome to the new family</RotR_Quest_ACAcceptButtonLabel>
+	<RotR_Quest_ACRejectButtonLabel>Maybe not a good idea</RotR_Quest_ACRejectButtonLabel>
+	<RotR_Quest_ACAcceptOutcome>{father_nameDef} and {mother_nameDef} now becomes {child_nameDef}'s official parents.</RotR_Quest_ACAcceptOutcome>
+	<RotR_Quest_ACRejectOutcome>{father_nameDef} and {mother_nameDef} declines to be {child_nameDef}'s official parents.</RotR_Quest_ACRejectOutcome>
+
+	<RotR_DiplomaticMarriage>Diplomatic Marriage</RotR_DiplomaticMarriage>
+	<RotR_DiplomaticMarriage_AcceptButton>Accept</RotR_DiplomaticMarriage_AcceptButton>
+	<RotR_DiplomaticMarriage_RejectButton>Reject</RotR_DiplomaticMarriage_RejectButton>
+	<RotR_DiplomaticMarriageHoveringToolTips>Left click to select, right click to inspect.</RotR_DiplomaticMarriageHoveringToolTips>
+	<RotR_DiplomaticMarriage_IntroInfo>A message from the neighboring faction, the {0}, has arrived. They propose a diplomatic marriage, offering to send one of their own, {1}, to join our colony as a sign of goodwill and to strengthen our bonds.</RotR_DiplomaticMarriage_IntroInfo>
+	<RotR_DiplomaticMarriageAway_IntroInfo>A message from the neighboring faction, the {0}, has arrived. They propose a diplomatic marriage, asking whether you would like to send a colonist to their settlement as a sign of goodwill and to strengthen the bonds.\n\nIf you accept, the chosen colonist will leave your faction.</RotR_DiplomaticMarriageAway_IntroInfo>
+
+	<RotR_Quest_DiplomaticMarriageAway_QuestInfo>You've agreed to send {0} to {1}. The estimated travel time is {2} days.</RotR_Quest_DiplomaticMarriageAway_QuestInfo>
+	<RotR_DiplomaticMarriageCaravan_ActionLabel>Diplomatic marriage</RotR_DiplomaticMarriageCaravan_ActionLabel>
+	<RotR_DiplomaticMarriageCaravan_ActionDesc>Send away the promised one for the diplomatic marriage.</RotR_DiplomaticMarriageCaravan_ActionDesc>
+	<RotR_DiplomaticMarriageCaravan_Confirm>Send {betrothed_nameDef} for diplomatic marriage? {betrothed_pronoun} will join other faction.</RotR_DiplomaticMarriageCaravan_Confirm>
+	<RotR_DiplomaticMarriageCaravan_NoBetrothedInCaravan>{betrothed_nameDef} not in caravan.</RotR_DiplomaticMarriageCaravan_NoBetrothedInCaravan>
+	<RotR_DiplomaticMarriageCaravan_Join>{betrothed_nameDef} has joined {0}.</RotR_DiplomaticMarriageCaravan_Join>
+</LanguageData>

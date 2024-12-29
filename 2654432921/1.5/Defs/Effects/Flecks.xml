@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>RotR_Fleck_Snowball</defName>
+		<graphicData>
+			<texPath>Thing/RotR_Snowball</texPath>
+		</graphicData>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<fadeInTime>0.1</fadeInTime>
+		<solidTime>3</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+		<landSound>StoneImpact</landSound>
+	</FleckDef>
+	<ThingDef ParentName="MoteBase">
+		<defName>RotR_MoteLover</defName>
+		<thingClass>RomanceOnTheRim.MoteLover</thingClass>
+		<altitudeLayer>MetaOverlays</altitudeLayer>
+		<mote>
+			<solidTime>1.5</solidTime>
+			<attachedDrawOffset>(0.75, 0, 0.75)</attachedDrawOffset>
+		</mote>
+		<graphicData>
+			<shaderType>Cutout</shaderType>
+			<texPath>Things/Mote/Thought</texPath>
+			<drawSize>1.25</drawSize>
+		</graphicData>
+	</ThingDef>
+</Defs>

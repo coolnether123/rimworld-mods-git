@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Black_Dragon</li>
+					<li>Blue_Dragon</li>
+					<li>Green_Dragon</li>
+					<li>Purple_Dragon</li>
+					<li>Red_Dragon</li>
+					<li>White_Dragon</li>
+					<li>Yellow_Dragon</li>
+					<li>Gold_Dragon</li>
+					<li>Silver_Dragon</li>
+					<li>Jade_Dragon</li>
+					<li>True_Dragon</li>
+				</value>
+	</Operation>
+	
+</Patch>

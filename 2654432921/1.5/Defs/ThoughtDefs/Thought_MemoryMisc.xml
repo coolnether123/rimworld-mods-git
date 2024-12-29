@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>RotR_Mood_Argument</defName>
+		<thoughtClass>RomanceOnTheRim.Thought_LoverRelatedMemory</thoughtClass>
+		<durationDays>2</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.3</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>argued with {LOVER_nameDef}</label>
+				<description>We just can't seem to see eye to eye. It feels like we're stuck in a loop of frustration.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_Mood_Quarrel</defName>
+		<thoughtClass>RomanceOnTheRim.Thought_LoverRelatedMemory</thoughtClass>
+		<durationDays>5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.3</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>quarreled with {LOVER_nameDef}</label>
+				<description>After that emotional rollercoaster, I'm just exhausted. Is this what our future looks like?</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>RomanceOnTheRim_ReunionMood</defName>
+		<thoughtClass>RomanceOnTheRim.Thought_LoverRelatedMemory</thoughtClass>
+		<durationDays>5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stages>
+		  <li>
+			<label>reunion with {LOVER_nameDef}</label>
+			<description>It's been a while but I reunite with {LOVER_objective}. Thanks god.</description>
+			<baseMoodEffect>5</baseMoodEffect>
+		  </li>
+		  <li>
+			<label>awkward reunion with {LOVER_nameDef}</label>
+			<description>I hate seeing this guy, again.</description>
+			<baseMoodEffect>-3</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_LoverRecovered</defName>
+		<thoughtClass>RomanceOnTheRim.Thought_LoverRelatedMemory</thoughtClass>
+		<durationDays>2</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stages>
+		  <li>
+			<label>{LOVER_nameDef} recovered</label>
+			<description>Thank goodness {LOVER_pronoun} is feeling better.</description>
+			<baseMoodEffect>2</baseMoodEffect>
+		  </li>
+		  <li>
+			<label>{LOVER_nameDef} recovered</label>
+			<description>I was so scared of losing {LOVER_objective}, but now everything feels right.</description>
+			<baseMoodEffect>4</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_LoverResurrected</defName>
+		<thoughtClass>RomanceOnTheRim.Thought_LoverRelatedMemory</thoughtClass>
+		<durationDays>30</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingHediffs>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+		</nullifyingHediffs>
+		<stages>
+		  <li>
+			<label>{LOVER_nameDef} back home</label>
+			<description>I thought I'd lost {LOVER_objective} forever.</description>
+			<baseMoodEffect>30</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_Resurrected</defName>
+		<durationDays>30</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingHediffs>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+		</nullifyingHediffs>
+		<stages>
+		  <li>
+			<label>back from death</label>
+			<description>Good to see you again.</description>
+			<baseMoodEffect>30</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

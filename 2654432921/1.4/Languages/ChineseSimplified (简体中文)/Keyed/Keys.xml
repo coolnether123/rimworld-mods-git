@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- EN: Romance on the Rim -->
+    <RomanceOnTheRim>边缘爱情</RomanceOnTheRim>
+	<!-- EN: StartMarriage -->
+    <TryStartMarriageButtonLabel>开始婚礼</TryStartMarriageButtonLabel>
+	<!-- EN: Select fiances and start their marriage immediately. -->
+    <TryStartMarriageButtonDesc>选择未婚夫妇立即开始婚礼。</TryStartMarriageButtonDesc>
+	<!-- EN: Assigned: -->
+    <AssignedFiances>已分配:</AssignedFiances>
+	<!-- EN: Unassign -->
+    <CeremonyFiancesUnassign>取消分配</CeremonyFiancesUnassign>
+	<!-- EN: Candidates: -->
+    <FiancesCandidates>候选:</FiancesCandidates>
+	<!-- EN: Reassign -->
+    <CeremonyFiancesReassign>重新分配</CeremonyFiancesReassign>
+	<!-- EN: Assign -->
+    <CeremonyFiancesAssign>分配</CeremonyFiancesAssign>
+	<!-- EN: Cancel -->
+    <CancelButton>取消</CancelButton>
+	<!-- EN: Confirm -->
+    <ConfirmButton>确认</ConfirmButton>
+	<!-- EN: Disable romance need on this pawn. !!IRREVERSIBLE, USE WITH CAUTION!! -->
+    <NeedTab_DisableRomanceNeedTip>禁用该小人的浪漫需求！！谨慎操作，无法撤销！！</NeedTab_DisableRomanceNeedTip>
+	
+	<!-- tabs -->
+	<!-- EN: General -->
+    <RotR_Settings_GeneralTab>一般</RotR_Settings_GeneralTab>
+	<!-- EN: Interaction -->
+    <RotR_Settings_InteractionTab>浪漫互动</RotR_Settings_InteractionTab>
+	<!-- EN: Precept -->
+    <RotR_Settings_PreceptTab>戒律</RotR_Settings_PreceptTab>
+	<!-- EN: Quest -->
+    <RotR_Settings_QuestTab>任务</RotR_Settings_QuestTab>
+	<!-- general -->
+	<!-- EN: Enable romance need and interactions -->
+    <RotR_Setting_EnableNeedAndInteraction>启用浪漫需求和互动</RotR_Setting_EnableNeedAndInteraction>
+	<!-- EN: If toggle off, all pawns will have no romance need and no interactions will be triggered. You can delete romance need for specific pawn in Needs Tab under Dev mode. -->
+    <RotR_Setting_EnableNeedAndInteraction_Tooltip>关闭后所有浪漫互动不会触发，所有小人不再有浪漫需求。可以在开发者模式下在需求面板删除特定人物的需求。</RotR_Setting_EnableNeedAndInteraction_Tooltip>
+    <!-- EN: Enable thoughts -->
+    <RotR_Setting_EnableThoughts>启用浪漫想法/情绪</RotR_Setting_EnableThoughts>
+	<!-- EN: Toggle for Longing, Estranged, Reunion, and Worry thoughts added by this mod. -->
+    <RotR_Setting_EnableThoughts_Tooltip>启用牵挂、疏远、重聚和担忧心情。</RotR_Setting_EnableThoughts_Tooltip>
+	<!-- EN: Enable same daily routine for lovers -->
+    <RotR_Setting_EnableSameDayRoutine>启用恋人相同节律</RotR_Setting_EnableSameDayRoutine>
+	<!-- EN: When toggle on, lovers will try to have the same daily routine (go to bed as his/her lover does). Default On. -->
+    <RotR_Setting_EnableSameDayRoutine_Tooltip>恋人会尝试相同的节律，尽量和恋人在相同的时间睡眠</RotR_Setting_EnableSameDayRoutine_Tooltip>
+	<!-- EN: Romance need fall rate per day (default: 0.25)  -->
+    <RotR_Setting_NeedFallPerDay>浪漫需求每日下降速度（默认值为0.25）</RotR_Setting_NeedFallPerDay>
+	<!-- interaction -->
+	<!-- EN: Max distance to trigger romantic interactions: -->
+    <RotR_Setting_MaxDistanceForInteractions>触发浪漫互动的最大距离</RotR_Setting_MaxDistanceForInteractions>
+	<!-- EN: Tweak interactions weights (Affects their happening chances): -->
+    <RotR_Setting_InteractionSelectionWeight>调整浪漫互动相对概率:</RotR_Setting_InteractionSelectionWeight>
+	<!-- EN: Default is 1, set it to 0 to disable that kind of interaction or raise it to increase its chance. -->
+    <RotR_Setting_InteractionSelectionWeightToolTip>默认都是1，将其设为0将禁用该类型互动，大于1将提高该类型互动概率。</RotR_Setting_InteractionSelectionWeightToolTip>
+	<!-- EN: Kiss:  -->
+    <RotR_Setting_KissSelectionWeight>接吻： </RotR_Setting_KissSelectionWeight>
+	<!-- EN: Get joy together:  -->
+    <RotR_Setting_GetJoyTogetherSelectionWeight>一起娱乐： </RotR_Setting_GetJoyTogetherSelectionWeight>
+	<!-- EN: Pillow talk:  -->
+    <RotR_Setting_PillowTalkSelectionWeight>枕边对话： </RotR_Setting_PillowTalkSelectionWeight>
+	<!-- EN: Muscial performance:  -->
+    <RotR_Setting_MusicalPerformanceSelectionWeight>音乐演奏： </RotR_Setting_MusicalPerformanceSelectionWeight>
+	<!-- EN: Skygaze together:  -->
+    <RotR_Setting_SkygazeTogetherSelectionWeight>仰望天空： </RotR_Setting_SkygazeTogetherSelectionWeight>
+	
+	<!-- EN: Enable quests -->
+    <RotR_Setting_EnableQuest>启用任务</RotR_Setting_EnableQuest>
+	<!-- EN: Toggle off if you don't like the "events" added by this mod. They won't be triggered in the game. -->
+    <RotR_Setting_EnableQuestTooltip>关闭后此mod加入的事件不会再触发。</RotR_Setting_EnableQuestTooltip>
+	<!-- EN: Adoption is designed to be triggered at kids' birthday with a chance. -->
+    <RotR_Setting_Quest_Adoption_Desc>收养默认在小孩的生日概率触发</RotR_Setting_Quest_Adoption_Desc>
+	<!-- EN: Base chance for adoption (default 0.2):  -->
+    <RotR_Setting_AdoptionBaseChance>基础概率（默认0.2）： </RotR_Setting_AdoptionBaseChance>
+	<!-- EN: Max age for adoption (default 13):  -->
+    <RotR_Setting_MaxAgeForAdoption>触发的最大年龄（默认13岁）： </RotR_Setting_MaxAgeForAdoption>
+	<!-- EN: Min age for adoption (defulat 8):  -->
+    <RotR_Setting_MinAgeForAdoption>触发的最小年龄（默认8岁）： </RotR_Setting_MinAgeForAdoption>
+	<!-- EN: Min years in the colony (default 4):  -->
+    <RotR_Setting_AdoptionMinYearsInColony>触发时需要至少在殖民地（默认4年）： </RotR_Setting_AdoptionMinYearsInColony>
+	
+	<!-- EN: Crush will be checked and triggered every 15 days for better performance. -->
+    <RotR_Setting_Quest_Crush_Desc>为了性能，暗恋只会每15天检查一次</RotR_Setting_Quest_Crush_Desc>
+	<!-- EN: Base chance for Crush (default 0.5):  -->
+    <RotR_Setting_CrushBaseChance>基础概率（默认0.5）： </RotR_Setting_CrushBaseChance>
+	<!-- EN: Check interval (days) for Crush (default 15):  -->
+    <RotR_Setting_CrushCheckInterval>暗恋检查间隔（默认15天）： </RotR_Setting_CrushCheckInterval>
+	
+	<!-- EN: Other quests will be triggered by vanilla quest system with chance. Tweak base chances here: -->
+    <RotR_Setting_Quest_Other_Desc>其他任务会用原版任务系统触发。更改触发概率（需要重启）：</RotR_Setting_Quest_Other_Desc>
+	<!-- EN: Bond Of Freedom (default 0.5):  -->
+    <RotR_Setting_BondOfFreedomBaseChance>自由纽带（默认0.5）： </RotR_Setting_BondOfFreedomBaseChance>
+	<!-- EN: Diplomatic Marriage (default 0.5): -->
+    <RotR_Setting_DiplomaticMarriageBaseChance>外交婚礼（默认0.5）： </RotR_Setting_DiplomaticMarriageBaseChance>
+	<!-- EN: Diplomatic Marriage Away (default 0.5): -->
+    <RotR_Setting_DiplomaticMarriageAwayBaseChance>外交婚礼-送出（默认0.5）： </RotR_Setting_DiplomaticMarriageAwayBaseChance>
+	<!-- EN: Kidney Trade (default 0.1): -->
+    <RotR_Setting_KidneyTradeBaseChance>肾脏交易（默认0.1）： </RotR_Setting_KidneyTradeBaseChance>
+	<!-- EN: Orphan Lover (default 0.15): -->
+    <RotR_Setting_OrphanLoverBaseChance>孤儿恋人（默认0.15）： </RotR_Setting_OrphanLoverBaseChance>
+	
+
+</LanguageData>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN:
+    <li>title_bondoffreedom->Bond of Freedom</li>
+    <li>desc_bondoffreedom->{slave_nameFull} and {lover_nameFull} are in love. Driven by a profound sense of compassion, {lover_nameDef} is determined to liberate {lover_possessive} beloved from the shackles of slavery. \n\nUpon the successful emancipation, {slave_nameDef} will join the colony as colonist.\n\nHowever, this act of mercy may stir discontent among your fellow colonists, challenging the harmony within your ranks. Choose wisely.</li>
+    <li>title_orphanlover->Orphan Lover</li>
+    <li>desc_orphanlover->Two young wanderers, {boy_nameFull} and {girl_nameFull} have arrived at our colony's gates.\n\nBound not by blood but by a shared history of loss and survival, they have journeyed through perilous landscapes, evading threats both human and natural in search of a sanctuary.\n\nWill we extend our compassion and resources to help them or prioritize our colony's safety and stability by turning them away?</li>
+    <li>title_crush->Crush</li>
+    <li>desc_crush->Amidst the unending cycle of survival and solidarity in the colony, an unexpected tenderness has begun to unfold between two of its members.\n\n{initiator_nameFull} finds {initiator_objective}self caught in the grip of newfound affection towards {other_nameFull}.\n\nThis burgeoning affection, delicate and unspoken, is shadowed by uncertainty, a lingering question of whether the feelings are mirrored in {other_possessive} heart.\n\nCaught in the dance between desire and doubt, {initiator_nameDef} is teetering between reaching out or retreat.</li>
+    <li>title_secretadmirer->Secret Admirer</li>
+    <li>desc_secretadmirer->In the day-to-day life of the colony, {initiator_nameFull} has begun to suspect that {other_nameFull} might harbor secret feelings for {initiator_objective}.\n\nThis suspicion arises from a series of nuanced interactions and perhaps unintentional hints that {other_nameDef} has dropped, stirring a mixture of emotions in {initiator_nameDef}, from flattered curiosity to a cautious hesitation.\n\n{initiator_pronoun} is at a crossroads of interpreting {other_nameDef}'s behavior and deciding how to respond.</li>
+    <li>title_kidneytrade->Kidney Trade</li>
+    <li>desc_kidneytrade->{trader_nameFull} arrived at your colony. {trader_pronoun} might have something to trade.</li>
+    <li>title_adoptchance->Adoption Chance</li>
+    <li>desc_adoptchance->The baby, {child_nameFull}, once saved and nurtured in good care, has grown under the watchful eyes and kind hearts of {child_possessive} guardians.\n\nNow, at {child_possessive} birthday, this young soul has expressed a profound desire to formalize the bond,  wishing for {father_nameDef} and {mother_nameDef} to become {child_possessive} official parents.\n\nHow will you respond to this heartfelt plea?</li>
+  -->
+    <RotR_Rule_Quests.rulePack.rulesStrings>
+        <li>title_bondoffreedom->自由纽带</li>
+        <li>desc_bondoffreedom->{slave_nameFull}和{lover_nameFull}恋爱了。受到同情心驱使, {lover_nameDef}希望将{lover_possessive}爱人从奴隶关系中解脱出来。\n\n如果成功，{slave_nameDef}会成为你的殖民者。\n\n然而，这种仁慈可能招致其他殖民者的不满，慎重选择。</li>
+        <li>title_orphanlover->孤儿恋人</li>
+        <li>desc_orphanlover->两个年轻的游人，{boy_nameFull}和{girl_nameFull}到达了你的殖民地的大门之外。\n\n他们没有血缘关系，却有着共同的失落和生存经历，他们穿越险恶的地貌，躲避人类和自然的威胁，寻找避难所。\n\n我们会伸出同情之手，提供资源帮助他们，还是将他们拒之门外，优先考虑我们殖民地的安全和稳定？</li>
+        <li>title_crush->暗恋</li>
+        <li>desc_crush->在殖民地无休止的生存和团结循环中，两个成员之间开始出现了意想不到的温情。\n\n{initiator_nameFull}发现自己陷入了对{other_nameFull}的新感情之中。\n\n这种萌发的感情，微妙而难以言说，却笼罩着不确定的阴影，这种感情是否同样反映在{other_possessive}心中的疑问始终挥之不去。\n\n{initiator_nameDef}陷入了欲望与怀疑之间的纠结，在勇敢还是退缩之间徘徊。</li>
+        <li>title_secretadmirer->暗恋者</li>
+        <li>desc_secretadmirer->在殖民地的日日夜夜，{initiator_nameFull}开始怀疑{other_nameFull}对{initiator_objective}怀有感情.\n\n这种怀疑来自{other_nameDef}一系列细微的互动和也许是无意的暗示，激起了{initiator_nameDef}的各种情绪，从受宠若惊的好奇到小心翼翼的犹豫。\n\n{initiator_pronoun}正站在一个该如何看待和回应{other_nameDef}的十字路口。</li>
+        <li>title_kidneytrade->肾脏交易</li>
+        <li>desc_kidneytrade->{trader_nameFull}到了你的殖民地。{trader_pronoun}似乎有些东西可以交易。</li>
+        <li>title_adoptchance->领养机会</li>
+        <li>desc_adoptchance->被拯救和养育的婴儿，{child_nameFull}, 在{child_possessive}监护人的悉心照料下茁壮成长。\n\n今天，在{child_possessive}的生日这天，{child_pronoun}表露了对{father_nameDef}和{mother_nameDef}正式成为{child_possessive}父母的愿望。\n\n你将如何回应这一发自内心的恳求？</li>
+    </RotR_Rule_Quests.rulePack.rulesStrings>
+    
+</LanguageData>

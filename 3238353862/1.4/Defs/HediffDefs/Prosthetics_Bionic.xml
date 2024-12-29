@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>	
+
+	<HediffDef Name="AddedBionicBodyPartAnimalBase" ParentName="AddedBodyPartAnimalBase"  Abstract="True">
+		<comps>
+			<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust" MayRequire="v1024.ebframework">
+				<scaleAdjustment>0.20</scaleAdjustment>
+			</li>
+		</comps>
+	</HediffDef>
+	
+
+	<ThingDef Name="BodyPartBionicAnimalBase" ParentName="BodyPartAnimalBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItemAnimalBionic</texPath>
+			<color>(189,169,118)</color>
+		</graphicData>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<tradeTags>
+			<li>AnimalBionics</li>
+		</tradeTags>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedHealthItemBionicAnimal</unfinishedThingDef>
+			<researchPrerequisite>AnimalBionics</researchPrerequisite>
+			<displayPriority>350</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef Name="SurgeryInstallBionicBodyPartAnimalBase" ParentName="SurgeryInstallArtificialBodyPartAnimalBase" Abstract="True">
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	<!-- Unfinished Bionic -->
+  
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedHealthItemBionicAnimal</defName>
+		<label>unfinished animal bionic</label>
+		<description>An unfinished animal bionic.</description>
+		<statBases>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Unfinished/UnfinishedHealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(189,169,118)</color>
+		</graphicData>
+		<stuffCategories Inherit="false"/>
+	</ThingDef>
+	
+	
+	<!-- Bionic tail -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicTailAnimal</defName>
+		<label>bionic animal tail</label>
+		<labelNoun>a bionic animal tail</labelNoun>
+		<description>An installed advanced artificial animal tail. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological tail in almost every way.</description>
+		<descriptionHyperlinks><ThingDef>BionicTailAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicTailAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver" MayRequire="regrowth.botr.extinctanimalspack">
+				<tools>
+					<li>
+						<label>bionic animal tail</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>20</power>
+						<cooldownTime>1.8</cooldownTime>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+						<chanceFactor>0.3</chanceFactor>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>20</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicTailAnimal</defName>
+		<label>bionic animal tail</label>
+		<description>An advanced artificial animal tail. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological tail in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicTailAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicTailAnimal</defName>
+		<label>install bionic animal tail</label>
+		<description>Installs a bionic animal tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicTailAnimal</ThingDef>
+			<HediffDef>BionicTailAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal tail.</jobString>
+		<addsHediff>BionicTailAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Tail</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicTailAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicTailAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicTailAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic eye -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicEyeAnimal</defName>
+		<label>bionic animal eye</label>
+		<labelNoun>a bionic animal eye</labelNoun>
+		<description>An installed bionic animal eye.</description>
+		<descriptionHyperlinks><ThingDef>BionicEyeAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicEyeAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicEyeAnimal</defName>
+		<label>bionic animal eye</label>
+		<description>An advanced artificial animal eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicEyeAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicEyeAnimal</defName>
+		<label>install bionic animal eye</label>
+		<description>Installs a bionic animal eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicEyeAnimal</ThingDef>
+			<HediffDef>BionicEyeAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal eye.</jobString>
+		<addsHediff>BionicEyeAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicEyeAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicEyeAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicEyeAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic arm -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicArmAnimal</defName>
+		<label>bionic animal arm</label>
+		<labelNoun>a bionic animal arm</labelNoun>
+		<description>An installed advanced artificial animal arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.</description>
+		<descriptionHyperlinks><ThingDef>BionicArmAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicArmAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic animal fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>1.4</cooldownTime>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicArmAnimal</defName>
+		<label>bionic animal arm</label>
+		<description>An advanced artificial animal arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicArmAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>12</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicArmAnimal</defName>
+		<label>install bionic animal arm</label>
+		<description>Installs a bionic animal arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicArmAnimal</ThingDef>
+			<HediffDef>BionicArmAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal arm.</jobString>
+		<addsHediff>BionicArmAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArmAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicArmAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicArmAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic leg -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicLegAnimal</defName>
+		<label>bionic animal leg</label>
+		<labelNoun>a bionic animal leg</labelNoun>
+		<description>An installed bionic animal leg.</description>
+		<descriptionHyperlinks><ThingDef>BionicLegAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicLegAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic animal leg</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>1.4</cooldownTime>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicLegAnimal</defName>
+		<label>bionic animal leg</label>
+		<description>An advanced artificial animal leg. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicLegAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>12</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicLegAnimal</defName>
+		<label>install bionic animal leg</label>
+		<description>Installs bionic leg. Requires a min skill in medicine of 4.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicLegAnimal</ThingDef>
+			<HediffDef>BionicLegAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal leg.</jobString>
+		<addsHediff>BionicLegAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li>
+			<li>InsectLeg</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicLegAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicLegAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicLegAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic spine -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicSpineAnimal</defName>
+		<label>bionic animal spine</label>
+		<labelNoun>a bionic animal spine</labelNoun>
+		<description>An installed bionic animal spine.</description>
+		<descriptionHyperlinks><ThingDef>BionicSpineAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicSpineAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicSpineAnimal</defName>
+		<label>bionic animal spine</label>
+		<description>A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It matches the performance of a biological spine. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBionicSpineAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>12</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicSpineAnimal</defName>
+		<label>install bionic animal spine</label>
+		<description>Installs a bionic animal spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicSpineAnimal</ThingDef>
+			<HediffDef>BionicSpineAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal spine.</jobString>
+		<addsHediff>BionicSpineAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicSpineAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicSpineAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicSpineAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic heart -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicHeartAnimal</defName>
+		<label>bionic animal heart</label>
+		<labelNoun>a bionic animal heart</labelNoun>
+		<description>An installed bionic animal heart.</description>
+		<descriptionHyperlinks><ThingDef>BionicHeartAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicHeartAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicHeartAnimal</defName>
+		<label>bionic animal heart</label>
+		<description>An advanced artificial animal heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It is better than a biological heart in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicHeartAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicHeartAnimal</defName>
+		<label>install bionic animal heart</label>
+		<description>Installs a bionic animal heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicHeartAnimal</ThingDef>
+			<HediffDef>BionicHeartAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal heart.</jobString>
+		<addsHediff>BionicHeartAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+			<li>InsectHeart</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicHeartAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicHeartAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicHeartAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic stomach -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicStomachAnimal</defName>
+		<label>bionic animal stomach</label>
+		<labelNoun>a bionic animal stomach</labelNoun>
+		<description>An installed bionic animal stomach.</description>
+		<descriptionHyperlinks><ThingDef>BionicStomachAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicStomachAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicStomachAnimal</defName>
+		<label>bionic animal stomach</label>
+		<description>An advanced artificial animal stomach. A set of sensors and chemical synthesizers efficiently digest nearly any energy-bearing foodstuff. An integrated lattice-dust healing system automatically repairs any damage caused by the powerful acids. It is better than a biological stomach in almost every way. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicStomachAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicStomachAnimal</defName>
+		<label>install bionic animal stomach</label>
+		<description>Installs a bionic animal stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicStomachAnimal</ThingDef>
+			<HediffDef>BionicStomachAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal stomach.</jobString>
+		<addsHediff>BionicStomachAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicStomachAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicStomachAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicStomachAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+  
+  
+	<!-- Bionic ear -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicEarAnimal</defName>
+		<label>bionic animal ear</label>
+		<labelNoun>a bionic animal ear</labelNoun>
+		<description>An installed bionic animal ear.</description>
+		<descriptionHyperlinks><ThingDef>BionicEarAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicEarAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicEarAnimal</defName>
+		<label>bionic animal ear</label>
+		<description>An advanced artificial animal ear. A collection of invisible subdermal microphones capture sound and transmit it to a biogel nerve interface that links directly with the auditory nerve. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments. Fits all animals.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBionicEarAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>7</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicEarAnimal</defName>
+		<label>install bionic animal ear</label>
+		<description>Installs a bionic animal ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicEarAnimal</ThingDef>
+			<HediffDef>BionicEarAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal ear.</jobString>
+		<addsHediff>BionicEarAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+			<li>Antenna</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicEarAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicEarAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicEarAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<!-- Bionic tongue -->
+
+	<HediffDef ParentName="AddedBionicBodyPartAnimalBase">
+		<defName>BionicTongueAnimal</defName>
+		<label>bionic animal tongue</label>
+		<labelNoun>a bionic animal tongue</labelNoun>
+		<description>An installed bionic animal tongue.</description>
+		<descriptionHyperlinks><ThingDef>BionicTongueAnimal</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicTongueAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+  
+	<ThingDef ParentName="BodyPartBionicAnimalBase">
+		<defName>BionicTongueAnimal</defName>
+		<label>bionic animal tongue</label>
+		<description>An advanced artificial animal tongue replacement. Made of synthetic smooth-fibers and connected through a neurogel interface, it can match the performance of a natural tongue in eating and tasting. Fits all animals.</description>		
+		<descriptionHyperlinks><RecipeDef>InstallBionicTongueAnimal</RecipeDef></descriptionHyperlinks>		
+		<costList>
+			<Plasteel>6</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBionicBodyPartAnimalBase">
+		<defName>InstallBionicTongueAnimal</defName>
+		<label>install bionic animal tongue</label>
+		<description>Installs a bionic animal tongue.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicTongueAnimal</ThingDef>
+			<HediffDef>BionicTongueAnimal</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic animal tongue.</jobString>
+		<addsHediff>BionicTongueAnimal</addsHediff>
+		<appliedOnFixedBodyParts>
+			<li>Tongue</li>
+		</appliedOnFixedBodyParts>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicTongueAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicTongueAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<uiIconThing>BionicTongueAnimal</uiIconThing>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

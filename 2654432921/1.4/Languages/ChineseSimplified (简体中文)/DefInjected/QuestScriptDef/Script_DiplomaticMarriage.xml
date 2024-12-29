@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN:
+    <li>questDescription->Placeholder.</li>
+  -->
+    <RotR_Quest_DiplomaticMarriage.questDescriptionRules.rulesStrings>TODO</RotR_Quest_DiplomaticMarriage.questDescriptionRules.rulesStrings>
+    <!-- EN:
+    <li>questName->Diplomatic Marriage</li>
+  -->
+    <RotR_Quest_DiplomaticMarriage.questNameRules.rulesStrings>
+        <li>questName->外交联姻</li>
+    </RotR_Quest_DiplomaticMarriage.questNameRules.rulesStrings>
+    
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- EN: a fleeting haven -->
+    <RotR_OLHostedMood.stages.a_fleeting_haven.label>避风港</RotR_OLHostedMood.stages.a_fleeting_haven.label>
+    <!-- EN: This temporary refuge offers us a rare moment of peace and safety. It's a bittersweet feeling, knowing we must leave soon. -->
+    <RotR_OLHostedMood.stages.a_fleeting_haven.description>这个临时避难所给我们带来了难得的宁静和安全。但我们很快就要离开，这种感觉真是苦乐参半。</RotR_OLHostedMood.stages.a_fleeting_haven.description>
+    
+    <!-- EN: open arms -->
+    <RotR_OLRecruitedMood.stages.open_arms.label>敞开的怀抱</RotR_OLRecruitedMood.stages.open_arms.label>
+    <!-- EN: This colony, this sanctuary, is where our past sorrows can finally rest. -->
+    <RotR_OLRecruitedMood.stages.open_arms.description>避难所，在这里，我们过去的悲伤终于可以安息。</RotR_OLRecruitedMood.stages.open_arms.description>
+    
+    <!-- EN: turned away -->
+    <RotR_OLRejectedMood.stages.turned_away.label>被拒绝</RotR_OLRejectedMood.stages.turned_away.label>
+    <!-- EN: Standing at the closed gates, the rejection stings sharply, a familiar echo of our journey's solitude. -->
+    <RotR_OLRejectedMood.stages.turned_away.description>站在紧闭的大门前，被拒绝的感觉陡然刺痛，这是我们孤独旅途的熟悉回响。</RotR_OLRejectedMood.stages.turned_away.description>
+    
+</LanguageData>

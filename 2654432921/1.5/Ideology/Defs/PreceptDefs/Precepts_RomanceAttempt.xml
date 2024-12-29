@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+	<!-- Precepts -->
+	<PreceptDef>
+		<defName>RomanceOnTheRim_RomanceAttempt_Arranged</defName>
+		<issue>RomanceOnTheRim_Issue_RomanceAttempt</issue>
+		<label>arranged</label>
+		<description>All romance attempts must be under the control of the whole society.\n\n&lt;color=#E5E54C&gt;Effect:&lt;/color&gt;\n - Pawns with this precept will not attempt or accept romance naturally. \n - You can control romance attempt in the right-click menu or the social tab.</description>
+		<impact>High</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>70</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+	<PreceptDef>
+		<defName>RomanceOnTheRim_RomanceAttempt_Forbidden</defName>
+		<issue>RomanceOnTheRim_Issue_RomanceAttempt</issue>
+		<label>forbidden</label>
+		<description>Everyone in our society should keep purely single.\n\n&lt;color=#E5E54C&gt;Effect:&lt;/color&gt;\n - Pawns with this precept will not attempt or accept romance naturally.</description>
+		<impact>High</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>60</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+	<PreceptDef>
+		<defName>RomanceOnTheRim_RomanceAttempt_Discouraged</defName>
+		<issue>RomanceOnTheRim_Issue_RomanceAttempt</issue>
+		<label>discouraged</label>
+		<description>Romance on the rim is dead.\n\n&lt;color=#E5E54C&gt;Effect:&lt;/color&gt;\n - (Initiator)Romance attempt chance -50% \n - (Recipient)Romance attempt success chance -50%.</description>
+		<impact>Medium</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>50</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+	<PreceptDef>
+		<defName>RomanceOnTheRim_RomanceAttempt_Encouraged</defName>
+		<issue>RomanceOnTheRim_Issue_RomanceAttempt</issue>
+		<label>encouraged</label>
+		<description>Love is danger, love is pleasure.\nLove is pure, the only treasure.\n\n&lt;color=#E5E54C&gt;Effect:&lt;/color&gt;\n - (Initiator)Romance attempt chance +50% \n - (Recipient)Romance attempt success chance +50%.</description>
+		<impact>Medium</impact>
+		<enabledForNPCFactions>false</enabledForNPCFactions>
+		<displayOrderInIssue>40</displayOrderInIssue>
+		<displayOrderInImpact>-100</displayOrderInImpact>
+	</PreceptDef>
+</Defs>

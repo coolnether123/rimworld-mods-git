@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Bees</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Adding Mead to Cocktail Recipes -->
+
+			
+
+			
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="RB_Mead"]/thingCategories</xpath>
+					<value>
+						<li>VBE_DrinksLuxurySpirits</li>
+					</value>
+				</li>
+				
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName = "RB_Mead"]/ingestible</xpath>
+					<value>
+						<specialThoughtAsIngredient>VBE_RBMeadAsIngredient</specialThoughtAsIngredient>
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

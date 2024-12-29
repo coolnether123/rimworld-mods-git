@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>ADogSaid2</defName>
+		<label>A Dog Said 2</label>
+	</ResearchTabDef>
+
+	<!-- Animal Prosthetics -->
+
+	<ResearchProjectDef>
+		<defName>SimpleAnimalProsthetics</defName>
+		<label>Animal Prosthetics</label>
+		<description>Adapt the designs of human prosthetics for universal animal use. Animal prostheses are cheaper to build than their human counterparts, but also perform a tiny bit worse.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>Prosthetics</li>
+		</prerequisites>
+		<tab>ADogSaid2</tab>
+	</ResearchProjectDef>
+
+	<!-- Animal Bionics -->
+
+	<ResearchProjectDef>
+		<defName>AnimalBionics</defName>
+		<label>Animal Bionics</label>
+		<description>Adapt the designs of human bionics for universal animal use. Animal bionics are cheaper to build than their human counterparts, but also perform a tiny bit worse.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<tab>ADogSaid2</tab>
+	</ResearchProjectDef>
+
+	<!-- Animal Heal -->
+
+	<!--<ResearchProjectDef>
+		<defName>AnimalHeal</defName>
+		<label>Animal Healing</label>
+		<description>Learn to heal old wounds on animals</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<tab>ADogSaid</tab>
+	</ResearchProjectDef>-->
+
+
+</Defs>

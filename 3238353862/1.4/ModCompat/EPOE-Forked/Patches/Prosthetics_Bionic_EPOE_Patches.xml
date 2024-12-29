@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[@Name="AddedBionicBodyPartAnimalBase"]</xpath>
+		<value>
+			<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		</value>
+	</Operation>
+	
+	
+	<!--             Bionics             -->
+	
+		
+	<!--             Synthetics             -->
+
+	<!-- Synthetic heart -->
+
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/HediffDef[defName="BionicHeartAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>AddedSyntheticBodyPartAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BionicHeartAnimal"]/label</xpath>
+		<value>
+			<label>synthetic animal heart</label>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BionicHeartAnimal"]/labelNoun</xpath>
+		<value>
+			<labelNoun>a synthetic animal heart</labelNoun>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BionicHeartAnimal"]/description</xpath>
+		<value>
+			<description>An installed synthetic animal heart.</description>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef[defName="BionicHeartAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>BodyPartSyntheticAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicHeartAnimal"]/label</xpath>
+		<value>
+			<label>synthetic animal heart</label>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/RecipeDef[defName="InstallBionicHeartAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>SurgeryInstallSyntheticBodyPartAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallBionicHeartAnimal"]/label</xpath>
+		<value>
+			<label>install synthetic animal heart</label>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallBionicHeartAnimal"]/description</xpath>
+		<value>
+			<description>Installs a synthetic animal heart.</description>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallBionicHeartAnimal"]/jobString</xpath>
+		<value>
+			<jobString>Installing synthetic animal heart.</jobString>
+		</value>
+	</Operation>
+
+
+	<!-- Synthetic stomach -->
+
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/HediffDef[defName="BionicStomachAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>AddedSyntheticBodyPartAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BionicStomachAnimal"]/label</xpath>
+		<value>
+			<label>synthetic animal stomach</label>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BionicStomachAnimal"]/labelNoun</xpath>
+		<value>
+			<labelNoun>a synthetic animal stomach</labelNoun>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BionicStomachAnimal"]/description</xpath>
+		<value>
+			<description>An installed synthetic animal stomach.</description>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef[defName="BionicStomachAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>BodyPartSyntheticAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BionicStomachAnimal"]/label</xpath>
+		<value>
+			<label>synthetic animal stomach</label>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/RecipeDef[defName="InstallBionicStomachAnimal"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>SurgeryInstallSyntheticBodyPartAnimalBase</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallBionicStomachAnimal"]/label</xpath>
+		<value>
+			<label>install synthetic animal stomach</label>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallBionicStomachAnimal"]/description</xpath>
+		<value>
+			<description>Installs a synthetic animal stomach.</description>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RecipeDef[defName="InstallBionicStomachAnimal"]/jobString</xpath>
+		<value>
+			<jobString>Installing synthetic animal stomach.</jobString>
+		</value>
+	</Operation>
+	
+</Patch>

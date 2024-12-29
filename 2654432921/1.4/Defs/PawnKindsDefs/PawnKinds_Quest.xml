@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef>
+		<defName>RotR_PawnKind_KidneyTrader</defName>
+		<label>kidney trader</label>
+		<race>Human</race>
+		<defaultFactionType>TribeCivil</defaultFactionType>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+		</forcedTraits>
+		<isFighter>false</isFighter>
+		<!-- Begger 35 tribal penitent 40 tribal archer 45 -->
+		<combatPower>35</combatPower>
+		<gearHealthRange>0.2~0.4</gearHealthRange>
+		<itemQuality>Awful</itemQuality>
+		<apparelMoney>50~100</apparelMoney>
+		<apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+		<weaponMoney>60~200</weaponMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>NeolithicRangedBasic</li>
+		</weaponTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Awful</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<invNutrition>1</invNutrition>
+		<invFoodDef>Pemmican</invFoodDef>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>10~25</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineHerbal</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<initialWillRange>5~8</initialWillRange>
+		<initialResistanceRange>8~15</initialResistanceRange>
+	</PawnKindDef>
+</Defs>

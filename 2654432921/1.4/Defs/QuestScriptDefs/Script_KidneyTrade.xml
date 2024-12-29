@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<QuestScriptDef>
+		<defName>RotR_Quest_KidneyTrade</defName>
+		<autoAccept>true</autoAccept>
+		<defaultHidden>true</defaultHidden>
+		<rootSelectionWeight>0.10</rootSelectionWeight>
+		<minRefireDays>60</minRefireDays>
+		<sendAvailableLetter>false</sendAvailableLetter>
+		<questNameRules>
+			<rulesStrings>
+				<!-- quest name -->
+				<li>questName->KidneyTrade</li>
+			</rulesStrings>
+		</questNameRules>
+		<questDescriptionRules>
+			<rulesStrings>
+				<li>questDescription->Placeholder.</li>
+			</rulesStrings>
+		</questDescriptionRules>
+		<root Class="RomanceOnTheRim.QuestNode_Root_KidneyTrade" />
+	</QuestScriptDef>
+	
+	<ThoughtDef>
+		<defName>RotR_KTTradedMood</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>trade resolved</label>
+				<description>Hope is ours at last, though at a steep price.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RotR_KTRefusedMood</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>trade refused</label>
+				<description>What to do now...</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>
